@@ -1,9 +1,11 @@
 # mFLOW-Seq Pipeline for Immune-Coated Microbiome Analysis in the Female Reproductive Tract
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-Research-orange.svg)](LICENSE)
+[![License: GPL v3](https://img.shields.io/badge/License-Research-orange.svg)](LICENSE)
 
 Bioinformatics analysis pipeline and figure generation scripts for the mFLOW-Seq microbiome study investigating spatial immunoglobulin engagement of live microbiota across female reproductive tract compartments.
+
+This repository contains all scripts required to reproduce the main and supplementary analyses presented in the manuscript. All figures can be regenerated directly from the provided code and processed datasets.
 
 ## Overview
 
@@ -17,7 +19,7 @@ This repository contains the complete computational analysis workflow used to ge
 
 ### About mFLOW-Seq
 
-mFLOW-Seq (Microbiome Flow-Sorting and Sequencing) is a novel methodology combining fluorescence-activated cell sorting (FACS) and 16S rRNA sequencing to profile immunoglobulin-bound bacterial populations in complex microbiome samples. This approach enables the characterization of host-microbiota interactions at the single-cell level.
+mFLOW-Seq (Microbiome Flow-Sorting and Sequencing) is a novel methodology combining fluorescence-activated cell sorting (FACS) and 16S rRNA sequencing to profile immunoglobulin-bound bacterial populations in complex microbiome samples. This approach enables the characterization of host-microbiota interactions t the level of FACS-sorted bacterial subpopulations.
 
 ## Project Structure
 
