@@ -19,7 +19,7 @@ This repository contains the complete computational analysis workflow used to ge
 
 ### About mFLOW-Seq
 
-mFLOW-Seq (Microbiome Flow-Sorting and Sequencing) is a novel methodology combining fluorescence-activated cell sorting (FACS) and 16S rRNA sequencing to profile immunoglobulin-bound bacterial populations in complex microbiome samples. This approach enables the characterization of host-microbiota interactions t the level of FACS-sorted bacterial subpopulations.
+mFLOW-Seq (Microbiome Flow-Sorting and Sequencing) is a novel methodology combining fluorescence-activated cell sorting (FACS) and 16S rRNA sequencing to profile immunoglobulin-bound bacterial populations in complex microbiome samples. This approach enables the characterization of host-microbiota interactions at the level of FACS-sorted bacterial subpopulations.
 
 ## Project Structure
 
