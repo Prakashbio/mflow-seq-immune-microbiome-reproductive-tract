@@ -1,0 +1,40 @@
+Rank	Taxon	IgA_coating_score	Classification	IgA_mean_pct_global	IgM_mean_pct_global	Prevalence_IgA_pct	Prevalence_IgM_pct	Score_Vagina	Score_Cervix	Score_Endometrium	IgA_mean_pct_Vagina	IgA_mean_pct_Cervix	IgA_mean_pct_Endo	IgM_mean_pct_Vagina	IgM_mean_pct_Cervix	IgM_mean_pct_Endo	Reliability	Biological_interpretation
+1	Metamycoplasma hominis	1.0	Strong IgA (≥0.90)	0.2346	0.0	10.5	0.0	1.0			0.5943	0.0	0.0	0.0	0.0	0.0	Adequate	Reproductive tract pathobiont; exclusively IgA-coated
+2	Sneathia vaginalis	0.999	Strong IgA (≥0.90)	12.8208	0.0066	65.8	2.6	1.0	0.999	1.0	17.2419	22.7112	1.7259	0.0	0.0288	0.0	Adequate	BV/dysbiosis marker — predominantly IgA-targeted
+3	Parvimonas micra	0.979	Strong IgA (≥0.90)	2.0706	0.0452	10.5	2.6	0.0	1.0		0.0	8.7427	0.0	0.1174	0.0	0.0	Adequate	Endometrial dysbiosis-associated anaerobe
+4	Prevotella oris	0.97	Strong IgA (≥0.90)	0.4778	0.0148	2.6	2.6		0.0	1.0	0.0	0.0	1.2969	0.0	0.064	0.0	Adequate	BV-associated dysbiosis anaerobe
+5	Haemophilus parainfluenzae	0.966	Strong IgA (≥0.90)	0.1536	0.0054	15.8	7.7	1.0	0.934	0.968	0.0774	0.147	0.2396	0.0	0.0103	0.0078	Adequate	Opportunistic respiratory/FRT commensal
+6	Lactobacillus delbrueckii	0.966	Strong IgA (≥0.90)	2.6318	0.0931	18.4	17.9	0.971	0.126	0.744	6.6349	0.0074	0.0299	0.2011	0.051	0.0103	Adequate	Cervical/endometrial Lactobacillus; IgA-enriched
+7	Aerococcus christensenii	0.909	Strong IgA (≥0.90)	1.9825	0.1985	28.9	5.1	1.0		0.0	5.0222	0.0	0.0	0.0	0.0	0.516	Adequate	Reproductive tract anaerobe; IgA-enriched
+8	Prevotella buccalis	0.877	IgA-dominant (0.70–0.89)	2.3694	0.3323	50.0	12.8	1.0	0.983	0.353	3.3552	3.7097	0.4515	0.0	0.0628	0.8264	Adequate	BV-associated dysbiosis anaerobe
+9	Fannyhessea vaginae	0.863	IgA-dominant (0.70–0.89)	1.774	0.2821	52.6	15.4	1.0	0.837	0.0	2.9617	2.5541	0.0	0.0	0.4966	0.4355	Adequate	BV-associated; strongly IgA-targeted
+10	Anaerococcus prevotii	0.848	IgA-dominant (0.70–0.89)	1.7998	0.3221	31.6	28.2	0.901	0.628	0.993	0.5456	2.129	2.932	0.0602	1.2625	0.0199	Adequate	BV-associated anaerobe
+11	Gardnerella vaginalis	0.831	IgA-dominant (0.70–0.89)	0.1761	0.0359	28.9	10.3	1.0		0.0	0.4462	0.0	0.0	0.0	0.0	0.0933	Adequate	Classic BV-associated taxon; IgA-coated
+12	Cutibacterium granulosum	0.819	IgA-dominant (0.70–0.89)	0.4162	0.0922	7.9	5.1	0.009	0.827	1.0	0.0016	0.4476	0.8402	0.1837	0.0935	0.0	Adequate	Low-abundance skin commensal
+13	Granulicatella adiacens	0.761	IgA-dominant (0.70–0.89)	0.9486	0.2985	18.4	10.3	0.938	1.0	0.709	0.7368	0.0149	1.7757	0.0487	0.0	0.7273	Adequate	Endometrial microbiome constituent
+14	Corynebacterium matruchotii	0.747	IgA-dominant (0.70–0.89)	0.1281	0.0433	7.9	2.6	1.0	0.0	1.0	0.0143	0.0	0.3325	0.0	0.1876	0.0	Adequate	Low-abundance environmental commensal
+15	Peptoniphilus harei	0.622	Moderate IgA (0.60–0.69)	0.1031	0.0625	2.6	2.6		1.0	0.0	0.0	0.4352	0.0	0.0	0.0	0.1626	Adequate	Sparse anaerobe; score based on n=2 non-zero samples — interpret cautiously
+16	Lancefieldella parvula	0.616	Moderate IgA (0.60–0.69)	0.016	0.01	5.3	2.6		0.0	1.0	0.0	0.0	0.0434	0.0	0.0433	0.0	Moderate (sparse detection)	BV-associated streptococcal anaerobe; sparse detection
+17	Staphylococcus aureus	0.6	Moderate IgA (0.60–0.69)	0.0426	0.0283	2.6	5.1		0.732	0.0	0.0	0.1797	0.0	0.0	0.0658	0.0342	Moderate (sparse detection)	Environmental; very low FRT prevalence
+18	Rothia mucilaginosa	0.554	Near-neutral (0.40–0.59)	0.0342	0.0275	7.9	7.7	0.0	1.0	0.481	0.0	0.1162	0.0181	0.0519	0.0	0.0195	Moderate (sparse detection)	Low-abundance oral/respiratory commensal
+19	Lactobacillus iners	0.543	Near-neutral (0.40–0.59)	60.628	50.9234	94.7	92.3	0.694	0.557	0.454	59.9995	49.067	68.7334	26.4868	38.9937	82.5179	Adequate	Dominant vaginal commensal; near-neutral IgA coating (transitional CST-III)
+20	Streptococcus thermophilus	0.535	Near-neutral (0.40–0.59)	0.2249	0.1957	26.3	12.8	0.198	0.44	0.983	0.0433	0.4297	0.2877	0.1761	0.5463	0.005	Adequate	Low-abundance; near-equal IgA/IgM coating
+21	Gardnerella leopoldii	0.407	Near-neutral (0.40–0.59)	0.0245	0.0357	7.9	2.6		0.4		0.0	0.1032	0.0	0.0	0.1546	0.0	Moderate (sparse detection)	BV-associated Gardnerella species; near-neutral coating
+22	Streptococcus sanguinis	0.402	Near-neutral (0.40–0.59)	0.0662	0.0984	5.3	7.7	0.312	1.0	0.0	0.0885	0.1321	0.0	0.1948	0.0	0.0609	Adequate	Low-abundance oral commensal
+23	Cutibacterium acnes	0.337	Moderate IgM (0.30–0.39)	2.1031	4.1435	73.7	82.1	0.375	0.266	0.454	0.998	4.0196	2.0551	1.6607	11.0743	2.4679	Adequate	Skin commensal; moderate IgM preference
+24	Acinetobacter ursingii	0.323	Moderate IgM (0.30–0.39)	0.1731	0.3624	2.6	7.7	1.0	0.0	0.0	0.4386	0.0	0.0	0.0	0.1842	0.8317	Adequate	Environmental/opportunistic; low FRT prevalence
+25	Gemella haemolysans	0.282	IgM-dominant (0.10–0.29)	0.2022	0.5144	13.2	20.5	0.0	0.088	0.744	0.0	0.1789	0.4339	0.0761	1.8541	0.149	Adequate	Low-abundance oral commensal
+26	Anaerococcus mediterraneensis	0.281	IgM-dominant (0.10–0.29)	0.4544	1.1629	23.7	20.5	0.622	0.12	0.982	0.1306	0.667	0.6647	0.0792	4.8865	0.0125	Adequate	BV-associated anaerobe
+27	Lactobacillus crispatus	0.272	IgM-dominant (0.10–0.29)	4.9792	13.3078	39.5	71.8	0.0	0.012	0.998	0.0	0.1055	13.4471	29.4114	8.5984	0.0299	Adequate	Health-protective Lactobacillus (CST-I); predominantly IgM-coated
+28	Staphylococcus hominis	0.272	IgM-dominant (0.10–0.29)	0.2449	0.6567	18.4	28.2	0.661	0.237	0.044	0.3253	0.4427	0.0317	0.1671	1.4277	0.6837	Adequate	Environmental skin commensal; low FRT prevalence
+29	Peptoniphilus sp. SAHP1	0.266	IgM-dominant (0.10–0.29)	0.598	1.6474	10.5	10.3	0.007	0.094	0.365	0.0078	0.0857	1.5598	1.0789	0.8251	2.7092	Adequate	Anaerobic endometrial commensal
+30	Lacticaseibacillus paracasei	0.26	IgM-dominant (0.10–0.29)	0.0346	0.0987	15.8	20.5	0.034		0.696	0.0078	0.0	0.0856	0.2194	0.0	0.0373	Adequate	Low-abundance Lactobacillus
+31	Lactococcus cremoris	0.209	IgM-dominant (0.10–0.29)	0.1102	0.4176	10.5	10.3	0.0	0.779	1.0	0.0	0.4616	0.0025	1.007	0.131	0.0	Adequate	Low-abundance dairy-associated Lactococcus
+32	Cutibacterium modestum	0.186	IgM-dominant (0.10–0.29)	0.1449	0.6358	10.5	17.9	0.0	0.197	0.39	0.0	0.4445	0.1076	0.3958	1.8146	0.1686	Adequate	Low-abundance skin commensal
+33	Moraxella osloensis	0.185	IgM-dominant (0.10–0.29)	0.6179	2.7308	36.8	56.4	0.075	0.218	0.1	0.0907	2.2642	0.1243	1.1131	8.1141	1.1185	Adequate	Low-abundance environmental opportunist
+34	Lactobacillus jensenii	0.066	Strong IgM (<0.10)	1.0763	15.3174	47.4	64.1	0.006	1.0	0.448	0.2378	0.4036	2.4071	36.8561	0.0	2.9692	Adequate	Health-protective vaginal Lactobacillus; strongly IgM-preferring
+35	Escherichia coli	0.03	Strong IgM (<0.10)	0.1378	4.5238	2.6	12.8		0.0	0.108	0.0	0.0	0.3739	0.0	14.4579	3.0873	Adequate	Low-abundance; potential environmental/ascending signal
+36	Corynebacterium sanguinis	0.0	Strong IgM (<0.10)	0.0	0.2419	0.0	10.3	0.0	0.0	0.0	0.0	0.0	0.0	0.1342	0.7304	0.0565	Adequate	Low-abundance; no IgA signal detected
+37	Ezakiella coagulans	0.0	Strong IgM (<0.10)	0.0	0.8983	0.0	7.7	0.0	0.0		0.0	0.0	0.0	0.031	3.841	0.0	Adequate	Vaginal anaerobe; no IgA signal in this dataset
+38	Lactobacillus gasseri	0.0	Strong IgM (<0.10)	0.0	0.0418	0.0	2.6	0.0			0.0	0.0	0.0	0.1087	0.0	0.0	Low (n<3 non-zero samples in both fractions)	Health-protective vaginal Lactobacillus; exclusively IgM-coated
+39	Streptococcus salivarius	0.0	Strong IgM (<0.10)	0.0	0.1472	0.0	10.3	0.0		0.0	0.0	0.0	0.0	0.1405	0.0	0.2421	Adequate	Low-abundance oral commensal; no IgA signal
