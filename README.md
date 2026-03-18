@@ -330,7 +330,7 @@ If you use this code in your research, please cite the associated manuscript (se
 
 If you use this code or data, please cite:
 
-> Lingasamy P, Saare M, Godagedara KMG, Vela Moreno S, Särekannu K, Lubenets D, Sola-Leyva A, Modhukur V, Mändar R, Salumets A.
+> Lingasamy P, Saare M, Godagedara KMG, Vela Moreno S, Särekannu K, Lubenets D, Sola-Leyva A, Patel N, Modhukur V, Mändar R, Salumets A.
 > **Spatial Immunoglobulin Engagement of Live Microbiota Across Female Reproductive Tract Compartments Revealed by mFLOW-Seq.**
 > *Manuscript under review.*
 
