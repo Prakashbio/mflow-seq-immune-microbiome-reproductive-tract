@@ -1,0 +1,19 @@
+Site,Comparison,n (grp1),n (grp2),U stat,p-value,Sig
+Vagina,IgA vs IgM,n=15,n=15,129,0.5069,ns
+Vagina,IgA vs IgG,n=15,n=14,154,0.0343,*
+Vagina,IgA vs Pre-sorted,n=15,n=15,99,0.5897,ns
+Vagina,IgM vs IgG,n=15,n=14,130,0.2844,ns
+Vagina,IgM vs Pre-sorted,n=15,n=15,89,0.3395,ns
+Vagina,IgG vs Pre-sorted,n=14,n=15,62,0.0633,ns
+Cervix,IgA vs IgM,n=9,n=9,40,1.0000,ns
+Cervix,IgA vs IgG,n=9,n=8,36,1.0000,ns
+Cervix,IgA vs Pre-sorted,n=9,n=8,10,0.0111,*
+Cervix,IgM vs IgG,n=9,n=8,39,0.8148,ns
+Cervix,IgM vs Pre-sorted,n=9,n=8,9,0.0079,**
+Cervix,IgG vs Pre-sorted,n=8,n=8,7,0.0070,**
+Endometrium,IgA vs IgM,n=14,n=15,132,0.2475,ns
+Endometrium,IgA vs IgG,n=14,n=13,90,0.9806,ns
+Endometrium,IgA vs Pre-sorted,n=14,n=14,39,0.0072,**
+Endometrium,IgM vs IgG,n=15,n=13,66,0.1533,ns
+Endometrium,IgM vs Pre-sorted,n=15,n=14,26,0.0006,***
+Endometrium,IgG vs Pre-sorted,n=13,n=14,36,0.0082,**
