@@ -1,4 +1,4 @@
-# mFLOW-Seq Microbiome Analysis Pipeline
+# mFLOW-Seq Pipeline for Immune-Coated Microbiome Analysis in the Female Reproductive Tract
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-Research-orange.svg)](LICENSE)
