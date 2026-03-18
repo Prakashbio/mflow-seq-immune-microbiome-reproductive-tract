@@ -50,6 +50,17 @@ mFLOW-Seq/
 
 ## Features
 
+The pipeline performs comprehensive microbiome analyses including:
+
+- **Alpha Diversity**: Shannon, Simpson indices, and species richness
+- **Beta Diversity**: PCoA with Bray-Curtis dissimilarity and PERMANOVA
+- **Differential Abundance**: Statistical testing for compositional differences
+- **Taxonomic Composition**: Phylum and genus-level profiling
+- **Immunoglobulin Binding**: FACS-based characterization (IgA, IgG, IgM)
+- **Sample Comparison**: Fresh vs. frozen, anatomical sites, health conditions
+- **Network Analysis**: Co-occurrence and prevalence networks
+- **Quality Control**: Contamination analysis and read depth assessment
+
 The pipeline generates all main and supplementary figures from the manuscript. Below is a complete description of every script and the analyses it performs.
 
 ### Main Figures
