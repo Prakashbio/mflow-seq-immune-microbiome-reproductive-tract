@@ -11,7 +11,7 @@ This repository contains all scripts required to reproduce the main and suppleme
 
 This repository contains the complete computational analysis workflow used to generate all main and supplementary figures for the manuscript:
 
-> **Spatial Immunoglobulin Engagement of Live Microbiota Across Female Reproductive Tract Compartments Revealed by mFLOW-Seq**
+> **Immunoglobulin class–resolved engagement of live microbiota across female reproductive tract compartments using mFLOW-Seq**
 >
 > Prakash Lingasamy, Merli Saare, Kasun Madhuranga Godakuma Godagedara, Sergio Vela Moreno, Karita Särekannu, Dmitri Lubenets, Alberto Sola-Leyva, Naisarg Patel, Vijayachitra Modhukur, Reet Mändar, Andres Salumets
 >
@@ -331,7 +331,7 @@ If you use this code in your research, please cite the associated manuscript (se
 If you use this code or data, please cite:
 
 > Lingasamy P, Saare M, Godagedara KMG, Vela Moreno S, Särekannu K, Lubenets D, Sola-Leyva A, Patel N, Modhukur V, Mändar R, Salumets A.
-> **Spatial Immunoglobulin Engagement of Live Microbiota Across Female Reproductive Tract Compartments Revealed by mFLOW-Seq.**
+> **Immunoglobulin class–resolved engagement of live microbiota across female reproductive tract compartments using mFLOW-Seq**
 > *Manuscript under review.*
 
 ## Acknowledgments
