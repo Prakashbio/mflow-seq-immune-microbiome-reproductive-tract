@@ -13,7 +13,7 @@ This repository contains the complete computational analysis workflow used to ge
 
 > **Immunoglobulin class–resolved engagement of live microbiota across female reproductive tract compartments using mFLOW-Seq**
 >
-> Prakash Lingasamy, Merli Saare, Kasun Madhuranga Godakuma Godagedara, Sergio Vela Moreno, Karita Särekannu, Dmitri Lubenets, Alberto Sola-Leyva, Naisarg Patel, Vijayachitra Modhukur, Reet Mändar, Andres Salumets
+> Prakash Lingasamy, Merli Saare, Sergio Vela Moreno, Karita Särekannu, Dmitri Lubenets, Alberto Sola-Leyva, Kasun Madhuranga Godakuma Godagedara, Naisarg Patel, Vijayachitra Modhukur, Reet Mändar, Andres Salumets
 >
 > *Manuscript under communication*
 
@@ -330,7 +330,7 @@ If you use this code in your research, please cite the associated manuscript (se
 
 If you use this code or data, please cite:
 
-> Lingasamy P, Saare M, Godagedara KMG, Vela Moreno S, Särekannu K, Lubenets D, Sola-Leyva A, Patel N, Modhukur V, Mändar R, Salumets A.
+> Lingasamy P, Saare M, Vela Moreno S, Särekannu K, Lubenets D, Sola-Leyva A, Godagedara KMG, Patel N, Modhukur V, Mändar R, Salumets A.
 > **Immunoglobulin class–resolved engagement of live microbiota across female reproductive tract compartments using mFLOW-Seq**
 > *Manuscript under review.*
 
