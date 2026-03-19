@@ -28,23 +28,26 @@ mFLOW-Seq/
 │
 ├── run_all.py              # Master pipeline script
 ├── requirements.txt        # Python dependencies
-├── README.md              # This file
+├── README.md               # This file
 │
-├── data/                  # Input data files
-│   ├── otu_table.csv             # OTU abundance matrix
+├── data/                   # Input data files
+│   ├── otu_table.csv             # OTU abundance matrix (decontaminated)
 │   ├── sample_metadata.csv       # Sample experimental metadata
 │   ├── taxonomy.csv              # Taxonomic assignments
-│   ├── facs_binding_events.csv   # FACS binding data
+│   ├── facs_binding_events.csv   # FACS binding event counts
 │   └── ...                       # Additional analysis tables
 │
-├── scripts/               # Analysis and figure generation scripts
+├── scripts/                # Analysis and figure generation scripts
 │   ├── shared_utils.py           # Common functions and utilities
 │   ├── fig2_alpha_diversity.py   # Main figure 2
 │   ├── fig3_beta_diversity.py    # Main figure 3
-│   ├── ...                       # Additional figure scripts
-│   └── sfig*.py                  # Supplementary figure scripts
+│   ├── ...                       # Additional main figure scripts
+│   ├── sfig*.py                  # Supplementary figure scripts
+│   ├── sfig_tost_cryopreservation.py    # TOST equivalence analysis (S19)
+│   ├── supp_ancombc_differential_abundance.py  # ANCOM-BC sensitivity analysis
+│   └── supp_table_s1_iga_coating_score.py      # Supplementary Table S1
 │
-└── new_figures/           # Output directory (generated)
+└── Output/                 # Output directory (generated)
     ├── Figure2.png
     ├── Figure3.png
     └── ...
@@ -54,16 +57,17 @@ mFLOW-Seq/
 
 The pipeline performs comprehensive microbiome analyses including:
 
-- **Alpha Diversity**: Shannon, Simpson indices, and species richness
-- **Beta Diversity**: PCoA with Bray-Curtis dissimilarity and PERMANOVA
-- **Differential Abundance**: Statistical testing for compositional differences
-- **Taxonomic Composition**: Phylum and genus-level profiling
-- **Immunoglobulin Binding**: FACS-based characterization (IgA, IgG, IgM)
-- **Sample Comparison**: Fresh vs. frozen, anatomical sites, health conditions
+- **Alpha Diversity**: Shannon, Simpson indices, taxon richness, and Pielou's evenness
+- **Beta Diversity**: PCoA and NMDS with Bray–Curtis dissimilarity and PERMANOVA
+- **Differential Abundance**: IgA coating score framework, Mann–Whitney U, and ANCOM-BC sensitivity analysis
+- **Taxonomic Composition**: Phylum and species-level profiling across Ig fractions and anatomical sites
+- **Immunoglobulin Binding**: FACS-based characterisation of IgA-, IgM-, and IgG-coated bacterial fractions
+- **Cryopreservation Equivalence**: TOST (two one-sided t-tests) confirming fresh vs. frozen profile equivalence
+- **Sample Comparison**: Fresh vs. frozen, anatomical sites, healthy vs. dysbiotic conditions
 - **Network Analysis**: Co-occurrence and prevalence networks
-- **Quality Control**: Contamination analysis and read depth assessment
+- **Contamination Control**: Decontam-equivalent prevalence scoring and Bayesian source tracking
 
-The pipeline generates all main and supplementary figures from the manuscript. Below is a complete description of every script and the analyses it performs.
+The pipeline generates all main and supplementary figures and data tables from the manuscript. Below is a complete description of every script and the analyses it performs.
 
 ### Main Figures
 
@@ -76,7 +80,9 @@ The pipeline generates all main and supplementary figures from the manuscript. B
 | `fig6_healthy_vs_dysbiotic.py` | Figure 6 | Healthy vs. microbiologically dysbiotic community comparison: key taxon abundances, Shannon diversity, PCoA | Mann–Whitney U, Bray–Curtis PCoA, PERMANOVA per site |
 | `fig7_fresh_vs_frozen.py` | Figure 7 | Fresh vs. cryopreserved sample comparison: *Lactobacillus* spp. abundance and taxon composition heatmaps | Mann–Whitney U, taxon abundance heatmaps |
 | `fig8_anatomical_site.py` | Figure 8 | IgA vs. IgM taxon enrichment lollipop plots across vaginal, cervical, and endometrial compartments | IgA − IgM raw abundance difference, contaminant flagging |
-| `fig9_multivariate_analysis.py` | Figure 9 | Advanced multivariate analysis: CLR-PCA biplot, PERMANOVA effect-size barplot, and spatial Ig gradient for key taxa | CLR transformation, PCA biplot, PERMANOVA R² effect sizes, bar chart summaries |
+| `fig9_multivariate_analysis.py` | Figure 9 | Multivariate synthesis: CLR-PCA biplot, PERMANOVA effect-size barplot, and spatial Ig gradient for key taxa | CLR transformation, PCA biplot, PERMANOVA R² effect sizes, bar chart summaries |
+
+---
 
 ### Supplementary Figures
 
@@ -98,6 +104,20 @@ The pipeline generates all main and supplementary figures from the manuscript. B
 | `sfig14_prevalence_network.py` | S14 | Filtering threshold comparison, taxon prevalence heatmap, and microbial co-occurrence network (pre-sorted) | Taxon prevalence scoring, Spearman correlation network (\|r\| ≥ 0.4, p < 0.05) |
 | `sfig15_fresh_frozen.py` | S15 | Community structure and alpha diversity stratified by storage condition per anatomical site | Bray–Curtis PCoA, PERMANOVA, Shannon H′, Mann–Whitney U |
 | `sfig16_contamination_analysis.py` | S16 | Contamination analysis: decontam-equivalent prevalence scoring and Bayesian source tracking (SourceTracker framework) | Prevalence-based decontam scoring, Mann–Whitney U filter validation |
+| `sfig_tost_cryopreservation.py` | S19 | TOST cryopreservation equivalence analysis: Bray–Curtis distance to fresh centroid (all Ig fractions) and Shannon diversity (PRE-sorted) for fresh vs. frozen specimens | Two one-sided t-tests (TOST), equivalence margin ±0.10 BC units, ±0.50 H′; outputs `tost_bray_curtis_results.csv` and `tost_shannon_results.csv` |
+
+---
+
+### Supplementary Data Scripts
+
+These scripts generate supplementary data tables and statistical outputs rather than figures.
+
+| Script | Outputs | Description |
+|--------|---------|-------------|
+| `supp_ancombc_differential_abundance.py` | `ANCOMBC_IgA_vs_IgM_Vagina.csv`, `ANCOMBC_IgA_vs_IgM_Cervix.csv`, `ANCOMBC_IgA_vs_IgM_Endometrium.csv`, `ANCOMBC_IgA_vs_IgM_AllSites.csv` | Python implementation of ANCOM-BC (Lin & Peddada 2020) for IgA vs IgM differential abundance per anatomical site. Serves as a sensitivity analysis confirming the IgA coating score rankings reported in Figures 5 and 8. |
+| `supp_table_s1_iga_coating_score.py` | `SupplementaryTableS1_IgACoatingScores.csv`, `SupplementaryTableS1_IgACoatingScores.tsv` | Computes and exports per-taxon IgA coating scores [IgA/(IgA+IgM)] for all 39 taxa, with supporting mean abundance and prevalence columns. Reproduces Supplementary Table S1 in the manuscript. |
+
+---
 
 ### Shared Utilities (`shared_utils.py`)
 
@@ -228,49 +248,60 @@ Options:
 ## Output Files
 
 All generated files are saved to the `new_figures/` directory:
-
 ### Main Figures
-- `Figure2.png` - Alpha diversity analysis
-- `Figure3.png` - Beta diversity and PCoA
-- `Figure4.png` - FACS binding events
-- `Figure5.png` - Differential abundance
-- `Figure6.png` - Healthy vs. dysbiotic comparison
-- `Figure7.png` - Fresh vs. frozen comparison
-- `Figure8.png` - Anatomical site enrichment
-- `Figure9.png` - Multivariate analysis
+- `Figure2.png` — Alpha diversity analysis
+- `Figure3.png` — Beta diversity and PCoA
+- `Figure4.png` — FACS binding events
+- `Figure5.png` — Differential Ig-coating heatmap and enrichment plots
+- `Figure6.png` — Healthy vs. dysbiotic comparison
+- `Figure7.png` — Fresh vs. frozen comparison
+- `Figure8.png` — Lollipop enrichment plots by anatomical site
+- `Figure9.png` — Multivariate synthesis (CLR-PCA, PERMANOVA effect sizes)
 
 ### Supplementary Figures
-- `SupplementaryFigure1.png` through `SupplementaryFigure16.png`
-- Various `.csv` files with statistical results and summary tables
+- `SupplementaryFigure1.png` through `SupplementaryFigure16.png` — main supplementary figures
+- `SFig_TOST_Cryopreservation.png` — Supplementary Figure S19 (TOST equivalence)
 
-## Data Files
+### Supplementary Data Tables and Statistical Outputs
+- `SupplementaryTableS1_IgACoatingScores.csv` / `.tsv` — per-taxon IgA coating scores (Table S1)
+- `tost_bray_curtis_results.csv` — TOST Bray–Curtis equivalence results per site and pooled
+- `tost_shannon_results.csv` — TOST Shannon diversity equivalence results per site
+- `ANCOMBC_IgA_vs_IgM_Vagina.csv` — ANCOM-BC results, vagina
+- `ANCOMBC_IgA_vs_IgM_Cervix.csv` — ANCOM-BC results, cervix
+- `ANCOMBC_IgA_vs_IgM_Endometrium.csv` — ANCOM-BC results, endometrium
+- `ANCOMBC_IgA_vs_IgM_AllSites.csv` — ANCOM-BC results, all sites pooled
+- Various additional `.csv` files with per-figure statistical results and summary tables
+
+# Data Files
 
 ### Input Data Description
 
 | File | Description |
 |------|-------------|
 | `otu_table.csv` | **Primary analysis file** — decontaminated OTU abundance matrix (39 taxa, 149 samples; *Burkholderia cepacia* and *Streptococcus pneumoniae* removed) |
-| `sample_metadata.csv` | Sample information: location, antibody, condition, storage |
+| `sample_metadata.csv` | Sample information: anatomical location, antibody fraction, condition, storage method |
 | `taxonomy.csv` | Taxonomic classification (Kingdom to Species) |
-| `facs_binding_events.csv` | Flow cytometry binding event counts |
+| `facs_binding_events.csv` | Flow cytometry binding event counts per fraction and site |
 | `anatomical_site_enrichment.csv` | Site-specific enrichment data |
-| `lactobacillus_fresh_frozen.csv` | Lactobacillus abundance comparisons |
-| `seq_clean.csv` | Quality-filtered sequence data |
+| `lactobacillus_fresh_frozen.csv` | *Lactobacillus* spp. abundance comparisons by storage condition |
+| `seq_clean.csv` | Quality-filtered sequence data used for SourceTracker analysis |
 | `otu_clean_decontaminated.csv` | Same as `otu_table.csv` — provided for cross-reference |
 | `otu_clean.csv` | Pre-decontamination OTU table (41 taxa; includes *Burkholderia cepacia* and *Streptococcus pneumoniae* before removal) |
-| `taxa_abundance_fresh_frozen.csv` | Mean taxon abundance per storage condition and site |
+| `taxa_abundance_fresh_frozen.csv` | Mean taxon abundance per storage condition and anatomical site |
 | `filtering_statistics.xlsx` | Taxon counts at different abundance thresholds per group |
 
-**Data Availability**: Raw sequencing data will be deposited to SRA/ENA upon manuscript acceptance.
+**Data Availability**: Raw sequencing data will be deposited to NCBI SRA/ENA upon manuscript acceptance. Processed data (ASV tables, metadata, FACS event counts, IgA/IgM/IgG coating scores) will be available via Zenodo.
 
 ## Analysis Methods
 
 ### Statistical Tests
 
-- **Alpha diversity**: Kruskal-Wallis H-test with Dunn's post-hoc
-- **Beta diversity**: PERMANOVA (permutational ANOVA)
-- **Differential abundance**: Mann-Whitney U test with Bonferroni correction
+- **Alpha diversity**: Kruskal–Wallis H-test with Bonferroni-corrected Mann–Whitney U post-hoc
+- **Beta diversity**: PERMANOVA (adonis2, 999 permutations) on Bray–Curtis dissimilarities
+- **Differential abundance**: Mann–Whitney U with Bonferroni correction; ANCOM-BC sensitivity analysis
+- **Equivalence testing**: TOST (two one-sided t-tests, equivalence margin ±0.10 BC units)
 - **Correlation**: Spearman rank correlation
+
 
 ### Color Scheme
 
@@ -336,4 +367,5 @@ If you use this code or data, please cite:
 
 ## Acknowledgments
 
-We thank all contributors to the mFLOW-Seq methodology development and the research participants who made this study possible.
+We thank all contributors to the mFLOW-Seq methodology development and the research participants who made this study possible. 
+This work was supported by the Estonian Research Council and the Horizon Europe / European Research Council framework.
