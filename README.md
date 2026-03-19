@@ -1,4 +1,4 @@
-# mFLOW-Seq Pipeline for Immune-Coated Microbiota Analysis in the Female Reproductive Tract
+# mFLOW-Seq: Immunoglobulin class–resolved microbiota profiling across the female reproductive tract
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![License: GPL v3](https://img.shields.io/badge/License-Research-orange.svg)](LICENSE)
