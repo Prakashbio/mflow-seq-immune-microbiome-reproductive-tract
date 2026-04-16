@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![License: GPL v3](https://img.shields.io/badge/License-Research-orange.svg)](LICENSE)
 
-Bioinformatics analysis pipeline and figure generation scripts for the mFLOW-Seq microbiome study investigating spatial immunoglobulin engagement of live microbiota across female reproductive tract compartments.
+Bioinformatics analysis pipeline and figure generation scripts for the mFLOW-Seq microbiome study investigating spatial immunoglobulin engagement of membrane-intact microbiota across female reproductive tract compartments.
 
 This repository contains all scripts required to reproduce the main and supplementary analyses presented in the manuscript. All figures can be regenerated directly from the provided code and processed datasets.
 
@@ -11,7 +11,7 @@ This repository contains all scripts required to reproduce the main and suppleme
 
 This repository contains the complete computational analysis workflow used to generate all main and supplementary figures for the manuscript:
 
-> **Immunoglobulin class–resolved engagement of live microbiota across female reproductive tract compartments using mFLOW-Seq**
+> **Immunoglobulin class–resolved engagement of membrane-intact microbiota across female reproductive tract compartments using mFLOW-Seq**
 >
 > Prakash Lingasamy, Merli Saare, Sergio Vela Moreno, Karita Särekannu, Dmitri Lubenets, Alberto Sola-Leyva, Kasun Madhuranga Godakuma Godagedara, Naisarg Patel, Vijayachitra Modhukur, Reet Mändar, Andres Salumets
 >
@@ -362,7 +362,7 @@ If you use this code in your research, please cite the associated manuscript (se
 If you use this code or data, please cite:
 
 > Lingasamy P, Saare M, Vela Moreno S, Särekannu K, Lubenets D, Sola-Leyva A, Godagedara KMG, Patel N, Modhukur V, Mändar R, Salumets A.
-> **Immunoglobulin class–resolved engagement of live microbiota across female reproductive tract compartments using mFLOW-Seq**
+> **Immunoglobulin class–resolved engagement of membrane-intact microbiota across female reproductive tract compartments using mFLOW-Seq**
 > *Manuscript under review.*
 
 ## Acknowledgments
