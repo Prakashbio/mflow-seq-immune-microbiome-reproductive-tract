@@ -1,0 +1,11 @@
+# Observed Python package versions used for the public replay; not a fresh-machine lock.
+numpy==2.4.6
+pandas==2.3.3
+matplotlib==3.11.0
+scipy==1.17.1
+scikit-learn==1.9.0
+Pillow==12.2.0
+pypdf==6.13.2
+reportlab==5.1.0
+openpyxl==3.1.5
+lxml==6.1.3

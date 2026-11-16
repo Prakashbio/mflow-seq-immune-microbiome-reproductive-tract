@@ -99,17 +99,7 @@ Fraction dispersion differs. Inference is approximate under the specified
 residual-exchangeability assumptions; numerical agreement does not establish
 those assumptions, isolated centroid effects or antibody causality.
 
-The old repository root runner describes the historical analysis. This candidate
-is intended as a versioned revision directory alongside that history, not an
-unreviewed wholesale overwrite of the existing repository root.
-
-`REPRODUCE_v20.md` identifies the tested checks and figure runner.
-`documentation/Release_metadata_prepared_v20.json` is a local metadata planning
-record, not an API upload request or an invented new DOI. The code license is
-the existing GPL v3 text. No new data license is assigned here. Existing Zenodo
-record lineage, release tag/commit and final deposit fields are resolved when
-the user instructs the actual update. This candidate contains no manuscript
-drafts, reviewer correspondence or clinical recruitment records.
+The current public entry points are the root README and REPRODUCE.md. Earlier numerical source files and the original code licence are retained.
 
 ## v20.1 consolidation on 6 November 2026
 
@@ -123,4 +113,4 @@ aliases; two archived external workbook paths accept MFLOW_NATIVE_WORKBOOK.
 This cleanup does not claim that all historical scripts are standalone or that a
 fresh-machine installation or upstream FASTQ workflow has been reproduced.
 The scientific data-sharing/license scope still follows the authorized deposit.
-Nothing has been uploaded. Original sealed v20 remains the historical baseline.
+The original source inputs and numerical baseline remain preserved.

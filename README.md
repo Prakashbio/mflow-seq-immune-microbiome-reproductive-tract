@@ -2,11 +2,11 @@
 
 [![Python](https://img.shields.io/badge/Python-3-blue.svg)](https://www.python.org/)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL_v3-blue.svg)](LICENSE)
-[![Zenodo Version 4](https://img.shields.io/badge/Zenodo-Version_4-blue.svg)](https://doi.org/10.5281/zenodo.19437248)
+[![Zenodo Version 5](https://img.shields.io/badge/Zenodo-Version_5-blue.svg)](https://doi.org/10.5281/zenodo.19437248)
 
 Data, analysis scripts and figure-generation materials for the mFLOW-Seq study of immunoglobulin class–resolved microbiota across female reproductive tract compartments.
 
-**Public archive: Version 4.** The submitted [GitHub repository](https://github.com/Prakashbio/mflow-seq-immune-microbiome-reproductive-tract) and [Zenodo concept DOI](https://doi.org/10.5281/zenodo.19437248) are unchanged. Start with [REPRODUCE.md](REPRODUCE.md) for the current analysis commands or the [Zenodo contents guide](https://zenodo.org/records/24274722/files/00_README_RC2_CONTENTS.md?download=1) for downloads.
+**Public archive: Version 5.** The submitted [GitHub repository](https://github.com/Prakashbio/mflow-seq-immune-microbiome-reproductive-tract) and [Zenodo concept DOI](https://doi.org/10.5281/zenodo.19437248) are unchanged. Start with [REPRODUCE.md](REPRODUCE.md) for the current analysis commands or the [Zenodo contents guide](https://zenodo.org/records/24277008/files/00_README_CONTENTS.md?download=1) for downloads.
 
 ## Overview
 
@@ -20,7 +20,7 @@ This repository accompanies the manuscript:
 
 The retained sequencing dataset contains 149 libraries from 15 women and 40 recorded preparations. The current release includes the consolidated 39-sheet supplementary workbook, six main figures and nineteen numbered supplementary figures (23 supplementary graphics), their captions, and preserved analysis sources.
 
-The README follows the original repository's section order. The public version is **4**. Internal build labels such as `v25.2.2` remain in original directory and script names to preserve working paths and provenance.
+The README follows the original repository's section order. The public version is **5**. Internal build labels such as `v25.2.2` remain in original directory and script names to preserve working paths and provenance.
 
 ### About mFLOW-Seq
 
@@ -47,7 +47,7 @@ mflow-seq-immune-microbiome-reproductive-tract/
 │   ├── revision_v25/                 # Sequencing summaries, benchmarks and workflow files
 │   └── revision_v24_8/
 │       └── source_materials/        # Preserved analysis inputs, code and result records
-├── historical_documentation/         # Previous README/manifest versions
+├── CHANGELOG.md                     # Public release changes; earlier code stays in Git history
 ├── requirements.txt                  # Original core Python requirements
 ├── run_all.py / scripts/             # Retained historical analysis route
 └── data/ / Output/                   # Retained historical inputs and outputs
@@ -164,7 +164,7 @@ git clone https://github.com/Prakashbio/mflow-seq-immune-microbiome-reproductive
 cd mflow-seq-immune-microbiome-reproductive-tract
 ```
 
-Alternatively, use [Zenodo Version 4](https://doi.org/10.5281/zenodo.24274722). Download either the complete RC2 ZIP or all six numbered topic ZIPs. Extract every topic ZIP into the same empty directory, preserving stored paths. The topic archives partition the same 1,688 files as the complete ZIP. Keep the standalone download guide and index outside that extracted analysis directory.
+Alternatively, use [Zenodo Version 5](https://doi.org/10.5281/zenodo.24274722). Download either the complete RC2 ZIP or all six numbered topic ZIPs. Extract every topic ZIP into the same empty directory, preserving stored paths. The topic archives partition the same 1,688 files as the complete ZIP. Keep the standalone download guide and index outside that extracted analysis directory.
 
 ### 2. Create a Virtual Environment
 
@@ -289,7 +289,7 @@ Current publication outputs are preserved under `revisions/revision_v25_2_2/`. N
 
 The public release includes exactly three sample-free HUT093 buffer FCS files. The 34 human-sample pilot FCS files remain private. Public pilot-display reproduction uses the included saved aggregate bins and plotting parameters.
 
-**Data availability:** [Submitted Zenodo concept DOI](https://doi.org/10.5281/zenodo.19437248); [specific public Version 4](https://doi.org/10.5281/zenodo.24274722); [contents guide](https://zenodo.org/records/24274722/files/00_README_RC2_CONTENTS.md?download=1). The complete ZIP is retained alongside the six topic ZIPs, the 1,688-file index and download checksums. The original repository files and previous Zenodo versions remain available.
+**Data availability:** [Submitted Zenodo concept DOI](https://doi.org/10.5281/zenodo.19437248); [specific public Version 4](https://doi.org/10.5281/zenodo.24274722); [contents guide](https://zenodo.org/records/24277008/files/00_README_CONTENTS.md?download=1). The complete ZIP is retained alongside the six topic ZIPs, the 1,688-file index and download checksums. The original repository files and previous Zenodo versions remain available in their published histories.
 
 Raw sequencing records are available under NCBI BioProject PRJNA1454428 / study SRP692419. The supplied workflow records identify near-full-length 27F/1492R amplification, Tn5-fragmented libraries, NextSeq 1000 single-end reads delivered at 80 nt, Kraken2 Standard and Bracken `-r 75`; the latter is the Bracken reference-distribution setting.
 

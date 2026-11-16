@@ -1,4 +1,4 @@
-# mFLOW-Seq revision v25 — local sequencing evidence addition
+# Sequencing QC and benchmark source files
 
 This addition preserves the previous downstream scripts, input matrices, saved resampling records and selected figures exactly. The original archive payloads are retained under their existing paths. New material is under `revisions/revision_v25`.
 
@@ -18,4 +18,4 @@ Original workflow paths require inputs.json, samples, database paths and contain
 
 The new QC values belong to their labelled stages. Their totals do not equal archived report roots, and one 78EP/78Epre2 correspondence is unconfirmed. The clinical matrices, participant structure, original microscopy and existing figure/data analysis remain unchanged. The three simulation designs are computational benchmarks, separate from the physical D6310 mock extractions. Species labels remain provisional.
 
-This ZIP is prepared for review and a future authorized repository update; no online publication is asserted. Earlier README/status/manifest files describe their own older versions. Start with this file for v25 additions.
+These files are included in the published supporting archive. Use the root README and REPRODUCE.md for the current public entry points. The supplied run.sh is a historical launcher example: its workflow/input paths refer to the original execution environment, not a complete runnable distribution.
