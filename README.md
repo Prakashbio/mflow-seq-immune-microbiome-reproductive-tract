@@ -164,7 +164,7 @@ git clone https://github.com/Prakashbio/mflow-seq-immune-microbiome-reproductive
 cd mflow-seq-immune-microbiome-reproductive-tract
 ```
 
-Alternatively, use [Zenodo Version 5](https://doi.org/10.5281/zenodo.24274722). Download either the complete RC2 ZIP or all six numbered topic ZIPs. Extract every topic ZIP into the same empty directory, preserving stored paths. The topic archives partition the same 1,688 files as the complete ZIP. Keep the standalone download guide and index outside that extracted analysis directory.
+Alternatively, use [Zenodo Version 5](https://doi.org/10.5281/zenodo.24277008). Download either `mFLOW_seq_Version5_complete.zip` or all six numbered topic ZIPs. Extract every topic ZIP into the same empty directory, preserving stored paths. The topic archives partition the same 1,632 files as the complete ZIP. Keep the standalone download guide and index outside that extracted analysis directory.
 
 ### 2. Create a Virtual Environment
 
@@ -191,7 +191,7 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
-Install the source-specific Python/R dependencies and Poppler required by the selected route, using the environment records above. [REPRODUCE.md](REPRODUCE.md) gives the current commands.
+For the public numerical and figure replay, `requirements-replay-tested.txt` records the Python package versions used in the verified replay, including Pillow, pypdf, reportlab, openpyxl and lxml in addition to the original core packages. Install the source-specific R dependencies and Poppler required by the selected route, using the environment records above. [REPRODUCE.md](REPRODUCE.md) gives the current commands.
 
 ## Usage
 
@@ -289,7 +289,7 @@ Current publication outputs are preserved under `revisions/revision_v25_2_2/`. N
 
 The public release includes exactly three sample-free HUT093 buffer FCS files. The 34 human-sample pilot FCS files remain private. Public pilot-display reproduction uses the included saved aggregate bins and plotting parameters.
 
-**Data availability:** [Submitted Zenodo concept DOI](https://doi.org/10.5281/zenodo.19437248); [specific public Version 4](https://doi.org/10.5281/zenodo.24274722); [contents guide](https://zenodo.org/records/24277008/files/00_README_CONTENTS.md?download=1). The complete ZIP is retained alongside the six topic ZIPs, the 1,688-file index and download checksums. The original repository files and previous Zenodo versions remain available in their published histories.
+**Data availability:** [Submitted Zenodo concept DOI](https://doi.org/10.5281/zenodo.19437248); [specific public Version 5](https://doi.org/10.5281/zenodo.24277008); [contents guide](https://zenodo.org/records/24277008/files/00_README_CONTENTS.md?download=1). The complete ZIP is retained alongside the six topic ZIPs, the 1,632-file index and download checksums. The original repository files and previous Zenodo versions remain available in their published histories.
 
 Raw sequencing records are available under NCBI BioProject PRJNA1454428 / study SRP692419. The supplied workflow records identify near-full-length 27F/1492R amplification, Tn5-fragmented libraries, NextSeq 1000 single-end reads delivered at 80 nt, Kraken2 Standard and Bracken `-r 75`; the latter is the Bracken reference-distribution setting.
 
@@ -352,9 +352,11 @@ If you use these materials, cite the manuscript and the public data/code archive
 > **Immunoglobulin class–resolved engagement of membrane-intact microbiota across female reproductive tract compartments using mFLOW-Seq**
 > *Manuscript under review.*
 
-Archive citation: Lingasamy, P., & Godakumara, K. (2026). *Immunoglobulin class–resolved engagement of membrane-intact microbiota across female reproductive tract compartments using mFLOW-Seq* (Version 4) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.24274722
+Archive citation: Lingasamy, P., & Godakumara, K. (2026). *Immunoglobulin class–resolved engagement of membrane-intact microbiota across female reproductive tract compartments using mFLOW-Seq* (Version 5) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.24277008
 
 The submitted concept DOI, https://doi.org/10.5281/zenodo.19437248, continues to resolve to the latest version.
+
+The Version 5 ZIPs preserve their deposited snapshot. This current GitHub README corrects three older DOI references and the former file count in that snapshot's README; the scientific code, data, figures and microscopy are unchanged.
 
 ## Acknowledgments
 
