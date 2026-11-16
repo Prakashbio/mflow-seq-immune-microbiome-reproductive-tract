@@ -1,0 +1,20 @@
+{
+  "source": "source_materials/metadata_corrections/Table_S2V_5B_FACS_control_types_UPDATED_v23_2_2026-11-11.csv",
+  "source_sha256": "abad70dd301fe439901bb8af0e50b0ecd3eaec98fe03087d5e213abfeb4af7d1",
+  "changes": [
+    {
+      "csv_row": 2,
+      "csv_column": 2,
+      "old": "Buffer only; no added antibodies or DAPI",
+      "new": "DAPI-containing buffer; no antibodies or biological sample"
+    },
+    {
+      "csv_row": 2,
+      "csv_column": 3,
+      "old": "Named HUT093 acquisitions; no added antibodies or DAPI",
+      "new": "Named HUT093 acquisitions; DAPI present, no antibodies or biological sample"
+    }
+  ],
+  "evidence": "Direct author clarification, 13 November 2026: all three contained DAPI, with no antibodies or biological sample.",
+  "numeric_results_changed": false
+}

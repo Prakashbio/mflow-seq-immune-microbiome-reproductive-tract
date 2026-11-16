@@ -1,0 +1,21 @@
+{
+  "README.md": "4d68cabb22a897cd8011f266699461d8db613764853935ed99cd34f50e4aacab",
+  "data/SupplTable_per_sample_QC.xlsx": "c75ba27575030da4e7ccac27ecafcafdbc977c12b74550282b0f08460f62661b",
+  "data/Supplementary_QC_source_values.csv": "cbefa300acaae438c34530d29518ebe8aa2b58808f99f6ee284a77647e1f5c5f",
+  "data/benchmark_mock_community.csv": "35deafe0744788e4871620369ff251e8cd59e98db5159c34d86471588a05ed77",
+  "data/benchmark_single_species.csv": "9691505cec49483c6154ae57fb418acc58879c3d33dee15247e9c9bbe99fae23",
+  "data/mixture_results.csv": "2552743427e467d598e69fd4c1deb3932a976c7dfd458271a581b074a34ea066",
+  "metadata/Archived_reports_against_new_QC.csv": "3e3954f8a9c620b1316d849886a326b3f4c2c94f75218069ec07b6d6676fae77",
+  "metadata/Existing_S2V6_to_new_equal_mock_correspondence.csv": "af6274c6ef406b2e39b7cb903dd1572f0307eb716e414f71e48d3a8faed19821",
+  "metadata/New_QC_to_sealed_library_and_report_bridge.csv": "0ad2a3d1e00fa4796d205a6e27241e50b173cfa292ec76560ee66966d24eae85",
+  "metadata/New_source_blocks.json": "5cac81d64976ec213aac3b043541f5e37bbd8add33ca428180deed5cfb74bd69",
+  "metadata/Source_SHA256.json": "aecdbf98993cf1166106aa9cddcf885de84ae9e2735babba7b9a656b7656bb60",
+  "results/Arithmetic_checks.csv": "4691081071b04524b043d12056dea5aa642b3ffd248883e04486547fe574676e",
+  "results/Count_definition_flags.csv": "602b47be92fa730e1bf6f146798a698739577fd7059a9daebb3147e2168dd6a6",
+  "results/Pair_mixture_recomputed.csv": "c35a01ad740002b8eab8e2d1aeebeb926f86e37abafdbd6985155037420d3f4b",
+  "results/Single_species_recomputed.csv": "84d753b131d04ebc91870e839da60168d9ad32b32342853e45830a58fd0270e8",
+  "results/Summary.json": "e7c8c80312c7866cc12d74202d7453f957c37988036cde15eb37088ecb847029",
+  "scripts/main.nf": "fd6822978c795fa4deabac2b6bd6eccacb83c0572efe56918ff8f3a10e8403ab",
+  "scripts/recompute_v25_sequencing_summaries.py": "c13b308bb49fd407774ef21136880f67d47677224a755c04e4f39199fbdb2ea9",
+  "scripts/run.sh": "beb04e6f3f45b995c0d1920f9cbfa5e3e5968a63dd3bc0759039a7617ad70111"
+}

@@ -1,0 +1,1 @@
+PASS: vegan independently verifies all298 library Shannon/Simpson/richness/evenness/Lactobacillus metrics and all equal-woman storage-group profiles from39/41 count inputs. No hypothesis or equivalence tests performed.

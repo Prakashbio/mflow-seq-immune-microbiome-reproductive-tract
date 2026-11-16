@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "variant": "CLEAN",
+      "original_data_worksheets_byte_preserved": 34,
+      "new_sheets": 1,
+      "source_numeric_tokens_preserved": true
+    },
+    {
+      "variant": "YELLOW",
+      "original_data_worksheets_byte_preserved": 34,
+      "new_sheets": 1,
+      "source_numeric_tokens_preserved": true
+    }
+  ]
+}

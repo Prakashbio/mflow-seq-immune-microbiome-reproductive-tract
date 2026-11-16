@@ -1,0 +1,19 @@
+mFLOW-Seq v23.1 — control metadata amendment, 11 November 2026
+
+The experimenter clarified that the named HUT093 BSA/PBS1/PBS2 acquisitions
+contained sample-preparation buffers only, without added antibodies or DAPI.
+The two CSVs in metadata_corrections record this annotation and the updated
+control-type source block displayed in Supplementary Table S2V.5.
+
+These current annotations supersede earlier attribution of staining reagents
+to the named tubes. Earlier files are retained unchanged as historical records.
+Historical DAPI/IgM labels are software gate regions, not proof of staining.
+The controls measure buffer/instrument acquisition background, not antibody-
+reagent background, bacterial binding specificity or a clinical false-positive
+rate. No buffer concentrations are inferred. No event counts, percentages,
+clinical data, statistical models or images were changed. All three controls,
+including PBS2, are retained without background subtraction.
+
+Apply alongside the preserved v23 code/data/figure baseline. The separate full
+v23.1 GitHub/Zenodo staging bundle combines this amendment and that baseline.
+No files have been uploaded. The original FCS files and reports remain unchanged.

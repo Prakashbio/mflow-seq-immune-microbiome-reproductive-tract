@@ -1,0 +1,7 @@
+LICENCE SCOPE — v25.2.2 RC2
+
+The existing repository GPLv3 LICENSE is unchanged. Project analysis code and associated code documentation retain those terms. Project-owned coded data,numerical results and derived figure outputs follow the existing Zenodo dataset record CC-BY-4.0 terms. No original licence/attribution notice is removed or overridden. Source-specific rights remain with their holders;this file is not a new permission grant for third-party experimental records,software or embedded artwork.
+
+FILE_LICENSE_SCOPE.csv classifies every included path. 'Source experimental record/original artwork' identifies retained reports/buffer acquisitions/native source artwork for which original provenance/terms remain applicable;do not infer a new third-party licence from the enclosing dataset record. Human-sample raw pilot FCS files are not in this public candidate. Their originals remain private because public sharing permission was not confirmed.
+
+This preparation preserves existing code/data licence attribution;it does not certify consent or licensing authority for every historical source. The author reviews the exact metadata and file list before any publication.

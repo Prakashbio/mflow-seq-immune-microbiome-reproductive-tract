@@ -1,0 +1,4 @@
+original,portable,scope
+"V<-file.path(root,'review_response/submission_working_v15_2026-11-03')","V<-file.path(root,'bundle')",Path adaptation only; numerical model specification unchanged
+"old<-file.path(root,'review_response/03_analysis/Prakash_original_workflow_review_2026-10-27')","old<-file.path(root,'bundle/frozen_model_replay')",Path adaptation only; numerical model specification unchanged
+"O<-file.path(root,'review_response/ChatGPT_v15_Q01_Q02_assessment_2026-11-04/model_refit')","O<-file.path(root,'reproduced/fresh_model_check')",Path adaptation only; numerical model specification unchanged

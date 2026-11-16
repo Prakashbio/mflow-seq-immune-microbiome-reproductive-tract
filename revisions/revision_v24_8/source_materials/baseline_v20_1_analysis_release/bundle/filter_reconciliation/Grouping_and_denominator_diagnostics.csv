@@ -1,0 +1,5 @@
+denominator_taxa,grouping,rule,selected_taxa,matches_historical_41_membership,missing_from_historical_41,additional_to_historical_41
+268,source_codes,At least 0.5 percent in at least two libraries within any site/fraction stratum,41,True,,
+268,legacy_processed_headings,At least 0.5 percent in at least two libraries within any site/fraction stratum,45,False,Burkholderia cepacia; Corynebacterium matruchotii; Corynebacterium sanguinis; Cutibacterium granulosum; Peptoniphilus harei; Rothia mucilaginosa; Streptococcus sanguinis,Acinetobacter baumannii; Bacillus velezensis; Dolosigranulum pigrum; Lactobacillus johnsonii; Lactobacillus paragasseri; Neisseria meningitidis; Prevotella denticola; Prevotella enoeca; Streptococcus cristatus; Streptococcus pyogenes; Veillonella rogosae
+41,source_codes,At least 0.5 percent in at least two libraries within any site/fraction stratum,41,True,,
+41,legacy_processed_headings,At least 0.5 percent in at least two libraries within any site/fraction stratum,34,False,Burkholderia cepacia; Corynebacterium matruchotii; Corynebacterium sanguinis; Cutibacterium granulosum; Peptoniphilus harei; Rothia mucilaginosa; Streptococcus sanguinis,

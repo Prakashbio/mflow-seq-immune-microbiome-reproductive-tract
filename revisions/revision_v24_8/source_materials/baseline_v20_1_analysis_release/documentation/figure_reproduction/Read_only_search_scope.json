@@ -1,0 +1,8 @@
+{
+  "service": "Gmail",
+  "query": "after:2026/11/01 before:2026/11/06 (Microbiome OR \"mFLOW\" OR \"DAPI\" OR \"tagmentation\") -in:spam -in:trash",
+  "emails_returned": 0,
+  "next_page_token": null,
+  "Outlook_rechecked_this_turn": false,
+  "email_mutations": false
+}

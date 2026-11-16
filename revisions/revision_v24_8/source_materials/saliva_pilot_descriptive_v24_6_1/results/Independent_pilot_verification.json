@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "FCS_files": 37,
+  "fluorescence_channel_rows": 167,
+  "supplied_summary_numeric_cells_verified": 1336,
+  "max_absolute_difference": 0.21083984361757757,
+  "float32_percentile_differences_reproduced": 56,
+  "all_medians_and_counts_match": true,
+  "antibody_contrasts": 8,
+  "all_June13_compared_settings_identical": true,
+  "all_June20_compared_settings_identical": true,
+  "acquisitions_by_date": {
+    "13-JUN-2023": 18,
+    "20-JUN-2023": 12,
+    "07-JUL-2023": 4,
+    "11-JAN-2024": 3
+  },
+  "additional_gating_or_compensation_applied": false,
+  "scope": "All recorded event-array summaries. Numbered acquisition labels are not verified donor pairing; medians do not validate antibody specificity or DAPI agreement."
+}

@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "file": "Analysis_metadata_149.csv",
+      "rows": 149,
+      "columns": 36,
+      "original_sha256": "f930ebfc94d0b2de5e6aebc032eadff0175841f2f4c767fcfedf0cdc3643367e",
+      "reviewer_sha256": "f930ebfc94d0b2de5e6aebc032eadff0175841f2f4c767fcfedf0cdc3643367e",
+      "presentation_only_changes": 0
+    },
+    {
+      "file": "Field_definitions.csv",
+      "rows": 36,
+      "columns": 4,
+      "original_sha256": "fc7ac800fefabf38c6af00e42f645ed88c739a62978b5b970ce994e25dc1ed18",
+      "reviewer_sha256": "6c5d61dc8699b435f885dd9c61e3fc93a2d20e00c9808ec865c027748f1c1b07",
+      "presentation_only_changes": 65
+    },
+    {
+      "file": "Separate_archived_200_report_ledger.csv",
+      "rows": 200,
+      "columns": 29,
+      "original_sha256": "0210fd741bde0f359645b59873272ecb6060a676d41627f70df617fa25e506f6",
+      "reviewer_sha256": "0210fd741bde0f359645b59873272ecb6060a676d41627f70df617fa25e506f6",
+      "presentation_only_changes": 0
+    },
+    {
+      "file": "Seven_historical_PCR_annotations.csv",
+      "rows": 7,
+      "columns": 9,
+      "original_sha256": "1eeabd48d0da657304a52b8b3219586532d1a8d7a885092a34d72856baad72c9",
+      "reviewer_sha256": "7c4f3282f95c3ab7541e3b774f42dcc41fc29cf9fcb9b3a1dd2901820a73df3c",
+      "presentation_only_changes": 7
+    }
+  ],
+  "numeric_data_and_missing_values_unchanged": true
+}

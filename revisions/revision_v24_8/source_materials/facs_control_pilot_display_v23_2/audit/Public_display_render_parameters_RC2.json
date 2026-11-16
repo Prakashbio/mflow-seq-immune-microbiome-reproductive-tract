@@ -1,0 +1,56 @@
+{
+  "Supplementary_Figure_S19_A": {
+    "shape": [
+      4,
+      3
+    ],
+    "xmin": -1.404746997906261,
+    "xmax": 8.159157413693302,
+    "ymin": -1.2346932527054617,
+    "ymax": 8.159157413693302,
+    "vmax": 609.0,
+    "xlabel": "IgA-associated PE detector (exported units)",
+    "ylabel": "IgM-associated APC detector (exported units)",
+    "supertitle": "A  Saliva development controls · 13 June 2023",
+    "panel_events": [
+      50000,
+      50000,
+      50000,
+      50000,
+      50000,
+      50000,
+      50000,
+      50000,
+      50000,
+      50000,
+      50000,
+      50000
+    ],
+    "saved_bin_sha256": "24d0836ca31e9274aa80b3f1d203c1c0e81521d177f31dda96fbc1276060142c",
+    "scope": "Re-render existing aggregated event counts. Raw human acquisitions are withheld; this is not raw event reanalysis."
+  },
+  "Supplementary_Figure_S19_C": {
+    "shape": [
+      3,
+      2
+    ],
+    "xmin": -2.557426578018775,
+    "xmax": 8.159157413693302,
+    "ymin": -2.4546444662772675,
+    "ymax": 8.159157413693302,
+    "vmax": 2279.0,
+    "xlabel": "SYTO9-associated 530/30 detector (exported units)",
+    "ylabel": "PI-associated 616/23 detector (exported units)",
+    "supertitle": "C  Candidate SYTO9/PI comparator acquisitions · 2023",
+    "panel_events": [
+      20000,
+      20000,
+      20000,
+      20000,
+      20000,
+      20000
+    ],
+    "saved_bin_sha256": "3fc85fd8016561b7552feb8baaf2bcb967f485ed20400a1dc3586d55707267b3",
+    "scope": "Re-render existing aggregated event counts. Raw human acquisitions are withheld; this is not raw event reanalysis."
+  }
+}

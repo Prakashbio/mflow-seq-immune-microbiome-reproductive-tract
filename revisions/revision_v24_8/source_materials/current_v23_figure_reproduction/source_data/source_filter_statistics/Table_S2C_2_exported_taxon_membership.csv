@@ -1,0 +1,269 @@
+Taxon,in_41,in_39,total_exported_counts,libraries_detected,passes_reconstructed_rule,groups_passing,record_status
+Clostridium innocuum,False,False,445,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Haemophilus ducreyi,False,False,37626,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Ruminococcus gnavus,False,False,1033,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Ruminococcus torques,False,False,886,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Abiotrophia defectiva,False,False,4625,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Acinetobacter baumannii,False,False,944046,4,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Acinetobacter colistiniresistens,False,False,1635,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Acinetobacter defluvii,False,False,1165,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Acinetobacter junii,False,False,1214,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Acinetobacter radioresistens,False,False,2280,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Acinetobacter sp. NyZ41na,False,False,2176,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Acinetobacter ursingii,True,True,491152,6,True,2,Retained submitted baseline
+Actinomyces faecalis,False,False,438,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Actinomyces naeslundii,False,False,539,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Actinomyces sp. MAS-1,False,False,243,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Actinomyces sp. oral taxon 169,False,False,1988,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Aerococcus christensenii,True,True,735822,21,True,5,Retained submitted baseline
+Aggregatibacter aphrophilus,False,False,355,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Alicycliphilus denitrificans,False,False,24139,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Amylolactobacillus amylophilus,False,False,3827,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Anaerobutyricum hallii,False,False,788,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Anaerococcus mediterraneensis,True,True,537802,37,True,9,Retained submitted baseline
+Anaerococcus obesiensis,False,False,3083,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Anaerococcus prevotii,True,True,1707015,45,True,10,Retained submitted baseline
+Anaerostipes hadrus,False,False,11599,4,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Arthrobacter alpinus,False,False,3530,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Aureimonas sp. OT7,False,False,22576,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Bacillus anthracis,False,False,16384,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Bacillus cereus,False,False,7189,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Bacillus velezensis,False,False,188646,5,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Bacteroides ovatus,False,False,9344,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Bacteroides thetaiotaomicron,False,False,2645,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Bifidobacterium longum,False,False,5434,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Blautia wexlerae,False,False,14008,4,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Brevibacterium sp. CS2,False,False,1344,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Brevundimonas mediterranea,False,False,2323,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Burkholderia cepacia,True,False,1402110,2,True,1,Historical manual exclusion; contaminant status not established
+Burkholderia contaminans,False,False,1100,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Burkholderia multivorans,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Caldibacillus thermoamylovorans,False,False,15389,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Campylobacter coli,False,False,3171,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Campylobacter hominis,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Campylobacter showae,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Campylobacter sputorum,False,False,1771,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Candidatus Mycosynbacter amalyticus,False,False,144,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Candidatus nanosynbacter sp. HMT-352,False,False,3763,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Capnocytophaga gingivalis,False,False,1121,3,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Capnocytophaga sputigena,False,False,2804,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Capnocytophaga stomatis,False,False,3397,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Cardiobacterium hominis,False,False,2992,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Cardiobacterium sp. Marseille-Q4385,False,False,4512,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Castellaniella defragrans,False,False,19503,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Catenibacterium mitsuokai,False,False,262,3,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Chenggangzhangella methanolivorans,False,False,30604,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Chryseobacterium arthrosphaerae,False,False,2665,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Chryseobacterium daecheongense,False,False,2957,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Chryseobacterium manosquense,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Chryseobacterium sp. ZHDP1,False,False,3447,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Clostridium perfringens,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Collinsella aerofaciens,False,False,279,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Corynebacterium atypicum,False,False,3396,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Corynebacterium aurimucosum,False,False,3826,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Corynebacterium callunae,False,False,5780,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Corynebacterium camporealensis,False,False,541,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Corynebacterium doosanense,False,False,1222,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Corynebacterium genitalium,False,False,583,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Corynebacterium glucuronolyticum,False,False,211,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Corynebacterium imitans,False,False,6286,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Corynebacterium lujinxingii,False,False,986,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Corynebacterium matruchotii,True,True,18695,5,True,1,Retained submitted baseline
+Corynebacterium sanguinis,True,True,34313,7,True,1,Retained submitted baseline
+Corynebacterium segmentosum,False,False,129,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Corynebacterium simulans,False,False,15963,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Corynebacterium singulare,False,False,32352,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Corynebacterium timonense,False,False,82,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Corynebacterium uberis,False,False,376,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Corynebacterium variabile,False,False,2958,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Crenobacter cavernae,False,False,1720,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Cutibacterium acnes,True,True,982386,114,True,10,Retained submitted baseline
+Cutibacterium granulosum,True,True,59689,9,True,1,Retained submitted baseline
+Cutibacterium modestum,True,True,125602,20,True,5,Retained submitted baseline
+Cytobacillus sp. CY-G,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Dechloromonas sp. HYNnana24,False,False,3564,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Deinococcus maricopensis,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Dermabacter jinjuensis,False,False,3404,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Dermabacter vaginalis,False,False,2348,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Dialister pneumosintes,False,False,25516,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Dolosigranulum pigrum,False,False,30031,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Dorea longicatena,False,False,704,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Enterobacter hormaechei,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Enterococcus durans,False,False,6971,3,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Enterococcus faecalis,False,False,42211,27,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Escherichia coli,True,True,3202769,10,True,3,Retained submitted baseline
+Exiguobacterium aurantiacum,False,False,13728,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Exiguobacterium sp. AT1b,False,False,26706,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Ezakiella coagulans,True,True,480087,8,True,1,Retained submitted baseline
+Faecalibacillus intestinalis,False,False,100471,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Faecalibacterium prausnitzii,False,False,4437,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Faecalibacterium sp. I3333,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Faecalibacterium sp. I4384,False,False,513,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Fannyhessea vaginae,True,True,1232761,48,True,11,Retained submitted baseline
+Fastidiosipila sanguinis,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Filimonas lacunae,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Fimbriimonas ginsengisoli,False,False,35,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Flavihumibacter fluminis,False,False,269,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Flavonifractor plautii,False,False,2640,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Fusobacterium nucleatum,False,False,1327,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Gardnerella leopoldii,True,True,103515,17,True,1,Retained submitted baseline
+Gardnerella vaginalis,True,True,120340,27,True,4,Retained submitted baseline
+Gemella haemolysans,True,True,381316,26,True,5,Retained submitted baseline
+Gemella morbillorum,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Gemella sp. zg-57na,False,False,1252,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Granulicatella adiacens,True,True,191406,20,True,2,Retained submitted baseline
+Granulicatella elegans,False,False,10818,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Haematobacter massiliensis,False,False,2745,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Haemophilus parahaemolyticus,False,False,5772,3,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Haemophilus parainfluenzae,True,True,251941,25,True,5,Retained submitted baseline
+Hydrogenophaga crocea,False,False,13701,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Hymenobacter sp. NBH84,False,False,560,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Jeotgalicoccus sp. ATCC 8456,False,False,2190,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Kingella oralis,False,False,6457,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Kinneretia sp. XES5,False,False,986,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Klebsiella pneumoniae,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Klebsiella quasipneumoniae,False,False,6668,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Kocuria rhizophila,False,False,652,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Lachnoanaerobaculum umeaense,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Lacticaseibacillus paracasei,True,True,102046,22,True,1,Retained submitted baseline
+Lacticaseibacillus rhamnosus,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Lactobacillus acidophilus,False,False,13113,23,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Lactobacillus amylolyticus,False,False,3087,6,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Lactobacillus crispatus,True,True,6404495,74,True,12,Retained submitted baseline
+Lactobacillus delbrueckii,True,True,131055,20,True,1,Retained submitted baseline
+Lactobacillus gasseri,True,True,1348955,11,True,2,Retained submitted baseline
+Lactobacillus helveticus,False,False,26925,21,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Lactobacillus iners,True,True,57469794,125,True,12,Retained submitted baseline
+Lactobacillus intestinalis,False,False,307,3,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Lactobacillus jensenii,True,True,7675579,70,True,12,Retained submitted baseline
+Lactobacillus johnsonii,False,False,78046,32,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Lactobacillus kefiranofaciens,False,False,23278,18,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Lactobacillus paragasseri,False,False,150573,23,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Lactococcus cremoris,True,True,80159,15,True,5,Retained submitted baseline
+Lactococcus taiwanensis,False,False,420,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Lancefieldella parvula,True,True,29146,8,True,1,Retained submitted baseline
+Leptotrichia buccalis,False,False,18956,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Leptotrichia hofstadii,False,False,392,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Leptotrichia hongkongensis,False,False,507,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Leptotrichia sp. oral taxon 212,False,False,6485,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Leptotrichia sp. oral taxon 218,False,False,1150,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Leptotrichia sp. oral taxon 221,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Leptotrichia trevisanii,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Leptotrichia wadei,False,False,2203,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Ligilactobacillus salivarius,False,False,3514,7,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Limosilactobacillus fermentum,False,False,1635,10,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Limosilactobacillus vaginalis,False,False,6314,4,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Liquorilactobacillus hordei,False,False,1539,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Luteimonas sp. YGD11-2,False,False,3945,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Massilia oculi,False,False,35180,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Massilia sp. MB5,False,False,2001,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Massilia sp. NP31na,False,False,4571,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Megamonas funiformis,False,False,4874,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Megasphaera elsdenii,False,False,304,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Mesorhizobium terrae,False,False,11981,3,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Metamycoplasma hominis,True,True,114830,11,True,2,Retained submitted baseline
+Methylobacterium sp. FF17,False,False,4760,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Micrococcus luteus,False,False,9329,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Micrococcus sp. KD337-16,False,False,280,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Miniimonas sp. S16,False,False,8412,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Miniphocaeibacter halophilus,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Mobiluncus curtisii,False,False,2589,3,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Moorella thermoacetica,False,False,57,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Moraxella bovis,False,False,2558,4,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Moraxella catarrhalis,False,False,748,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Moraxella osloensis,True,True,615789,66,True,8,Retained submitted baseline
+Murdochiella vaginalis,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Neisseria elongata,False,False,12368,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Neisseria meningitidis,False,False,75844,3,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Neisseria subflava,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Nitrobacter winogradskyi,False,False,2638,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Novosphingobium aromaticivorans,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Oligella ureolytica,False,False,14856,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Oligella urethralis,False,False,865,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Ornithinimicrobium avium,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Paludisphaera borealis,False,False,52,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Paracoccus aminovorans,False,False,7279,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Paracoccus sanguinis,False,False,17252,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Paracoccus sp. MC1862,False,False,769,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Parvimonas micra,True,True,2869745,16,True,6,Retained submitted baseline
+Peptoniphilus harei,True,True,17976,4,True,1,Retained submitted baseline
+Peptoniphilus sp. SAHP1,True,True,1451543,22,True,5,Retained submitted baseline
+Porphyromonas endodontalis,False,False,1192,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Porphyromonas gingivalis,False,False,2674,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Porphyromonas sp. oral taxon 275,False,False,28506,6,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Prevotella buccalis,True,True,2542160,50,True,10,Retained submitted baseline
+Prevotella copri,False,False,805,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Prevotella denticola,False,False,33383,5,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Prevotella enoeca,False,False,59608,7,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Prevotella histicola,False,False,198,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Prevotella jejuni,False,False,2961,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Prevotella melaninogenica,False,False,37516,6,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Prevotella nigrescens,False,False,1472,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Prevotella oris,True,True,474236,15,True,2,Retained submitted baseline
+Prevotella sp. oral taxon 299,False,False,441,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Prevotella sp. oral taxon 475,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Prevotella veroralis,False,False,16165,3,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Pseudomonas brenneri,False,False,7503,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Pseudorhodoplanes sinuspersici,False,False,253,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Psychrobacter sanguinis,False,False,6847,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Ralstonia insidiosa,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Roseomonas gilardii,False,False,1013,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Rothia aeria,False,False,863,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Rothia dentocariosa,False,False,4003,3,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Rothia kristinae,False,False,4825,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Rothia mucilaginosa,True,True,13506,10,True,1,Retained submitted baseline
+Ruminococcus bicirculans,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Ruminococcus sp. FMBCY1,False,False,1234,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Salmonella enterica,False,False,85331,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Schaalia odontolytica,False,False,9426,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Schaalia radingae,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Selenomonas sputigena,False,False,700,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Simiaoa sunii,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Singulisphaera acidiphila,False,False,190,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Skermanella pratensis,False,False,404,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Skermanella sp. TT6,False,False,1821,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Sneathia vaginalis,True,True,4169932,43,True,10,Retained submitted baseline
+Sphingomonas insulae,False,False,1032,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Spirosoma sp. KCTC 42546,False,False,2556,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Staphylococcus aureus,True,True,198644,9,True,2,Retained submitted baseline
+Staphylococcus capitis,False,False,641,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Staphylococcus caprae,False,False,200,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Staphylococcus epidermidis,False,False,16032,3,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Staphylococcus hominis,True,True,160228,38,True,8,Retained submitted baseline
+Staphylococcus lugdunensis,False,False,259,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Staphylococcus pasteuri,False,False,57280,4,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Staphylococcus ureilyticus,False,False,2997,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Staphylococcus warneri,False,False,5985,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Streptobacillus moniliformis,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Streptococcus agalactiae,False,False,28091,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Streptococcus cristatus,False,False,42459,5,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Streptococcus gordonii,False,False,43153,3,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Streptococcus infantis,False,False,2701,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Streptococcus mitis,False,False,238680,7,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Streptococcus oralis,False,False,47516,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Streptococcus parasanguinis,False,False,43396,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Streptococcus parauberis,False,False,19893,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Streptococcus pneumoniae,True,False,1472470,6,True,2,Historical manual exclusion; contaminant status not established
+Streptococcus pyogenes,False,False,96906,18,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Streptococcus salivarius,True,True,47789,7,True,1,Retained submitted baseline
+Streptococcus sanguinis,True,True,117754,10,True,2,Retained submitted baseline
+Streptococcus sp. KS 6,False,False,7213,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Streptococcus sp. LPBna22na,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Streptococcus sp. oral taxon na61,False,False,2712,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Streptococcus suis,False,False,4337,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Streptococcus thermophilus,True,True,234861,37,True,8,Retained submitted baseline
+Sulfuritalea hydrogenivorans,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Sutterella megalosphaeroides,False,False,1860,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Tannerella serpentiformis,False,False,2024,2,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Taylorella equigenitalis,False,False,191114,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Truepera radiovictrix,False,False,369,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Ureaplasma parvum,False,False,123,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Ureaplasma urealyticum,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Veillonella atypica,False,False,820,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Veillonella parvula,False,False,16947,5,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Veillonella rogosae,False,False,61449,6,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Vescimonas fastidiosa,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Vibrio cholerae,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Weeksella virosa,False,False,915,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Weissella cibaria,False,False,782,1,False,0,Below reconstructed analytical selection rule; contaminant status not established
+Weissella viridescens,False,False,0,0,False,0,Below reconstructed analytical selection rule; contaminant status not established

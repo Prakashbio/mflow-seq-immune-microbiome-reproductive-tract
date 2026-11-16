@@ -1,0 +1,597 @@
+"SourceCode","Participant","Location","Fraction","Storage","metric","value"
+"104CA",104,"Cervix","IgA","Frozen","Shannon H",1.09146694884062
+"104CG",104,"Cervix","IgG","Frozen","Shannon H",1.77107989955869
+"104CM",104,"Cervix","IgM","Frozen","Shannon H",1.22421880388324
+"104CP",104,"Cervix","PRE","Frozen","Shannon H",0.989174920815064
+"104EA",104,"Endometrium","IgA","Frozen","Shannon H",0.626209203936163
+"104EG",104,"Endometrium","IgG","Frozen","Shannon H",0.886556102973145
+"104EM",104,"Endometrium","IgM","Frozen","Shannon H",0.623149759929193
+"104VA",104,"Vagina","IgA","Frozen","Shannon H",1.61507350279346
+"104VG",104,"Vagina","IgG","Frozen","Shannon H",1.02703336477466
+"104VM",104,"Vagina","IgM","Frozen","Shannon H",1.65377739822823
+"104VP",104,"Vagina","PRE","Frozen","Shannon H",1.22013000794257
+"77EA",77,"Endometrium","IgA","Frozen","Shannon H",0.950948504435114
+"77EG",77,"Endometrium","IgG","Frozen","Shannon H",0.726719421964723
+"77EM",77,"Endometrium","IgM","Frozen","Shannon H",0.738169074373403
+"77EP",77,"Endometrium","PRE","Frozen","Shannon H",0.827515740628093
+"77VA",77,"Vagina","IgA","Frozen","Shannon H",1.44343017193139
+"77VG",77,"Vagina","IgG","Frozen","Shannon H",1.18378677335372
+"77VM",77,"Vagina","IgM","Frozen","Shannon H",1.75102299402361
+"77VP",77,"Vagina","PRE","Frozen","Shannon H",0.551831642450489
+"78EA2",78,"Endometrium","IgA","Frozen","Shannon H",0.961374919072062
+"78EG2",78,"Endometrium","IgG","Frozen","Shannon H",1.37310044159107
+"78EM2",78,"Endometrium","IgM","Frozen","Shannon H",0.950699335980153
+"78EP",78,"Endometrium","PRE","Frozen","Shannon H",0.620750452165413
+"78VA2",78,"Vagina","IgA","Frozen","Shannon H",1.21328747920978
+"78VG2",78,"Vagina","IgG","Frozen","Shannon H",1.33797498744416
+"78VM2",78,"Vagina","IgM","Frozen","Shannon H",1.49537299350442
+"78VP2",78,"Vagina","PRE","Frozen","Shannon H",1.90211322398948
+"79EA",79,"Endometrium","IgA","Frozen","Shannon H",1.40690688654355
+"79EG",79,"Endometrium","IgG","Frozen","Shannon H",1.27612159569566
+"79EM",79,"Endometrium","IgM","Frozen","Shannon H",1.85323429435243
+"79EP",79,"Endometrium","PRE","Frozen","Shannon H",1.5939614545541
+"79VA",79,"Vagina","IgA","Frozen","Shannon H",1.65021417258157
+"79VG",79,"Vagina","IgG","Frozen","Shannon H",1.51233596561292
+"79VM",79,"Vagina","IgM","Frozen","Shannon H",1.76125807031814
+"79VP",79,"Vagina","PRE","Frozen","Shannon H",1.5801853785316
+"80EG2",80,"Endometrium","IgG","Frozen","Shannon H",1.09929857660506
+"80EM2",80,"Endometrium","IgM","Frozen","Shannon H",0.619976352545913
+"80EP2",80,"Endometrium","PRE","Frozen","Shannon H",0.809496121456204
+"80VA2",80,"Vagina","IgA","Frozen","Shannon H",0.322065499268028
+"80VG2",80,"Vagina","IgG","Frozen","Shannon H",0.583046292341311
+"80VM2",80,"Vagina","IgM","Frozen","Shannon H",0.584925858519029
+"80VP2",80,"Vagina","PRE","Frozen","Shannon H",0.428081879031095
+"81EA",81,"Endometrium","IgA","Frozen","Shannon H",0.464237121573606
+"81EG",81,"Endometrium","IgG","Frozen","Shannon H",1.55831297381876
+"81EM",81,"Endometrium","IgM","Frozen","Shannon H",0.453605807488956
+"81EP",81,"Endometrium","PRE","Frozen","Shannon H",1.03571270906132
+"81VA",81,"Vagina","IgA","Frozen","Shannon H",0.722049268600395
+"81VG",81,"Vagina","IgG","Frozen","Shannon H",0.441896239766263
+"81VM",81,"Vagina","IgM","Frozen","Shannon H",0.941222224768731
+"81VP",81,"Vagina","PRE","Frozen","Shannon H",0.770502067696049
+"90CA.2",90,"Cervix","IgA","Fresh","Shannon H",0.981250282674368
+"90CG.2",90,"Cervix","IgG","Fresh","Shannon H",0.658380322193557
+"90CM.2",90,"Cervix","IgM","Fresh","Shannon H",0.568077141851488
+"90EA.2",90,"Endometrium","IgA","Fresh","Shannon H",1.3954316601027
+"90EG.2",90,"Endometrium","IgG","Fresh","Shannon H",0.568550082569039
+"90EM.2",90,"Endometrium","IgM","Fresh","Shannon H",0.242385117332842
+"90EP.2",90,"Endometrium","PRE","Fresh","Shannon H",0.769427542655115
+"90VA.2",90,"Vagina","IgA","Fresh","Shannon H",0.262091375305776
+"90VG.2",90,"Vagina","IgG","Fresh","Shannon H",1.54682999868559
+"90VM.2",90,"Vagina","IgM","Fresh","Shannon H",1.43776928893686
+"90VP.2",90,"Vagina","PRE","Fresh","Shannon H",0.167717374056432
+"91EA",91,"Endometrium","IgA","Frozen","Shannon H",0.586906344411526
+"91EG",91,"Endometrium","IgG","Frozen","Shannon H",0.611337616840619
+"91EM",91,"Endometrium","IgM","Frozen","Shannon H",0.922326002152678
+"91EP",91,"Endometrium","PRE","Frozen","Shannon H",0.308131657602152
+"91VA",91,"Vagina","IgA","Frozen","Shannon H",0.1582183722883
+"91VG",91,"Vagina","IgG","Frozen","Shannon H",0.489345270114388
+"91VM",91,"Vagina","IgM","Frozen","Shannon H",0.44669890769177
+"91VP",91,"Vagina","PRE","Frozen","Shannon H",0.863306911943226
+"93CA",93,"Cervix","IgA","Fresh","Shannon H",0.137140714427319
+"93CG",93,"Cervix","IgG","Fresh","Shannon H",0.69513824195711
+"93CM",93,"Cervix","IgM","Fresh","Shannon H",0.556223652026216
+"93CP",93,"Cervix","PRE","Fresh","Shannon H",0.235438142435106
+"93EA",93,"Endometrium","IgA","Fresh","Shannon H",0.183805192501768
+"93EG",93,"Endometrium","IgG","Fresh","Shannon H",1.05192757588016
+"93EM",93,"Endometrium","IgM","Fresh","Shannon H",1.27233701984011
+"93EP",93,"Endometrium","PRE","Fresh","Shannon H",0.467437624227985
+"93VA",93,"Vagina","IgA","Fresh","Shannon H",0.18882305498502
+"93VG",93,"Vagina","IgG","Fresh","Shannon H",0.544755258316153
+"93VM",93,"Vagina","IgM","Fresh","Shannon H",0.328155675946573
+"93VP",93,"Vagina","PRE","Fresh","Shannon H",0.20047295481549
+"94CA2",94,"Cervix","IgA","Fresh","Shannon H",1.73322652318817
+"94CG2",94,"Cervix","IgG","Fresh","Shannon H",0.442686715020631
+"94CM2",94,"Cervix","IgM","Fresh","Shannon H",1.22612492981077
+"94CP2",94,"Cervix","PRE","Fresh","Shannon H",1.21483154302847
+"94EA2",94,"Endometrium","IgA","Fresh","Shannon H",0.053406181224053
+"94EG2",94,"Endometrium","IgG","Fresh","Shannon H",0.751883516798549
+"94EM2",94,"Endometrium","IgM","Fresh","Shannon H",1.22193164848263
+"94EP2",94,"Endometrium","PRE","Fresh","Shannon H",1.05098590484867
+"94VA2",94,"Vagina","IgA","Fresh","Shannon H",1.15540133531668
+"94VG2",94,"Vagina","IgG","Fresh","Shannon H",0.555879337148765
+"94VM2",94,"Vagina","IgM","Fresh","Shannon H",1.49290809584079
+"94VP2",94,"Vagina","PRE","Fresh","Shannon H",1.22553767158533
+"95CA",95,"Cervix","IgA","Frozen","Shannon H",0.0326988217955141
+"95CG",95,"Cervix","IgG","Frozen","Shannon H",0
+"95CM",95,"Cervix","IgM","Frozen","Shannon H",0.124123201181076
+"95CP",95,"Cervix","PRE","Frozen","Shannon H",0.0495855078277743
+"95EA",95,"Endometrium","IgA","Frozen","Shannon H",0.433703248047334
+"95EM",95,"Endometrium","IgM","Frozen","Shannon H",0.322848142985402
+"95VA",95,"Vagina","IgA","Frozen","Shannon H",0.11172286652705
+"95VG",95,"Vagina","IgG","Frozen","Shannon H",0.402430236804924
+"95VM",95,"Vagina","IgM","Frozen","Shannon H",0.116492055382188
+"95VP",95,"Vagina","PRE","Frozen","Shannon H",0.125421936884258
+"96CA",96,"Cervix","IgA","Fresh","Shannon H",1.70309838486804
+"96CM",96,"Cervix","IgM","Fresh","Shannon H",0
+"96CP",96,"Cervix","PRE","Fresh","Shannon H",0.0541905275796166
+"96EA",96,"Endometrium","IgA","Fresh","Shannon H",0
+"96EP",96,"Endometrium","PRE","Fresh","Shannon H",1.00112194347393
+"96VA",96,"Vagina","IgA","Fresh","Shannon H",0.46686187281376
+"96VM",96,"Vagina","IgM","Fresh","Shannon H",0.93296600518599
+"96VP",96,"Vagina","PRE","Fresh","Shannon H",0.034189789666355
+"97CA",97,"Cervix","IgA","Fresh","Shannon H",0.633409120345688
+"97CG",97,"Cervix","IgG","Fresh","Shannon H",1.06727929190092
+"97CM",97,"Cervix","IgM","Fresh","Shannon H",0
+"97CP",97,"Cervix","PRE","Fresh","Shannon H",0.312742491469262
+"97EG",97,"Endometrium","IgG","Fresh","Shannon H",1.13988751141221
+"97EM",97,"Endometrium","IgM","Fresh","Shannon H",1.74885935745215
+"97EP",97,"Endometrium","PRE","Fresh","Shannon H",0.90627125829754
+"97VA",97,"Vagina","IgA","Fresh","Shannon H",0.598665784265724
+"97VG",97,"Vagina","IgG","Fresh","Shannon H",0.905648325118389
+"97VM",97,"Vagina","IgM","Fresh","Shannon H",0
+"97VP",97,"Vagina","PRE","Fresh","Shannon H",0.3736875717476
+"98CA",98,"Cervix","IgA","Fresh","Shannon H",0
+"98CG",98,"Cervix","IgG","Fresh","Shannon H",0.867836852090413
+"98CM",98,"Cervix","IgM","Fresh","Shannon H",0.96534658059881
+"98CP",98,"Cervix","PRE","Fresh","Shannon H",0.517690790561984
+"98EA",98,"Endometrium","IgA","Fresh","Shannon H",1.0893678621551
+"98EM",98,"Endometrium","IgM","Fresh","Shannon H",0.71094887231822
+"98EP",98,"Endometrium","PRE","Fresh","Shannon H",1.71344694805341
+"98VA",98,"Vagina","IgA","Fresh","Shannon H",1.3638812734506
+"98VG",98,"Vagina","IgG","Fresh","Shannon H",1.20593527146521
+"98VM",98,"Vagina","IgM","Fresh","Shannon H",1.37866002769594
+"98VP",98,"Vagina","PRE","Fresh","Shannon H",0.282758970902859
+"99CA2",99,"Cervix","IgA","Fresh","Shannon H",0.773403911818858
+"99CG2",99,"Cervix","IgG","Fresh","Shannon H",1.78531804991892
+"99CM2",99,"Cervix","IgM","Fresh","Shannon H",1.56705953642235
+"99CP2",99,"Cervix","PRE","Fresh","Shannon H",1.59532815784203
+"99EA",99,"Endometrium","IgA","Frozen","Shannon H",0.523593291451297
+"99EA2",99,"Endometrium","IgA","Fresh","Shannon H",1.26578314845447
+"99EG",99,"Endometrium","IgG","Frozen","Shannon H",0.813519677111125
+"99EG2",99,"Endometrium","IgG","Fresh","Shannon H",2.21497888841785
+"99EM",99,"Endometrium","IgM","Frozen","Shannon H",0.265182671448712
+"99EM2",99,"Endometrium","IgM","Fresh","Shannon H",1.04548037494391
+"99EP",99,"Endometrium","PRE","Frozen","Shannon H",1.58086897398367
+"99EP2",99,"Endometrium","PRE","Fresh","Shannon H",1.83653800904012
+"99VA2",99,"Vagina","IgA","Fresh","Shannon H",1.33842429413484
+"99VG2",99,"Vagina","IgG","Fresh","Shannon H",1.55222844803698
+"99VM2",99,"Vagina","IgM","Fresh","Shannon H",1.81391262254066
+"99VP2",99,"Vagina","PRE","Fresh","Shannon H",1.42258906746252
+"104CA",104,"Cervix","IgA","Frozen","Simpson (1-D)",0.468271052455644
+"104CG",104,"Cervix","IgG","Frozen","Simpson (1-D)",0.772672793199576
+"104CM",104,"Cervix","IgM","Frozen","Simpson (1-D)",0.571050615362456
+"104CP",104,"Cervix","PRE","Frozen","Simpson (1-D)",0.503481002647396
+"104EA",104,"Endometrium","IgA","Frozen","Simpson (1-D)",0.244421067313058
+"104EG",104,"Endometrium","IgG","Frozen","Simpson (1-D)",0.386023479559573
+"104EM",104,"Endometrium","IgM","Frozen","Simpson (1-D)",0.258273888117443
+"104VA",104,"Vagina","IgA","Frozen","Simpson (1-D)",0.734596967028982
+"104VG",104,"Vagina","IgG","Frozen","Simpson (1-D)",0.475267482201379
+"104VM",104,"Vagina","IgM","Frozen","Simpson (1-D)",0.733809974981325
+"104VP",104,"Vagina","PRE","Frozen","Simpson (1-D)",0.595699122098241
+"77EA",77,"Endometrium","IgA","Frozen","Simpson (1-D)",0.576830590044792
+"77EG",77,"Endometrium","IgG","Frozen","Simpson (1-D)",0.394224251941505
+"77EM",77,"Endometrium","IgM","Frozen","Simpson (1-D)",0.410928627003247
+"77EP",77,"Endometrium","PRE","Frozen","Simpson (1-D)",0.409014549814569
+"77VA",77,"Vagina","IgA","Frozen","Simpson (1-D)",0.653662042440019
+"77VG",77,"Vagina","IgG","Frozen","Simpson (1-D)",0.578019103447411
+"77VM",77,"Vagina","IgM","Frozen","Simpson (1-D)",0.739264800208245
+"77VP",77,"Vagina","PRE","Frozen","Simpson (1-D)",0.27733779187283
+"78EA2",78,"Endometrium","IgA","Frozen","Simpson (1-D)",0.484101964274177
+"78EG2",78,"Endometrium","IgG","Frozen","Simpson (1-D)",0.591318295522115
+"78EM2",78,"Endometrium","IgM","Frozen","Simpson (1-D)",0.421863923266602
+"78EP",78,"Endometrium","PRE","Frozen","Simpson (1-D)",0.339509562444989
+"78VA2",78,"Vagina","IgA","Frozen","Simpson (1-D)",0.670694499740759
+"78VG2",78,"Vagina","IgG","Frozen","Simpson (1-D)",0.706889672919059
+"78VM2",78,"Vagina","IgM","Frozen","Simpson (1-D)",0.73699798696045
+"78VP2",78,"Vagina","PRE","Frozen","Simpson (1-D)",0.821148109922613
+"79EA",79,"Endometrium","IgA","Frozen","Simpson (1-D)",0.706395200763452
+"79EG",79,"Endometrium","IgG","Frozen","Simpson (1-D)",0.627792207856388
+"79EM",79,"Endometrium","IgM","Frozen","Simpson (1-D)",0.806906109657504
+"79EP",79,"Endometrium","PRE","Frozen","Simpson (1-D)",0.751003766078792
+"79VA",79,"Vagina","IgA","Frozen","Simpson (1-D)",0.739591986094512
+"79VG",79,"Vagina","IgG","Frozen","Simpson (1-D)",0.67151499982158
+"79VM",79,"Vagina","IgM","Frozen","Simpson (1-D)",0.780673796728013
+"79VP",79,"Vagina","PRE","Frozen","Simpson (1-D)",0.749496373045758
+"80EG2",80,"Endometrium","IgG","Frozen","Simpson (1-D)",0.512646463948131
+"80EM2",80,"Endometrium","IgM","Frozen","Simpson (1-D)",0.326372679339245
+"80EP2",80,"Endometrium","PRE","Frozen","Simpson (1-D)",0.314644967747079
+"80VA2",80,"Vagina","IgA","Frozen","Simpson (1-D)",0.154818001219415
+"80VG2",80,"Vagina","IgG","Frozen","Simpson (1-D)",0.322172335645379
+"80VM2",80,"Vagina","IgM","Frozen","Simpson (1-D)",0.32398648761753
+"80VP2",80,"Vagina","PRE","Frozen","Simpson (1-D)",0.22917160414244
+"81EA",81,"Endometrium","IgA","Frozen","Simpson (1-D)",0.228390977824495
+"81EG",81,"Endometrium","IgG","Frozen","Simpson (1-D)",0.740440888590677
+"81EM",81,"Endometrium","IgM","Frozen","Simpson (1-D)",0.214498420572518
+"81EP",81,"Endometrium","PRE","Frozen","Simpson (1-D)",0.549581576116398
+"81VA",81,"Vagina","IgA","Frozen","Simpson (1-D)",0.446239064874814
+"81VG",81,"Vagina","IgG","Frozen","Simpson (1-D)",0.215507835746876
+"81VM",81,"Vagina","IgM","Frozen","Simpson (1-D)",0.537705112222307
+"81VP",81,"Vagina","PRE","Frozen","Simpson (1-D)",0.510241093118157
+"90CA.2",90,"Cervix","IgA","Fresh","Simpson (1-D)",0.491260844940633
+"90CG.2",90,"Cervix","IgG","Fresh","Simpson (1-D)",0.465637960551698
+"90CM.2",90,"Cervix","IgM","Fresh","Simpson (1-D)",0.262437144186756
+"90EA.2",90,"Endometrium","IgA","Fresh","Simpson (1-D)",0.659168316074518
+"90EG.2",90,"Endometrium","IgG","Fresh","Simpson (1-D)",0.38067074015789
+"90EM.2",90,"Endometrium","IgM","Fresh","Simpson (1-D)",0.0913622742457214
+"90EP.2",90,"Endometrium","PRE","Fresh","Simpson (1-D)",0.330437133426346
+"90VA.2",90,"Vagina","IgA","Fresh","Simpson (1-D)",0.0962973063339686
+"90VG.2",90,"Vagina","IgG","Fresh","Simpson (1-D)",0.697377344260322
+"90VM.2",90,"Vagina","IgM","Fresh","Simpson (1-D)",0.685636785342281
+"90VP.2",90,"Vagina","PRE","Fresh","Simpson (1-D)",0.0606207508153523
+"91EA",91,"Endometrium","IgA","Frozen","Simpson (1-D)",0.248644545957118
+"91EG",91,"Endometrium","IgG","Frozen","Simpson (1-D)",0.237185460787999
+"91EM",91,"Endometrium","IgM","Frozen","Simpson (1-D)",0.482169472772959
+"91EP",91,"Endometrium","PRE","Frozen","Simpson (1-D)",0.161993626777936
+"91VA",91,"Vagina","IgA","Frozen","Simpson (1-D)",0.0616549724643084
+"91VG",91,"Vagina","IgG","Frozen","Simpson (1-D)",0.279848929101998
+"91VM",91,"Vagina","IgM","Frozen","Simpson (1-D)",0.234931347475824
+"91VP",91,"Vagina","PRE","Frozen","Simpson (1-D)",0.469833997429518
+"93CA",93,"Cervix","IgA","Fresh","Simpson (1-D)",0.0480042482559797
+"93CG",93,"Cervix","IgG","Fresh","Simpson (1-D)",0.307657029019773
+"93CM",93,"Cervix","IgM","Fresh","Simpson (1-D)",0.236231474251397
+"93CP",93,"Cervix","PRE","Fresh","Simpson (1-D)",0.0851705858820374
+"93EA",93,"Endometrium","IgA","Fresh","Simpson (1-D)",0.0718838301026483
+"93EG",93,"Endometrium","IgG","Fresh","Simpson (1-D)",0.565574872630824
+"93EM",93,"Endometrium","IgM","Fresh","Simpson (1-D)",0.65038242357482
+"93EP",93,"Endometrium","PRE","Fresh","Simpson (1-D)",0.191055934471646
+"93VA",93,"Vagina","IgA","Fresh","Simpson (1-D)",0.0716673800286746
+"93VG",93,"Vagina","IgG","Fresh","Simpson (1-D)",0.264501032504144
+"93VM",93,"Vagina","IgM","Fresh","Simpson (1-D)",0.114726387378779
+"93VP",93,"Vagina","PRE","Fresh","Simpson (1-D)",0.0748986754888084
+"94CA2",94,"Cervix","IgA","Fresh","Simpson (1-D)",0.762691577115322
+"94CG2",94,"Cervix","IgG","Fresh","Simpson (1-D)",0.187736455654034
+"94CM2",94,"Cervix","IgM","Fresh","Simpson (1-D)",0.525528958797723
+"94CP2",94,"Cervix","PRE","Fresh","Simpson (1-D)",0.534451312782988
+"94EA2",94,"Endometrium","IgA","Fresh","Simpson (1-D)",0.0166209839655579
+"94EG2",94,"Endometrium","IgG","Fresh","Simpson (1-D)",0.382825745361284
+"94EM2",94,"Endometrium","IgM","Fresh","Simpson (1-D)",0.659497499441294
+"94EP2",94,"Endometrium","PRE","Fresh","Simpson (1-D)",0.540477895331818
+"94VA2",94,"Vagina","IgA","Fresh","Simpson (1-D)",0.600385806328312
+"94VG2",94,"Vagina","IgG","Fresh","Simpson (1-D)",0.263741194783188
+"94VM2",94,"Vagina","IgM","Fresh","Simpson (1-D)",0.649811013092578
+"94VP2",94,"Vagina","PRE","Fresh","Simpson (1-D)",0.599066656351342
+"95CA",95,"Cervix","IgA","Frozen","Simpson (1-D)",0.00848871087537428
+"95CG",95,"Cervix","IgG","Frozen","Simpson (1-D)",0
+"95CM",95,"Cervix","IgM","Frozen","Simpson (1-D)",0.0432489156444326
+"95CP",95,"Cervix","PRE","Frozen","Simpson (1-D)",0.0167107457928769
+"95EA",95,"Endometrium","IgA","Frozen","Simpson (1-D)",0.153604804384335
+"95EM",95,"Endometrium","IgM","Frozen","Simpson (1-D)",0.113083919540285
+"95VA",95,"Vagina","IgA","Frozen","Simpson (1-D)",0.0460788937535253
+"95VG",95,"Vagina","IgG","Frozen","Simpson (1-D)",0.233678268576009
+"95VM",95,"Vagina","IgM","Frozen","Simpson (1-D)",0.0394597829787634
+"95VP",95,"Vagina","PRE","Frozen","Simpson (1-D)",0.0507517059023908
+"96CA",96,"Cervix","IgA","Fresh","Simpson (1-D)",0.754222448924849
+"96CM",96,"Cervix","IgM","Fresh","Simpson (1-D)",0
+"96CP",96,"Cervix","PRE","Fresh","Simpson (1-D)",0.0154101095452661
+"96EA",96,"Endometrium","IgA","Fresh","Simpson (1-D)",0
+"96EP",96,"Endometrium","PRE","Fresh","Simpson (1-D)",0.473943078397161
+"96VA",96,"Vagina","IgA","Fresh","Simpson (1-D)",0.20966771050581
+"96VM",96,"Vagina","IgM","Fresh","Simpson (1-D)",0.553007420929244
+"96VP",96,"Vagina","PRE","Fresh","Simpson (1-D)",0.0098500381263672
+"97CA",97,"Cervix","IgA","Fresh","Simpson (1-D)",0.339524829073373
+"97CG",97,"Cervix","IgG","Fresh","Simpson (1-D)",0.499679166503857
+"97CM",97,"Cervix","IgM","Fresh","Simpson (1-D)",0
+"97CP",97,"Cervix","PRE","Fresh","Simpson (1-D)",0.144221981743447
+"97EG",97,"Endometrium","IgG","Fresh","Simpson (1-D)",0.452101073114021
+"97EM",97,"Endometrium","IgM","Fresh","Simpson (1-D)",0.737721100710015
+"97EP",97,"Endometrium","PRE","Fresh","Simpson (1-D)",0.552127187633392
+"97VA",97,"Vagina","IgA","Fresh","Simpson (1-D)",0.335306682555495
+"97VG",97,"Vagina","IgG","Fresh","Simpson (1-D)",0.543614059329002
+"97VM",97,"Vagina","IgM","Fresh","Simpson (1-D)",0
+"97VP",97,"Vagina","PRE","Fresh","Simpson (1-D)",0.179376199599756
+"98CA",98,"Cervix","IgA","Fresh","Simpson (1-D)",0
+"98CG",98,"Cervix","IgG","Fresh","Simpson (1-D)",0.441314460423374
+"98CM",98,"Cervix","IgM","Fresh","Simpson (1-D)",0.566328335105929
+"98CP",98,"Cervix","PRE","Fresh","Simpson (1-D)",0.238836041008742
+"98EA",98,"Endometrium","IgA","Fresh","Simpson (1-D)",0.489495046046982
+"98EM",98,"Endometrium","IgM","Fresh","Simpson (1-D)",0.299086479071592
+"98EP",98,"Endometrium","PRE","Fresh","Simpson (1-D)",0.718477903679821
+"98VA",98,"Vagina","IgA","Fresh","Simpson (1-D)",0.614548443485226
+"98VG",98,"Vagina","IgG","Fresh","Simpson (1-D)",0.613196339890702
+"98VM",98,"Vagina","IgM","Fresh","Simpson (1-D)",0.648681836605743
+"98VP",98,"Vagina","PRE","Fresh","Simpson (1-D)",0.113513875302262
+"99CA2",99,"Cervix","IgA","Fresh","Simpson (1-D)",0.348767822775578
+"99CG2",99,"Cervix","IgG","Fresh","Simpson (1-D)",0.73536149125178
+"99CM2",99,"Cervix","IgM","Fresh","Simpson (1-D)",0.718251324136192
+"99CP2",99,"Cervix","PRE","Fresh","Simpson (1-D)",0.712230164180779
+"99EA",99,"Endometrium","IgA","Frozen","Simpson (1-D)",0.234065249392791
+"99EA2",99,"Endometrium","IgA","Fresh","Simpson (1-D)",0.670328594275052
+"99EG",99,"Endometrium","IgG","Frozen","Simpson (1-D)",0.354883110286697
+"99EG2",99,"Endometrium","IgG","Fresh","Simpson (1-D)",0.870530631783331
+"99EM",99,"Endometrium","IgM","Frozen","Simpson (1-D)",0.0989270011660058
+"99EM2",99,"Endometrium","IgM","Fresh","Simpson (1-D)",0.483093648963836
+"99EP",99,"Endometrium","PRE","Frozen","Simpson (1-D)",0.680318281427449
+"99EP2",99,"Endometrium","PRE","Fresh","Simpson (1-D)",0.785512839093434
+"99VA2",99,"Vagina","IgA","Fresh","Simpson (1-D)",0.62266473618895
+"99VG2",99,"Vagina","IgG","Fresh","Simpson (1-D)",0.709542822549079
+"99VM2",99,"Vagina","IgM","Fresh","Simpson (1-D)",0.755126436644069
+"99VP2",99,"Vagina","PRE","Fresh","Simpson (1-D)",0.656382033842321
+"104CA",104,"Cervix","IgA","Frozen","Retained taxon richness",9
+"104CG",104,"Cervix","IgG","Frozen","Retained taxon richness",14
+"104CM",104,"Cervix","IgM","Frozen","Retained taxon richness",12
+"104CP",104,"Cervix","PRE","Frozen","Retained taxon richness",7
+"104EA",104,"Endometrium","IgA","Frozen","Retained taxon richness",9
+"104EG",104,"Endometrium","IgG","Frozen","Retained taxon richness",9
+"104EM",104,"Endometrium","IgM","Frozen","Retained taxon richness",8
+"104VA",104,"Vagina","IgA","Frozen","Retained taxon richness",12
+"104VG",104,"Vagina","IgG","Frozen","Retained taxon richness",10
+"104VM",104,"Vagina","IgM","Frozen","Retained taxon richness",10
+"104VP",104,"Vagina","PRE","Frozen","Retained taxon richness",8
+"77EA",77,"Endometrium","IgA","Frozen","Retained taxon richness",3
+"77EG",77,"Endometrium","IgG","Frozen","Retained taxon richness",5
+"77EM",77,"Endometrium","IgM","Frozen","Retained taxon richness",4
+"77EP",77,"Endometrium","PRE","Frozen","Retained taxon richness",5
+"77VA",77,"Vagina","IgA","Frozen","Retained taxon richness",9
+"77VG",77,"Vagina","IgG","Frozen","Retained taxon richness",8
+"77VM",77,"Vagina","IgM","Frozen","Retained taxon richness",19
+"77VP",77,"Vagina","PRE","Frozen","Retained taxon richness",9
+"78EA2",78,"Endometrium","IgA","Frozen","Retained taxon richness",6
+"78EG2",78,"Endometrium","IgG","Frozen","Retained taxon richness",9
+"78EM2",78,"Endometrium","IgM","Frozen","Retained taxon richness",7
+"78EP",78,"Endometrium","PRE","Frozen","Retained taxon richness",3
+"78VA2",78,"Vagina","IgA","Frozen","Retained taxon richness",4
+"78VG2",78,"Vagina","IgG","Frozen","Retained taxon richness",6
+"78VM2",78,"Vagina","IgM","Frozen","Retained taxon richness",6
+"78VP2",78,"Vagina","PRE","Frozen","Retained taxon richness",9
+"79EA",79,"Endometrium","IgA","Frozen","Retained taxon richness",6
+"79EG",79,"Endometrium","IgG","Frozen","Retained taxon richness",6
+"79EM",79,"Endometrium","IgM","Frozen","Retained taxon richness",11
+"79EP",79,"Endometrium","PRE","Frozen","Retained taxon richness",9
+"79VA",79,"Vagina","IgA","Frozen","Retained taxon richness",9
+"79VG",79,"Vagina","IgG","Frozen","Retained taxon richness",10
+"79VM",79,"Vagina","IgM","Frozen","Retained taxon richness",10
+"79VP",79,"Vagina","PRE","Frozen","Retained taxon richness",7
+"80EG2",80,"Endometrium","IgG","Frozen","Retained taxon richness",8
+"80EM2",80,"Endometrium","IgM","Frozen","Retained taxon richness",5
+"80EP2",80,"Endometrium","PRE","Frozen","Retained taxon richness",11
+"80VA2",80,"Vagina","IgA","Frozen","Retained taxon richness",6
+"80VG2",80,"Vagina","IgG","Frozen","Retained taxon richness",6
+"80VM2",80,"Vagina","IgM","Frozen","Retained taxon richness",8
+"80VP2",80,"Vagina","PRE","Frozen","Retained taxon richness",4
+"81EA",81,"Endometrium","IgA","Frozen","Retained taxon richness",3
+"81EG",81,"Endometrium","IgG","Frozen","Retained taxon richness",8
+"81EM",81,"Endometrium","IgM","Frozen","Retained taxon richness",4
+"81EP",81,"Endometrium","PRE","Frozen","Retained taxon richness",10
+"81VA",81,"Vagina","IgA","Frozen","Retained taxon richness",12
+"81VG",81,"Vagina","IgG","Frozen","Retained taxon richness",3
+"81VM",81,"Vagina","IgM","Frozen","Retained taxon richness",8
+"81VP",81,"Vagina","PRE","Frozen","Retained taxon richness",9
+"90CA.2",90,"Cervix","IgA","Fresh","Retained taxon richness",6
+"90CG.2",90,"Cervix","IgG","Fresh","Retained taxon richness",2
+"90CM.2",90,"Cervix","IgM","Fresh","Retained taxon richness",4
+"90EA.2",90,"Endometrium","IgA","Fresh","Retained taxon richness",6
+"90EG.2",90,"Endometrium","IgG","Fresh","Retained taxon richness",2
+"90EM.2",90,"Endometrium","IgM","Fresh","Retained taxon richness",6
+"90EP.2",90,"Endometrium","PRE","Fresh","Retained taxon richness",13
+"90VA.2",90,"Vagina","IgA","Fresh","Retained taxon richness",11
+"90VG.2",90,"Vagina","IgG","Fresh","Retained taxon richness",9
+"90VM.2",90,"Vagina","IgM","Fresh","Retained taxon richness",6
+"90VP.2",90,"Vagina","PRE","Fresh","Retained taxon richness",8
+"91EA",91,"Endometrium","IgA","Frozen","Retained taxon richness",9
+"91EG",91,"Endometrium","IgG","Frozen","Retained taxon richness",9
+"91EM",91,"Endometrium","IgM","Frozen","Retained taxon richness",13
+"91EP",91,"Endometrium","PRE","Frozen","Retained taxon richness",6
+"91VA",91,"Vagina","IgA","Frozen","Retained taxon richness",11
+"91VG",91,"Vagina","IgG","Frozen","Retained taxon richness",9
+"91VM",91,"Vagina","IgM","Frozen","Retained taxon richness",13
+"91VP",91,"Vagina","PRE","Frozen","Retained taxon richness",8
+"93CA",93,"Cervix","IgA","Fresh","Retained taxon richness",6
+"93CG",93,"Cervix","IgG","Fresh","Retained taxon richness",7
+"93CM",93,"Cervix","IgM","Fresh","Retained taxon richness",8
+"93CP",93,"Cervix","PRE","Fresh","Retained taxon richness",9
+"93EA",93,"Endometrium","IgA","Fresh","Retained taxon richness",3
+"93EG",93,"Endometrium","IgG","Fresh","Retained taxon richness",5
+"93EM",93,"Endometrium","IgM","Fresh","Retained taxon richness",7
+"93EP",93,"Endometrium","PRE","Fresh","Retained taxon richness",13
+"93VA",93,"Vagina","IgA","Fresh","Retained taxon richness",7
+"93VG",93,"Vagina","IgG","Fresh","Retained taxon richness",10
+"93VM",93,"Vagina","IgM","Fresh","Retained taxon richness",14
+"93VP",93,"Vagina","PRE","Fresh","Retained taxon richness",6
+"94CA2",94,"Cervix","IgA","Fresh","Retained taxon richness",10
+"94CG2",94,"Cervix","IgG","Fresh","Retained taxon richness",5
+"94CM2",94,"Cervix","IgM","Fresh","Retained taxon richness",11
+"94CP2",94,"Cervix","PRE","Fresh","Retained taxon richness",9
+"94EA2",94,"Endometrium","IgA","Fresh","Retained taxon richness",3
+"94EG2",94,"Endometrium","IgG","Fresh","Retained taxon richness",5
+"94EM2",94,"Endometrium","IgM","Fresh","Retained taxon richness",7
+"94EP2",94,"Endometrium","PRE","Fresh","Retained taxon richness",7
+"94VA2",94,"Vagina","IgA","Fresh","Retained taxon richness",9
+"94VG2",94,"Vagina","IgG","Fresh","Retained taxon richness",6
+"94VM2",94,"Vagina","IgM","Fresh","Retained taxon richness",11
+"94VP2",94,"Vagina","PRE","Fresh","Retained taxon richness",9
+"95CA",95,"Cervix","IgA","Frozen","Retained taxon richness",7
+"95CG",95,"Cervix","IgG","Frozen","Retained taxon richness",1
+"95CM",95,"Cervix","IgM","Frozen","Retained taxon richness",6
+"95CP",95,"Cervix","PRE","Frozen","Retained taxon richness",3
+"95EA",95,"Endometrium","IgA","Frozen","Retained taxon richness",10
+"95EM",95,"Endometrium","IgM","Frozen","Retained taxon richness",8
+"95VA",95,"Vagina","IgA","Frozen","Retained taxon richness",2
+"95VG",95,"Vagina","IgG","Frozen","Retained taxon richness",3
+"95VM",95,"Vagina","IgM","Frozen","Retained taxon richness",7
+"95VP",95,"Vagina","PRE","Frozen","Retained taxon richness",4
+"96CA",96,"Cervix","IgA","Fresh","Retained taxon richness",9
+"96CM",96,"Cervix","IgM","Fresh","Retained taxon richness",1
+"96CP",96,"Cervix","PRE","Fresh","Retained taxon richness",7
+"96EA",96,"Endometrium","IgA","Fresh","Retained taxon richness",1
+"96EP",96,"Endometrium","PRE","Fresh","Retained taxon richness",6
+"96VA",96,"Vagina","IgA","Fresh","Retained taxon richness",5
+"96VM",96,"Vagina","IgM","Fresh","Retained taxon richness",5
+"96VP",96,"Vagina","PRE","Fresh","Retained taxon richness",4
+"97CA",97,"Cervix","IgA","Fresh","Retained taxon richness",7
+"97CG",97,"Cervix","IgG","Fresh","Retained taxon richness",10
+"97CM",97,"Cervix","IgM","Fresh","Retained taxon richness",1
+"97CP",97,"Cervix","PRE","Fresh","Retained taxon richness",3
+"97EG",97,"Endometrium","IgG","Fresh","Retained taxon richness",10
+"97EM",97,"Endometrium","IgM","Fresh","Retained taxon richness",11
+"97EP",97,"Endometrium","PRE","Fresh","Retained taxon richness",4
+"97VA",97,"Vagina","IgA","Fresh","Retained taxon richness",5
+"97VG",97,"Vagina","IgG","Fresh","Retained taxon richness",6
+"97VM",97,"Vagina","IgM","Fresh","Retained taxon richness",1
+"97VP",97,"Vagina","PRE","Fresh","Retained taxon richness",4
+"98CA",98,"Cervix","IgA","Fresh","Retained taxon richness",1
+"98CG",98,"Cervix","IgG","Fresh","Retained taxon richness",4
+"98CM",98,"Cervix","IgM","Fresh","Retained taxon richness",5
+"98CP",98,"Cervix","PRE","Fresh","Retained taxon richness",5
+"98EA",98,"Endometrium","IgA","Fresh","Retained taxon richness",7
+"98EM",98,"Endometrium","IgM","Fresh","Retained taxon richness",6
+"98EP",98,"Endometrium","PRE","Fresh","Retained taxon richness",11
+"98VA",98,"Vagina","IgA","Fresh","Retained taxon richness",10
+"98VG",98,"Vagina","IgG","Fresh","Retained taxon richness",5
+"98VM",98,"Vagina","IgM","Fresh","Retained taxon richness",10
+"98VP",98,"Vagina","PRE","Fresh","Retained taxon richness",7
+"99CA2",99,"Cervix","IgA","Fresh","Retained taxon richness",5
+"99CG2",99,"Cervix","IgG","Fresh","Retained taxon richness",15
+"99CM2",99,"Cervix","IgM","Fresh","Retained taxon richness",13
+"99CP2",99,"Cervix","PRE","Fresh","Retained taxon richness",12
+"99EA",99,"Endometrium","IgA","Frozen","Retained taxon richness",6
+"99EA2",99,"Endometrium","IgA","Fresh","Retained taxon richness",6
+"99EG",99,"Endometrium","IgG","Frozen","Retained taxon richness",10
+"99EG2",99,"Endometrium","IgG","Fresh","Retained taxon richness",13
+"99EM",99,"Endometrium","IgM","Frozen","Retained taxon richness",6
+"99EM2",99,"Endometrium","IgM","Fresh","Retained taxon richness",7
+"99EP",99,"Endometrium","PRE","Frozen","Retained taxon richness",16
+"99EP2",99,"Endometrium","PRE","Fresh","Retained taxon richness",18
+"99VA2",99,"Vagina","IgA","Fresh","Retained taxon richness",9
+"99VG2",99,"Vagina","IgG","Fresh","Retained taxon richness",13
+"99VM2",99,"Vagina","IgM","Fresh","Retained taxon richness",14
+"99VP2",99,"Vagina","PRE","Fresh","Retained taxon richness",12
+"104CA",104,"Cervix","IgA","Frozen","Pielou evenness",0.496748015700719
+"104CG",104,"Cervix","IgG","Frozen","Pielou evenness",0.671103230567899
+"104CM",104,"Cervix","IgM","Frozen","Pielou evenness",0.492661888923547
+"104CP",104,"Cervix","PRE","Frozen","Pielou evenness",0.508335352120591
+"104EA",104,"Endometrium","IgA","Frozen","Pielou evenness",0.28500009074873
+"104EG",104,"Endometrium","IgG","Frozen","Pielou evenness",0.403489070765789
+"104EM",104,"Endometrium","IgM","Frozen","Pielou evenness",0.299671689460332
+"104VA",104,"Vagina","IgA","Frozen","Pielou evenness",0.649953390776772
+"104VG",104,"Vagina","IgG","Frozen","Pielou evenness",0.446034923052166
+"104VM",104,"Vagina","IgM","Frozen","Pielou evenness",0.718226398346835
+"104VP",104,"Vagina","PRE","Frozen","Pielou evenness",0.586758503899518
+"77EA",77,"Endometrium","IgA","Frozen","Pielou evenness",0.865590631238966
+"77EG",77,"Endometrium","IgG","Frozen","Pielou evenness",0.45153616448965
+"77EM",77,"Endometrium","IgM","Frozen","Pielou evenness",0.532476431468053
+"77EP",77,"Endometrium","PRE","Frozen","Pielou evenness",0.514164438550205
+"77VA",77,"Vagina","IgA","Frozen","Pielou evenness",0.656933381694338
+"77VG",77,"Vagina","IgG","Frozen","Pielou evenness",0.569281102462455
+"77VM",77,"Vagina","IgM","Frozen","Pielou evenness",0.594688158393869
+"77VP",77,"Vagina","PRE","Frozen","Pielou evenness",0.251149403726175
+"78EA2",78,"Endometrium","IgA","Frozen","Pielou evenness",0.536553558433963
+"78EG2",78,"Endometrium","IgG","Frozen","Pielou evenness",0.624924942017412
+"78EM2",78,"Endometrium","IgM","Frozen","Pielou evenness",0.488562812852223
+"78EP",78,"Endometrium","PRE","Frozen","Pielou evenness",0.565031411507306
+"78VA2",78,"Vagina","IgA","Frozen","Pielou evenness",0.87520191471431
+"78VG2",78,"Vagina","IgG","Frozen","Pielou evenness",0.746738058552355
+"78VM2",78,"Vagina","IgM","Frozen","Pielou evenness",0.834583558332568
+"78VP2",78,"Vagina","PRE","Frozen","Pielou evenness",0.865689034980431
+"79EA",79,"Endometrium","IgA","Frozen","Pielou evenness",0.785209683948083
+"79EG",79,"Endometrium","IgG","Frozen","Pielou evenness",0.712217023329282
+"79EM",79,"Endometrium","IgM","Frozen","Pielou evenness",0.772858729643218
+"79EP",79,"Endometrium","PRE","Frozen","Pielou evenness",0.725443120833159
+"79VA",79,"Vagina","IgA","Frozen","Pielou evenness",0.751044836109649
+"79VG",79,"Vagina","IgG","Frozen","Pielou evenness",0.656799164649516
+"79VM",79,"Vagina","IgM","Frozen","Pielou evenness",0.764904661146736
+"79VP",79,"Vagina","PRE","Frozen","Pielou evenness",0.812054646664308
+"80EG2",80,"Endometrium","IgG","Frozen","Pielou evenness",0.528650868308139
+"80EM2",80,"Endometrium","IgM","Frozen","Pielou evenness",0.385212966437622
+"80EP2",80,"Endometrium","PRE","Frozen","Pielou evenness",0.337586103379533
+"80VA2",80,"Vagina","IgA","Frozen","Pielou evenness",0.17974817758702
+"80VG2",80,"Vagina","IgG","Frozen","Pielou evenness",0.325404331526991
+"80VM2",80,"Vagina","IgM","Frozen","Pielou evenness",0.281289878457707
+"80VP2",80,"Vagina","PRE","Frozen","Pielou evenness",0.308795801986295
+"81EA",81,"Endometrium","IgA","Frozen","Pielou evenness",0.422566838512628
+"81EG",81,"Endometrium","IgG","Frozen","Pielou evenness",0.749390133160418
+"81EM",81,"Endometrium","IgM","Frozen","Pielou evenness",0.327207424491376
+"81EP",81,"Endometrium","PRE","Frozen","Pielou evenness",0.449804314382398
+"81VA",81,"Vagina","IgA","Frozen","Pielou evenness",0.290574001507057
+"81VG",81,"Vagina","IgG","Frozen","Pielou evenness",0.402231291534151
+"81VM",81,"Vagina","IgM","Frozen","Pielou evenness",0.452632212016108
+"81VP",81,"Vagina","PRE","Frozen","Pielou evenness",0.350670603107015
+"90CA.2",90,"Cervix","IgA","Fresh","Pielou evenness",0.54764621006698
+"90CG.2",90,"Cervix","IgG","Fresh","Pielou evenness",0.949842025847523
+"90CM.2",90,"Cervix","IgM","Fresh","Pielou evenness",0.409781037695759
+"90EA.2",90,"Endometrium","IgA","Fresh","Pielou evenness",0.778805238129363
+"90EG.2",90,"Endometrium","IgG","Fresh","Pielou evenness",0.820244384619363
+"90EM.2",90,"Endometrium","IgM","Fresh","Pielou evenness",0.13527770970133
+"90EP.2",90,"Endometrium","PRE","Fresh","Pielou evenness",0.299977674185582
+"90VA.2",90,"Vagina","IgA","Fresh","Pielou evenness",0.109300593015437
+"90VG.2",90,"Vagina","IgG","Fresh","Pielou evenness",0.703992670863381
+"90VM.2",90,"Vagina","IgM","Fresh","Pielou evenness",0.802434318684691
+"90VP.2",90,"Vagina","PRE","Fresh","Pielou evenness",0.0806550079407114
+"91EA",91,"Endometrium","IgA","Frozen","Pielou evenness",0.267112588519766
+"91EG",91,"Endometrium","IgG","Frozen","Pielou evenness",0.278231739780449
+"91EM",91,"Endometrium","IgM","Frozen","Pielou evenness",0.359588386986899
+"91EP",91,"Endometrium","PRE","Frozen","Pielou evenness",0.171971552484611
+"91VA",91,"Vagina","IgA","Frozen","Pielou evenness",0.0659821861626414
+"91VG",91,"Vagina","IgG","Frozen","Pielou evenness",0.222710630111211
+"91VM",91,"Vagina","IgM","Frozen","Pielou evenness",0.174155059394177
+"91VP",91,"Vagina","PRE","Frozen","Pielou evenness",0.415162866875219
+"93CA",93,"Cervix","IgA","Fresh","Pielou evenness",0.0765396900547169
+"93CG",93,"Cervix","IgG","Fresh","Pielou evenness",0.357230390259581
+"93CM",93,"Cervix","IgM","Fresh","Pielou evenness",0.267487034801123
+"93CP",93,"Cervix","PRE","Fresh","Pielou evenness",0.107152516344295
+"93EA",93,"Endometrium","IgA","Fresh","Pielou evenness",0.167306696272807
+"93EG",93,"Endometrium","IgG","Fresh","Pielou evenness",0.653599351520953
+"93EM",93,"Endometrium","IgM","Fresh","Pielou evenness",0.653851885431501
+"93EP",93,"Endometrium","PRE","Fresh","Pielou evenness",0.182240488635065
+"93VA",93,"Vagina","IgA","Fresh","Pielou evenness",0.0970358549579942
+"93VG",93,"Vagina","IgG","Fresh","Pielou evenness",0.236584202674486
+"93VM",93,"Vagina","IgM","Fresh","Pielou evenness",0.124345792819292
+"93VP",93,"Vagina","PRE","Fresh","Pielou evenness",0.111886086418653
+"94CA2",94,"Cervix","IgA","Fresh","Pielou evenness",0.752730714908981
+"94CG2",94,"Cervix","IgG","Fresh","Pielou evenness",0.275056721107753
+"94CM2",94,"Cervix","IgM","Fresh","Pielou evenness",0.51133381166387
+"94CP2",94,"Cervix","PRE","Fresh","Pielou evenness",0.552893662104059
+"94EA2",94,"Endometrium","IgA","Fresh","Pielou evenness",0.0486124010944747
+"94EG2",94,"Endometrium","IgG","Fresh","Pielou evenness",0.467171495706477
+"94EM2",94,"Endometrium","IgM","Fresh","Pielou evenness",0.627948648644359
+"94EP2",94,"Endometrium","PRE","Fresh","Pielou evenness",0.540099914355705
+"94VA2",94,"Vagina","IgA","Fresh","Pielou evenness",0.525845808951136
+"94VG2",94,"Vagina","IgG","Fresh","Pielou evenness",0.310242165142989
+"94VM2",94,"Vagina","IgM","Fresh","Pielou evenness",0.622591033385104
+"94VP2",94,"Vagina","PRE","Fresh","Pielou evenness",0.557766231192944
+"95CA",95,"Cervix","IgA","Frozen","Pielou evenness",0.0168038703181586
+"95CG",95,"Cervix","IgG","Frozen","Pielou evenness",NA
+"95CM",95,"Cervix","IgM","Frozen","Pielou evenness",0.0692744775807167
+"95CP",95,"Cervix","PRE","Frozen","Pielou evenness",0.0451346742970523
+"95EA",95,"Endometrium","IgA","Frozen","Pielou evenness",0.188354927410475
+"95EM",95,"Endometrium","IgM","Frozen","Pielou evenness",0.15525713828175
+"95VA",95,"Vagina","IgA","Frozen","Pielou evenness",0.161182025492474
+"95VG",95,"Vagina","IgG","Frozen","Pielou evenness",0.366307787520569
+"95VM",95,"Vagina","IgM","Frozen","Pielou evenness",0.0598650741601515
+"95VP",95,"Vagina","PRE","Frozen","Pielou evenness",0.0904728031808034
+"96CA",96,"Cervix","IgA","Fresh","Pielou evenness",0.775113478355851
+"96CM",96,"Cervix","IgM","Fresh","Pielou evenness",NA
+"96CP",96,"Cervix","PRE","Fresh","Pielou evenness",0.0278484222953072
+"96EA",96,"Endometrium","IgA","Fresh","Pielou evenness",NA
+"96EP",96,"Endometrium","PRE","Fresh","Pielou evenness",0.558736795126438
+"96VA",96,"Vagina","IgA","Fresh","Pielou evenness",0.290077591193116
+"96VM",96,"Vagina","IgM","Fresh","Pielou evenness",0.57968437177858
+"96VP",96,"Vagina","PRE","Fresh","Pielou evenness",0.0246627200003436
+"97CA",97,"Cervix","IgA","Fresh","Pielou evenness",0.325507896987531
+"97CG",97,"Cervix","IgG","Fresh","Pielou evenness",0.463513507122179
+"97CM",97,"Cervix","IgM","Fresh","Pielou evenness",NA
+"97CP",97,"Cervix","PRE","Fresh","Pielou evenness",0.284670483568331
+"97EG",97,"Endometrium","IgG","Fresh","Pielou evenness",0.495046856196751
+"97EM",97,"Endometrium","IgM","Fresh","Pielou evenness",0.729331000102942
+"97EP",97,"Endometrium","PRE","Fresh","Pielou evenness",0.653736525023031
+"97VA",97,"Vagina","IgA","Fresh","Pielou evenness",0.371971965889823
+"97VG",97,"Vagina","IgG","Fresh","Pielou evenness",0.505451954166912
+"97VM",97,"Vagina","IgM","Fresh","Pielou evenness",NA
+"97VP",97,"Vagina","PRE","Fresh","Pielou evenness",0.269558603301051
+"98CA",98,"Cervix","IgA","Fresh","Pielou evenness",NA
+"98CG",98,"Cervix","IgG","Fresh","Pielou evenness",0.626011961405764
+"98CM",98,"Cervix","IgM","Fresh","Pielou evenness",0.599803554483707
+"98CP",98,"Cervix","PRE","Fresh","Pielou evenness",0.321659373475944
+"98EA",98,"Endometrium","IgA","Fresh","Pielou evenness",0.559824338592383
+"98EM",98,"Endometrium","IgM","Fresh","Pielou evenness",0.396788120575424
+"98EP",98,"Endometrium","PRE","Fresh","Pielou evenness",0.71456287832529
+"98VA",98,"Vagina","IgA","Fresh","Pielou evenness",0.592326111030775
+"98VG",98,"Vagina","IgG","Fresh","Pielou evenness",0.749289712978964
+"98VM",98,"Vagina","IgM","Fresh","Pielou evenness",0.59874444244893
+"98VP",98,"Vagina","PRE","Fresh","Pielou evenness",0.145309366437156
+"99CA2",99,"Cervix","IgA","Fresh","Pielou evenness",0.480542868938118
+"99CG2",99,"Cervix","IgG","Fresh","Pielou evenness",0.65926327702207
+"99CM2",99,"Cervix","IgM","Fresh","Pielou evenness",0.610951452847876
+"99CP2",99,"Cervix","PRE","Fresh","Pielou evenness",0.642007279419587
+"99EA",99,"Endometrium","IgA","Frozen","Pielou evenness",0.292222979949913
+"99EA2",99,"Endometrium","IgA","Fresh","Pielou evenness",0.706447026061936
+"99EG",99,"Endometrium","IgG","Frozen","Pielou evenness",0.353307106689077
+"99EG2",99,"Endometrium","IgG","Fresh","Pielou evenness",0.863556577432761
+"99EM",99,"Endometrium","IgM","Frozen","Pielou evenness",0.148001266912774
+"99EM2",99,"Endometrium","IgM","Fresh","Pielou evenness",0.537270631663779
+"99EP",99,"Endometrium","PRE","Frozen","Pielou evenness",0.570177957265364
+"99EP2",99,"Endometrium","PRE","Fresh","Pielou evenness",0.635398544849085
+"99VA2",99,"Vagina","IgA","Fresh","Pielou evenness",0.609143147195932
+"99VG2",99,"Vagina","IgG","Fresh","Pielou evenness",0.605169237950641
+"99VM2",99,"Vagina","IgM","Fresh","Pielou evenness",0.687333542240669
+"99VP2",99,"Vagina","PRE","Fresh","Pielou evenness",0.572491955616877

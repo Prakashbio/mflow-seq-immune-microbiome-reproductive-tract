@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checks": 1499,
+  "independent_scalar_distance_replays": 208,
+  "comparisons": 36,
+  "primary_comparisons": 9,
+  "paired_manifests_verified": true,
+  "all_estimable_exact_signflip_tests_recomputed": true,
+  "all_saved_bootstraps_replayed": true,
+  "BH_independently_checked_scalar": true,
+  "maximum_numeric_error": 5.551115123125783e-16,
+  "claim_limit": "Arithmetic/matching verification does not establish observational exchangeability or recover upstream provenance."
+}

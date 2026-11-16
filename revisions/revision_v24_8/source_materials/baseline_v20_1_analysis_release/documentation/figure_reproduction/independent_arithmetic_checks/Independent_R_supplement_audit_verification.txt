@@ -1,0 +1,9 @@
+PASS: independent R reconstruction from frozen original-code counts.
+profiles: 2880
+library_metrics: 298
+correlations: 9606
+accumulation: 72
+distances: 538
+Cervical exact accumulation independently checked by exhaustive woman subsets in both memberships.
+Rank correlations have no inferential p values; constant inputs remain missing.
+No FACS-event counts, raw-read QC status or no-depth-confounding claim is produced.

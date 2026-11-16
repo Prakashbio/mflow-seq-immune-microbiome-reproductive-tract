@@ -1,161 +1,159 @@
 # mFLOW-Seq: Immunoglobulin class–resolved microbiota profiling across the female reproductive tract
 
-[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
-[![License: GPL v3](https://img.shields.io/badge/License-Research-orange.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3-blue.svg)](https://www.python.org/)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL_v3-blue.svg)](LICENSE)
+[![Zenodo Version 4](https://img.shields.io/badge/Zenodo-Version_4-blue.svg)](https://doi.org/10.5281/zenodo.19437248)
 
-Bioinformatics analysis pipeline and figure generation scripts for the mFLOW-Seq microbiome study investigating spatial immunoglobulin engagement of membrane-intact microbiota across female reproductive tract compartments.
+Data, analysis scripts and figure-generation materials for the mFLOW-Seq study of immunoglobulin class–resolved microbiota across female reproductive tract compartments.
 
-This repository contains all scripts required to reproduce the main and supplementary analyses presented in the manuscript. All figures can be regenerated directly from the provided code and processed datasets.
+**Public archive: Version 4.** The submitted [GitHub repository](https://github.com/Prakashbio/mflow-seq-immune-microbiome-reproductive-tract) and [Zenodo concept DOI](https://doi.org/10.5281/zenodo.19437248) are unchanged. Start with [REPRODUCE.md](REPRODUCE.md) for the current analysis commands or the [Zenodo contents guide](https://zenodo.org/records/24274722/files/00_README_RC2_CONTENTS.md?download=1) for downloads.
 
 ## Overview
 
-This repository contains the complete computational analysis workflow used to generate all main and supplementary figures for the manuscript:
+This repository accompanies the manuscript:
 
 > **Immunoglobulin class–resolved engagement of membrane-intact microbiota across female reproductive tract compartments using mFLOW-Seq**
 >
 > Prakash Lingasamy, Merli Saare, Sergio Vela Moreno, Karita Särekannu, Dmitri Lubenets, Alberto Sola-Leyva, Kasun Madhuranga Godakuma Godagedara, Naisarg Patel, Vijayachitra Modhukur, Reet Mändar, Andres Salumets
 >
-> *Manuscript under communication*
+> *Manuscript under review.*
+
+The retained sequencing dataset contains 149 libraries from 15 women and 40 recorded preparations. The current release includes the consolidated 39-sheet supplementary workbook, six main figures and nineteen numbered supplementary figures (23 supplementary graphics), their captions, and preserved analysis sources.
+
+The README follows the original repository's section order. The public version is **4**. Internal build labels such as `v25.2.2` remain in original directory and script names to preserve working paths and provenance.
 
 ### About mFLOW-Seq
 
-mFLOW-Seq (Microbiome Flow-Sorting and Sequencing) is a novel methodology combining fluorescence-activated cell sorting (FACS) and 16S rRNA sequencing to profile immunoglobulin-bound bacterial populations in complex microbiome samples. This approach enables the characterization of host-microbiota interactions at the level of FACS-sorted bacterial subpopulations.
+mFLOW-Seq combines fluorescence-activated cell sorting and 16S rRNA sequencing to profile PRE and immunoglobulin-associated microbial fractions from vaginal, cervical and endometrial preparations. The workflow links flow-cytometry records, sequencing-community profiles and participant/preparation-aware downstream analyses.
 
 ## Project Structure
 
+```text
+mflow-seq-immune-microbiome-reproductive-tract/
+├── README.md                         # Project guide, retaining the original layout
+├── REPRODUCE.md                      # Current reproduction instructions
+├── verify_release_v25_2_2.py          # File integrity and source-link checks
+├── replay_review_checks_v25_2_2.py    # Current numerical checks; optional figure replay
+├── reproduce_public_figures_v25_2_2_RC2.py
+├── SHA256SUMS.json                   # Current release payload hashes
+├── REPRODUCIBILITY_SCOPE.json        # Reproduction entry-point information
+├── LICENSE / LICENSE_SCOPE.txt / FILE_LICENSE_SCOPE.csv
+├── revisions/
+│   ├── revision_v25_2_2/
+│   │   ├── selected_figures/         # Current figures and captions
+│   │   ├── selected_tables/          # Current supplementary Excel workbook
+│   │   └── Publication_table_source_index.csv
+│   ├── revision_v25_2_1/             # Preserved previous revision outputs
+│   ├── revision_v25/                 # Sequencing summaries, benchmarks and workflow files
+│   └── revision_v24_8/
+│       └── source_materials/        # Preserved analysis inputs, code and result records
+├── historical_documentation/         # Previous README/manifest versions
+├── requirements.txt                  # Original core Python requirements
+├── run_all.py / scripts/             # Retained historical analysis route
+└── data/ / Output/                   # Retained historical inputs and outputs
 ```
-mFLOW-Seq/
-│
-├── run_all.py              # Master pipeline script
-├── requirements.txt        # Python dependencies
-├── README.md               # This file
-│
-├── data/                   # Input data files
-│   ├── otu_table.csv             # OTU abundance matrix (decontaminated)
-│   ├── sample_metadata.csv       # Sample experimental metadata
-│   ├── taxonomy.csv              # Taxonomic assignments
-│   ├── facs_binding_events.csv   # FACS binding event counts
-│   └── ...                       # Additional analysis tables
-│
-├── scripts/                # Analysis and figure generation scripts
-│   ├── shared_utils.py           # Common functions and utilities
-│   ├── fig2_alpha_diversity.py   # Main figure 2
-│   ├── fig3_beta_diversity.py    # Main figure 3
-│   ├── ...                       # Additional main figure scripts
-│   ├── sfig*.py                  # Supplementary figure scripts
-│   ├── sfig_tost_cryopreservation.py    # TOST equivalence analysis (S19)
-│   ├── supp_ancombc_differential_abundance.py  # ANCOM-BC sensitivity analysis
-│   └── supp_table_s1_iga_coating_score.py      # Supplementary Table S1
-│
-└── Output/                 # Output directory (generated)
-    ├── Figure2.png
-    ├── Figure3.png
-    └── ...
-```
+
+The root replay scripts and `revisions/revision_v25_2_2/` are the current entry points. The earlier `run_all.py`, `scripts/`, `data/` and `Output/` files remain available with their original history.
 
 ## Features
 
-The pipeline performs comprehensive microbiome analyses including:
-
-- **Alpha Diversity**: Shannon, Simpson indices, taxon richness, and Pielou's evenness
-- **Beta Diversity**: PCoA and NMDS with Bray–Curtis dissimilarity and PERMANOVA
-- **Differential Abundance**: IgA coating score framework, Mann–Whitney U, and ANCOM-BC sensitivity analysis
-- **Taxonomic Composition**: Phylum and species-level profiling across Ig fractions and anatomical sites
-- **Immunoglobulin Binding**: FACS-based characterisation of IgA-, IgM-, and IgG-coated bacterial fractions
-- **Cryopreservation Equivalence**: TOST (two one-sided t-tests) confirming fresh vs. frozen profile equivalence
-- **Sample Comparison**: Fresh vs. frozen, anatomical sites, healthy vs. dysbiotic conditions
-- **Network Analysis**: Co-occurrence and prevalence networks
-- **Contamination Control**: Decontam-equivalent prevalence scoring and Bayesian source tracking
-
-The pipeline generates all main and supplementary figures and data tables from the manuscript. Below is a complete description of every script and the analyses it performs.
+- **Diversity:** Shannon, Simpson, observed richness and Pielou evenness.
+- **Community composition:** taxon/genus summaries, Bray–Curtis ordination and matched sorted-to-own-PRE distances.
+- **Repeated observations:** participant/preparation-aware analyses and saved resampling records.
+- **Immunoglobulin fractions:** reconstructed FACS percentages and matched IgA/IgM sequencing representation summaries.
+- **Storage and community groups:** descriptive comparisons using the recorded preparation metadata.
+- **Sequencing records:** 149-library accounting, supplied benchmark tables and Nextflow/shell workflow files.
+- **Verification:** file hashes, 82 source blocks, numerical replay and 58 selected graphics/caption checks.
 
 ### Main Figures
 
-| Script | Figure | Description | Key analyses |
-|--------|--------|-------------|--------------|
-| `fig2_alpha_diversity.py` | Figure 2 | Alpha diversity across Ig fractions and anatomical sites, stratified by clinical condition | Shannon H′, Simpson (1−D), Pielou's evenness, Kruskal–Wallis, Mann–Whitney U |
-| `fig3_beta_diversity.py` | Figure 3 | Beta diversity ordination: PCoA and NMDS of Bray–Curtis dissimilarities by location, Ig fraction, condition, and storage | Bray–Curtis, Hellinger transform, PCoA, NMDS, PERMANOVA (adonis2) |
-| `fig4_facs_binding.py` | Figure 4 | FACS-sorted bacterial event counts and 16S rRNA sequencing read distributions per Ig fraction and anatomical site | Violin plots, Wilcoxon signed-rank test (IgA vs IgM) |
-| `fig5_differential_abundance.py` | Figure 5 | Differential Ig-coating of the microbiota: heatmap, log₂(IgA/IgM) diverging bars, and IgA vs IgM bubble chart | IgA coating score, log₂ fold-change visualisation, taxon-level enrichment heatmap |
-| `fig6_healthy_vs_dysbiotic.py` | Figure 6 | Healthy vs. microbiologically dysbiotic community comparison: key taxon abundances, Shannon diversity, PCoA | Mann–Whitney U, Bray–Curtis PCoA, PERMANOVA per site |
-| `fig7_fresh_vs_frozen.py` | Figure 7 | Fresh vs. cryopreserved sample comparison: *Lactobacillus* spp. abundance and taxon composition heatmaps | Mann–Whitney U, taxon abundance heatmaps |
-| `fig8_anatomical_site.py` | Figure 8 | IgA vs. IgM taxon enrichment lollipop plots across vaginal, cervical, and endometrial compartments | IgA − IgM raw abundance difference, contaminant flagging |
-| `fig9_multivariate_analysis.py` | Figure 9 | Multivariate synthesis: CLR-PCA biplot, PERMANOVA effect-size barplot, and spatial Ig gradient for key taxa | CLR transformation, PCA biplot, PERMANOVA R² effect sizes, bar chart summaries |
+Current files are in [selected_figures](revisions/revision_v25_2_2/selected_figures). The public figure driver rebuilds the selected set; each figure has a separate caption file.
+
+| Current file | Figure | Description | Reproduction route |
+|---|---|---|---|
+| `Main_Figure_1.png` | 1 | mFLOW-Seq workflow overview | Public figure driver and preserved artwork |
+| `Main_Figure_2.png` | 2 | PRE genus composition and observed woman/site profiles | Public figure driver |
+| `Main_Figure_3.png` | 3 | FACS gate percentages and within-woman IgM-minus-IgA contrasts | Public figure driver |
+| `Main_Figure_4.png` | 4 | Shannon diversity with preparation matching | Public figure driver |
+| `Main_Figure_5.png` | 5 | Participant-connected PCoA and matched own-PRE distances | Public figure driver |
+| `Main_Figure_6.png` | 6 | Matched IgA/IgM sequencing representation and relative abundances | Public figure driver |
 
 ---
 
 ### Supplementary Figures
 
-| Script | Figure | Description | Key analyses |
-|--------|--------|-------------|--------------|
-| `sfig1_phylum_composition.py` | S1 | Phylum-level bacterial composition across Ig fractions, anatomical sites, and clinical condition | Stacked bar plots, relative abundance |
-| `sfig2_alpha_diversity_storage.py` | S2 | Alpha diversity stratified by storage method (fresh vs. frozen) across all Ig fractions and sites | Shannon H′, Simpson, Pielou's evenness, Kruskal–Wallis, Mann–Whitney U |
-| `sfig3_per_location_pcoa.py` | S3 | Per-anatomical-site Bray–Curtis PCoA coloured by Ig fraction | Bray–Curtis, PCoA, PERMANOVA per site |
-| `sfig4_vs_presorted.py` | S4 | Compositional comparison of Ig-sorted fractions vs. pre-sorted baseline (log₂ enrichment) | log₂(Ig fraction/Pre-sorted) per taxon, enrichment plots |
-| `sfig5_condition_volcano.py` | S5 | Volcano plots of healthy vs. dysbiotic differential taxa per anatomical site | Mann–Whitney U, −log₁₀(p) vs log₂ fold-change |
-| `sfig6_cooccurrence_matrix.py` | S6 | Taxon co-occurrence correlation matrices per anatomical site | Spearman rank correlation, hierarchical clustering heatmaps |
-| `sfig7_fresh_frozen_correlation.py` | S7 | Fresh vs. frozen taxon abundance scatter plots with Spearman r per site | Spearman rank correlation, mean relative abundance |
-| `sfig8_taxon_accumulation.py` | S8 | Taxon accumulation (rarefaction) curves by anatomical site, confirming sampling completeness | Random rarefaction subsampling, 95% confidence intervals |
-| `sfig9_supplementary_igg.py` | S9 | IgG enrichment lollipop plots, proportional Ig-coating space (IgA/IgM/IgG), and pairwise Bray–Curtis distances between fractions | log₂(IgG/Pre-sorted), proportional coating ratios, Bray–Curtis within-fraction distances |
-| `sfig10_iga_coating_score.py` | S10 | Per-taxon IgA coating scores [IgA/(IgA+IgM)] across anatomical sites, *Lactobacillus* vs. other genera, and healthy vs. dysbiotic comparisons | IgA coating score (formula-based), dot-plot heatmap, Mann–Whitney U |
-| `sfig11_patient_paired_readdepth.py` | S11 | Per-patient alpha diversity trajectories across sites, read depth QC, within- vs between-patient community similarity, read depth vs Shannon correlation | Spearman r (depth vs diversity), Bray–Curtis pairwise distances, Mann–Whitney U |
-| `sfig12_lactobacillus_gradient.py` | S12 | *Lactobacillus* species composition across sites and fractions, species-level enrichment vs pre-sorted, and dysbiotic taxon IgA/IgM abundance by condition | log₂(fraction/pre-sorted), bar plots by species and condition |
-| `sfig13_composition.py` | S13 | Species-level microbial community composition (top 20 taxa) across all Ig fractions, sites, and clinical conditions | Stacked bar plots, mean relative abundance |
-| `sfig14_prevalence_network.py` | S14 | Filtering threshold comparison, taxon prevalence heatmap, and microbial co-occurrence network (pre-sorted) | Taxon prevalence scoring, Spearman correlation network (\|r\| ≥ 0.4, p < 0.05) |
-| `sfig15_fresh_frozen.py` | S15 | Community structure and alpha diversity stratified by storage condition per anatomical site | Bray–Curtis PCoA, PERMANOVA, Shannon H′, Mann–Whitney U |
-| `sfig16_contamination_analysis.py` | S16 | Contamination analysis: decontam-equivalent prevalence scoring and Bayesian source tracking (SourceTracker framework) | Prevalence-based decontam scoring, Mann–Whitney U filter validation |
-| `sfig_tost_cryopreservation.py` | S19 | TOST cryopreservation equivalence analysis: Bray–Curtis distance to fresh centroid (all Ig fractions) and Shannon diversity (PRE-sorted) for fresh vs. frozen specimens | Two one-sided t-tests (TOST), equivalence margin ±0.10 BC units, ±0.50 H′; outputs `tost_bray_curtis_results.csv` and `tost_shannon_results.csv` |
+| Current figure | Description | Current file(s) |
+|---|---|---|
+| S1 | Illustrative clinical flow-cytometry plots | `Supplementary_Figure_S1.emf` |
+| S2 | Original FRT microscopy before/after sorting | `Supplementary_Figure_S2.emf` |
+| S3 | Original saliva microscopy before/after sorting | `Supplementary_Figure_S3.emf` |
+| S4 | Analytical feature-selection summaries | `Supplementary_Figure_S4.png` |
+| S5 | PRE rank correlations by site | `Supplementary_Figure_S5.png` |
+| S6 | Observed PRE assignment accumulation | `Supplementary_Figure_S6.png` |
+| S7 | PRE profiles and retained assignment counts | `Supplementary_Figure_S7.png` |
+| S8 | Across-site Shannon diversity within women | `Supplementary_Figure_S8.png` |
+| S9 | Alpha-diversity metrics by site and fraction | `Supplementary_Figure_S9.png` |
+| S10 | Matched sorted-to-own-PRE contrast intervals | `Supplementary_Figure_S10.png` |
+| S11 | Paired Lactobacillus relative library abundances | `Supplementary_Figure_S11.png` |
+| S12 | Genus-aggregated matched IgA/IgM representation | `Supplementary_Figure_S12.png` |
+| S13 | PRE taxa by original vaginal-community description | `Supplementary_Figure_S13.png` |
+| S14 | Alpha metrics by recorded storage | `Supplementary_Figure_S14.png` |
+| S15 | Sequencing profiles by recorded storage | `Supplementary_Figure_S15.png` |
+| S16 | PRE storage groups on common ordination axes | `Supplementary_Figure_S16.png` |
+| S17 | Two endometrial preparations from participant 99 | `Supplementary_Figure_S17.png` |
+| S18 | Retrospective HUT093 buffer-control reports | `Supplementary_Figure_S18_A/B/C.png` |
+| S19 | Archived saliva controls and original pilot gates/comparator displays | `Supplementary_Figure_S19_A/B/C.png` |
+
+S18 and S19 each contain three graphics; this gives 23 supplementary graphics across 19 numbered figures. Original microscopy artwork is unchanged. Full descriptions and panel definitions are in the accompanying caption files.
 
 ---
 
 ### Supplementary Data Scripts
 
-These scripts generate supplementary data tables and statistical outputs rather than figures.
+| Script or source directory | Outputs | Description |
+|---|---|---|
+| `source_materials/own_PRE_between_sites_v24_5/` | Matched PRE distance summaries and verification results | Own-PRE numerical replay |
+| `source_materials/score_provenance_bridge_v24_1/scripts/reproduce_score_bridge_v24_1.py` | Score bridge tables | Reconstructs 117 score links from the preserved sources |
+| `source_materials/reviewer_metadata_v24_6/` | Participant/preparation/library metadata checks | Source metadata verification |
+| `source_materials/baseline_v20_1_analysis_release/` | Preserved numerical inputs, models and resampling records | Baseline source bundle and Q15 checks |
+| `revisions/revision_v25/scripts/recompute_v25_sequencing_summaries.py` | Sequencing-accounting/benchmark summaries | Recomputes arithmetic from supplied source tables |
 
-| Script | Outputs | Description |
-|--------|---------|-------------|
-| `supp_ancombc_differential_abundance.py` | `ANCOMBC_IgA_vs_IgM_Vagina.csv`, `ANCOMBC_IgA_vs_IgM_Cervix.csv`, `ANCOMBC_IgA_vs_IgM_Endometrium.csv`, `ANCOMBC_IgA_vs_IgM_AllSites.csv` | Python implementation of ANCOM-BC (Lin & Peddada 2020) for IgA vs IgM differential abundance per anatomical site. Serves as a sensitivity analysis confirming the IgA coating score rankings reported in Figures 5 and 8. |
-| `supp_table_s1_iga_coating_score.py` | `SupplementaryTableS1_IgACoatingScores.csv`, `SupplementaryTableS1_IgACoatingScores.tsv` | Computes and exports per-taxon IgA coating scores [IgA/(IgA+IgM)] for all 39 taxa, with supporting mean abundance and prevalence columns. Reproduces Supplementary Table S1 in the manuscript. |
+Paths beginning `source_materials/` are relative to `revisions/revision_v24_8/`. The current [82-block source index](revisions/revision_v25_2_2/Publication_table_source_index.csv) links publication tables to preserved source files and hashes.
 
 ---
 
 ### Shared Utilities (`shared_utils.py`)
 
-Core functions used by all figure scripts:
+The original `scripts/shared_utils.py` is retained for the historical scripts. It contains helpers for loading the original count/metadata tables, diversity metrics, transformations, distances and ordination. Current reproduction is coordinated by the root replay driver, which records a log and exit status for each step.
 
-| Function | Description |
-|----------|-------------|
-| `load_data()` | Loads decontaminated OTU table, metadata, and taxonomy |
-| `shannon(v)` | Shannon entropy H′ = −Σ pᵢ ln pᵢ |
-| `simpson(v)` | Simpson's diversity 1−D |
-| `richness(v)` | Observed taxon richness |
-| `evenness(v)` | Pielou's evenness J′ = H′/ln(S) |
-| `hellinger(X)` | Hellinger transformation: √(relative abundance) |
-| `clr(X)` | Centred log-ratio transformation |
-| `bray_curtis(X)` | Bray–Curtis dissimilarity matrix |
-| `pcoa(D)` | Principal Coordinates Analysis |
-| `nmds(D)` | Non-metric Multidimensional Scaling (sklearn wrapper) |
-| `permanova(D, groups)` | Pseudo-F PERMANOVA with permutation p-value |
-| `pct_label(p)` | Significance stars (\*, \*\*, \*\*\*, ns) |
+| Current utility | Purpose |
+|---|---|
+| `verify_release_v25_2_2.py` | Check payload hashes, source links and declared file membership |
+| `replay_review_checks_v25_2_2.py` | Run the existing numerical checks and optional figure replay |
+| `reproduce_public_figures_v25_2_2_RC2.py` | Rebuild the 58 selected graphics/captions using preserved inputs and artwork |
 
 ## Requirements
 
 ### System Requirements
 
-- **Operating System**: Windows 10/11, Linux, or macOS
-- **Python**: Version 3.9 or higher
-- **RAM**: Minimum 8 GB recommended
-- **Storage**: ~500 MB for data and outputs
+- Python 3 for the verifier and numerical/figure drivers.
+- R and `Rscript` for the figure route; the recorded plotting environment uses R 4.4.1.
+- Poppler's `pdftoppm` on PATH for source-plot rendering.
+- Storage for the extracted source files and a separate output directory.
 
 ### Python Dependencies
 
-```
+The original core requirements are retained in `requirements.txt`:
+
+```text
 numpy >= 1.23
 pandas >= 1.5
 matplotlib >= 3.6
 scipy >= 1.10
 scikit-learn >= 1.2
 ```
+
+Source-specific environment records are retained under `revisions/revision_v24_8/source_materials/baseline_v20_1_analysis_release/environment/`. The plotting session record is in `revisions/revision_v24_8/source_materials/current_v24_figure_reproduction/audit/R_sessionInfo.txt`; it identifies ggplot2, patchwork, vegan and their recorded dependencies. The saliva-pilot source directory also retains its original requirements file. Consult these records and the selected source script when running individual historical analyses.
 
 ## Installation
 
@@ -166,206 +164,198 @@ git clone https://github.com/Prakashbio/mflow-seq-immune-microbiome-reproductive
 cd mflow-seq-immune-microbiome-reproductive-tract
 ```
 
-Or download and extract the ZIP archive.
+Alternatively, use [Zenodo Version 4](https://doi.org/10.5281/zenodo.24274722). Download either the complete RC2 ZIP or all six numbered topic ZIPs. Extract every topic ZIP into the same empty directory, preserving stored paths. The topic archives partition the same 1,688 files as the complete ZIP. Keep the standalone download guide and index outside that extracted analysis directory.
 
 ### 2. Create a Virtual Environment
 
-**Windows (PowerShell)**:
+Create the environment outside the checkout so the integrity verifier sees only the declared source files.
+
+**Windows (PowerShell):**
+
 ```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
+python -m venv ../.mflow-seq-venv
+..\.mflow-seq-venv\Scripts\Activate.ps1
 ```
 
-**Linux/macOS**:
+**Linux/macOS:**
+
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
+python3 -m venv ../.mflow-seq-venv
+source ../.mflow-seq-venv/bin/activate
 ```
 
 ### 3. Install Dependencies
 
 ```bash
-pip install --upgrade pip
-pip install -r requirements.txt
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
 ```
+
+Install the source-specific Python/R dependencies and Poppler required by the selected route, using the environment records above. [REPRODUCE.md](REPRODUCE.md) gives the current commands.
 
 ## Usage
 
 ### Run All Analyses
 
-Execute the complete pipeline to generate all figures:
+Run integrity and existing numerical checks from the extracted root:
 
 ```bash
-python run_all.py
+python3 verify_release_v25_2_2.py
+python3 replay_review_checks_v25_2_2.py --output /absolute/path/to/new_checks
 ```
 
-Expected runtime: ~5-15 minutes depending on system specifications.
+To include the existing figure replay:
+
+```bash
+python3 replay_review_checks_v25_2_2.py --output /absolute/path/to/new_checks_with_figures --figures
+```
+
+Use a different, previously nonexistent output directory outside the repository for each run. The replay writes step logs and `Replay_receipt.json`.
 
 ### Run Specific Figures
 
-Generate only selected main figures (e.g., Figures 2, 4, 8):
+The current driver reproduces the selected figures and captions together:
 
 ```bash
-python run_all.py --fig 2 4 8
+python3 reproduce_public_figures_v25_2_2_RC2.py --output /absolute/path/to/new_figure_output
 ```
 
-Generate specific supplementary figures:
-
-```bash
-python run_all.py --fig S1 S2 S10
-```
+It writes `figures/` and `Public_figure_replay_receipt.json` under the chosen output directory. The earlier `run_all.py --fig ...` command remains associated with the historical figure numbering.
 
 ### List Available Scripts
 
-View all figure scripts and their outputs:
+Current script paths and publication outputs are indexed in the tables above and in the source index. The original script listing remains available for the historical analysis route:
 
 ```bash
-python run_all.py --list
+python3 run_all.py --list
 ```
 
 ### Run Individual Scripts
 
-Execute a single script directly from the repository root:
+Example: replay the supplied sequencing-summary arithmetic into a new external folder:
 
 ```bash
-python scripts/fig2_alpha_diversity.py
+python3 revisions/revision_v25/scripts/recompute_v25_sequencing_summaries.py --input revisions/revision_v25/data --output /absolute/path/to/new_sequencing_summary
 ```
 
-**Note**: `run_all.py` executes each script with its working directory set to `scripts/`. Individual scripts can also be run directly from the `scripts/` directory.
+Individual source scripts retain their own parameters and original environment records.
 
 ### Command-Line Options
 
-```
-python run_all.py [OPTIONS]
+```text
+python3 replay_review_checks_v25_2_2.py --output NEW_EXTERNAL_DIRECTORY [--figures]
 
-Options:
-  --fig NUM [NUM ...]   Generate specific figures (e.g., 2 4 S1 S5)
-  --list                List all available figure scripts
-  -q, --quiet           Suppress detailed execution output
-  -h, --help            Show help message
+--output    Required: a new directory outside the extracted repository
+--figures   Also run the current figure-reproduction route
+-h, --help  Show command help
 ```
+
+The standalone figure driver also requires `--output NEW_EXTERNAL_DIRECTORY`. Existing results are not overwritten by these drivers.
 
 ## Output Files
 
-All generated files are saved to the `new_figures/` directory:
+Current publication outputs are preserved under `revisions/revision_v25_2_2/`. New replay outputs are written to the external directory selected with `--output`.
+
 ### Main Figures
-- `Figure2.png` — Alpha diversity analysis
-- `Figure3.png` — Beta diversity and PCoA
-- `Figure4.png` — FACS binding events
-- `Figure5.png` — Differential Ig-coating heatmap and enrichment plots
-- `Figure6.png` — Healthy vs. dysbiotic comparison
-- `Figure7.png` — Fresh vs. frozen comparison
-- `Figure8.png` — Lollipop enrichment plots by anatomical site
-- `Figure9.png` — Multivariate synthesis (CLR-PCA, PERMANOVA effect sizes)
+
+`selected_figures/Main_Figure_1.png` through `Main_Figure_6.png`, each with its corresponding `_caption.txt` file.
 
 ### Supplementary Figures
-- `SupplementaryFigure1.png` through `SupplementaryFigure16.png` — main supplementary figures
-- `SFig_TOST_Cryopreservation.png` — Supplementary Figure S19 (TOST equivalence)
+
+`selected_figures/Supplementary_Figure_S1.emf` through S3 retain the original artwork. S4–S17 use PNG files; S18 and S19 each use A/B/C PNG panels. All have caption files. The selected set totals 29 graphics plus 29 captions.
 
 ### Supplementary Data Tables and Statistical Outputs
-- `SupplementaryTableS1_IgACoatingScores.csv` / `.tsv` — per-taxon IgA coating scores (Table S1)
-- `tost_bray_curtis_results.csv` — TOST Bray–Curtis equivalence results per site and pooled
-- `tost_shannon_results.csv` — TOST Shannon diversity equivalence results per site
-- `ANCOMBC_IgA_vs_IgM_Vagina.csv` — ANCOM-BC results, vagina
-- `ANCOMBC_IgA_vs_IgM_Cervix.csv` — ANCOM-BC results, cervix
-- `ANCOMBC_IgA_vs_IgM_Endometrium.csv` — ANCOM-BC results, endometrium
-- `ANCOMBC_IgA_vs_IgM_AllSites.csv` — ANCOM-BC results, all sites pooled
-- Various additional `.csv` files with per-figure statistical results and summary tables
+
+- `selected_tables/Supplementary_Tables_CLEAN.xlsx`: consolidated 39-sheet workbook.
+- `Publication_table_source_index.csv`: 82 source blocks with source paths and hashes.
+- `Replay_receipt.json`: numerical replay status and per-step logs.
+- `Public_figure_replay_receipt.json`: selected graphics/caption reproduction status.
+- Source CSV/TSV, RDS/NPZ and environment records remain beside their original analysis directories.
 
 # Data Files
 
 ### Input Data Description
 
-| File | Description |
-|------|-------------|
-| `otu_table.csv` | **Primary analysis file** — decontaminated OTU abundance matrix (39 taxa, 149 samples; *Burkholderia cepacia* and *Streptococcus pneumoniae* removed) |
-| `sample_metadata.csv` | Sample information: anatomical location, antibody fraction, condition, storage method |
-| `taxonomy.csv` | Taxonomic classification (Kingdom to Species) |
-| `facs_binding_events.csv` | Flow cytometry binding event counts per fraction and site |
-| `anatomical_site_enrichment.csv` | Site-specific enrichment data |
-| `lactobacillus_fresh_frozen.csv` | *Lactobacillus* spp. abundance comparisons by storage condition |
-| `seq_clean.csv` | Quality-filtered sequence data used for SourceTracker analysis |
-| `otu_clean_decontaminated.csv` | Same as `otu_table.csv` — provided for cross-reference |
-| `otu_clean.csv` | Pre-decontamination OTU table (41 taxa; includes *Burkholderia cepacia* and *Streptococcus pneumoniae* before removal) |
-| `taxa_abundance_fresh_frozen.csv` | Mean taxon abundance per storage condition and anatomical site |
-| `filtering_statistics.xlsx` | Taxon counts at different abundance thresholds per group |
+| File or location | Description |
+|---|---|
+| `revisions/revision_v25_2_2/selected_tables/Supplementary_Tables_CLEAN.xlsx` | Current consolidated publication workbook |
+| `revisions/revision_v25_2_2/Publication_table_source_index.csv` | Publication-table to source-file crosswalk |
+| `revisions/revision_v25/data/` | Supplied library accounting, sequencing QC and computational benchmark tables |
+| `revisions/revision_v24_8/source_materials/` | Coded count/abundance matrices, metadata, recorded FACS summaries and preserved analytical sources |
+| `SHA256SUMS.json` | SHA-256 for every listed release payload |
+| `EXISTING_GITHUB_FILES_RETAINED.json` | Hashes of 53 retained historical GitHub files outside the standalone revision ZIP |
+| `data/otu_table.csv`, `sample_metadata.csv`, `taxonomy.csv` | Retained original public input tables |
+| `data/facs_binding_events.csv` and other original `data/` files | Historical FACS/event and analysis inputs retained unchanged |
 
-**Data Availability**: Raw sequencing data will be deposited to NCBI SRA/ENA upon manuscript acceptance. Processed data (ASV tables, metadata, FACS event counts, IgA/IgM/IgG coating scores) will be available via Zenodo.
+The public release includes exactly three sample-free HUT093 buffer FCS files. The 34 human-sample pilot FCS files remain private. Public pilot-display reproduction uses the included saved aggregate bins and plotting parameters.
+
+**Data availability:** [Submitted Zenodo concept DOI](https://doi.org/10.5281/zenodo.19437248); [specific public Version 4](https://doi.org/10.5281/zenodo.24274722); [contents guide](https://zenodo.org/records/24274722/files/00_README_RC2_CONTENTS.md?download=1). The complete ZIP is retained alongside the six topic ZIPs, the 1,688-file index and download checksums. The original repository files and previous Zenodo versions remain available.
+
+Raw sequencing records are available under NCBI BioProject PRJNA1454428 / study SRP692419. The supplied workflow records identify near-full-length 27F/1492R amplification, Tn5-fragmented libraries, NextSeq 1000 single-end reads delivered at 80 nt, Kraken2 Standard and Bracken `-r 75`; the latter is the Bracken reference-distribution setting.
 
 ## Analysis Methods
 
 ### Statistical Tests
 
-- **Alpha diversity**: Kruskal–Wallis H-test with Bonferroni-corrected Mann–Whitney U post-hoc
-- **Beta diversity**: PERMANOVA (adonis2, 999 permutations) on Bray–Curtis dissimilarities
-- **Differential abundance**: Mann–Whitney U with Bonferroni correction; ANCOM-BC sensitivity analysis
-- **Equivalence testing**: TOST (two one-sided t-tests, equivalence margin ±0.10 BC units)
-- **Correlation**: Spearman rank correlation
+- Shannon-diversity models accounting for repeated participant/preparation observations, with descriptive Simpson, richness and evenness summaries.
+- Bray–Curtis dissimilarities calculated from library relative abundances, with recorded restricted-permutation PERMANOVA/dispersion analyses.
+- Matched own-PRE comparisons, including between-site contrasts and saved resampling records.
+- Site-specific IgA/IgM representation summaries with participant-aware aggregation and saved bootstrap intervals.
+- Recorded storage/community-group summaries and supplied sequencing-QC/benchmark arithmetic.
 
+Exact model outputs, settings, resampling objects and source scripts are retained with their analysis records. Figure captions and the source index identify the current outputs.
 
 ### Color Scheme
 
-Consistent color coding is used across all figures:
-
-- **Anatomical Location**: Vagina (blue), Cervix (green), Endometrium (red)
-- **Antibody Type**: Pre-sorted (gray), IgA (orange), IgM (purple), IgG (teal)
-- **Condition**: Healthy (blue), Dysbiotic (red)
-- **Storage**: Fresh (orange), Frozen (blue)
+Use the keys embedded in the current figures: colour and symbol assignments follow each figure's site, fraction or participant legend. The original scientific figure colours and microscopy are retained. Publication tables use black text and white backgrounds.
 
 ## Troubleshooting
 
 ### Common Issues
 
-**1. Module Not Found Error**
-```
-ModuleNotFoundError: No module named 'numpy'
-```
-**Solution**: Ensure virtual environment is activated and dependencies are installed:
-```bash
-pip install -r requirements.txt
-```
+**1. Missing Python/R package or external command**
 
-**2. File Not Found Error**
-```
-FileNotFoundError: [Errno 2] No such file or directory: '../data/otu_table.csv'
-```
-**Solution**: Run scripts from the repository root directory, not from the `scripts/` subdirectory.
+Activate the intended Python environment, install the core requirements, and check the source-specific Python/R environment records. Ensure `Rscript` and `pdftoppm` are on PATH for the figure route. Inspect the failed step's log in the external output directory.
 
-**3. Permission Denied (Windows)**
-```
-Activate.ps1 cannot be loaded because running scripts is disabled
-```
-**Solution**: Set PowerShell execution policy:
-```powershell
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-```
+**2. File not found**
 
-**4. Memory Error**
-**Solution**: Close other applications or use a system with more RAM.
+Extract the complete ZIP, or all six topic ZIPs, into one empty directory. Preserve stored paths and run the root driver from that directory. Use the current entry points rather than the older `run_all.py` for current outputs.
 
+**3. Existing or internal output directory**
+
+Choose a new output directory outside the extracted repository. The current drivers reject existing output directories and do not overwrite prior results.
+
+**4. Zenodo ZIP preview message**
+
+The complete archive contains more entries than Zenodo's ZIP browser preview displays. Download/extract it directly, or use the six smaller topic ZIPs. The readable contents guide is the default preview. Both extraction routes reconstruct the same verified files.
+
+**5. Unlisted source file during integrity checks**
+
+Keep replay outputs and the standalone download guide/index outside the extracted analysis folder. The verifier accepts the declared release files, plus the 53 recorded legacy GitHub files when present.
 
 ## Contact
 
-For questions, issues, or collaboration inquiries:
+For questions, issues or collaboration inquiries:
 
-- **Prakash Lingasamy**: prakash.lingasamy@ut.ee
-- **Andres Salumets**: andres.salumets@ki.se
+- **Prakash Lingasamy:** prakash.lingasamy@ut.ee
+- **Andres Salumets:** andres.salumets@ki.se
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0 (GPL-3.0). See the [LICENSE](LICENSE) file for details.
-
-If you use this code in your research, please cite the associated manuscript (see [Citation](#citation) below).
+Project analysis code retains the GNU General Public License v3.0 in [LICENSE](LICENSE). Project-owned coded tabular data and derived scientific outputs use the dataset record's CC BY 4.0 terms. Source-specific notices and attribution remain applicable; [LICENSE_SCOPE.txt](LICENSE_SCOPE.txt) and [FILE_LICENSE_SCOPE.csv](FILE_LICENSE_SCOPE.csv) describe the file categories.
 
 ## Citation
 
-If you use this code or data, please cite:
+If you use these materials, cite the manuscript and the public data/code archive:
 
 > Lingasamy P, Saare M, Vela Moreno S, Särekannu K, Lubenets D, Sola-Leyva A, Godagedara KMG, Patel N, Modhukur V, Mändar R, Salumets A.
 > **Immunoglobulin class–resolved engagement of membrane-intact microbiota across female reproductive tract compartments using mFLOW-Seq**
 > *Manuscript under review.*
 
+Archive citation: Lingasamy, P., & Godakumara, K. (2026). *Immunoglobulin class–resolved engagement of membrane-intact microbiota across female reproductive tract compartments using mFLOW-Seq* (Version 4) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.24274722
+
+The submitted concept DOI, https://doi.org/10.5281/zenodo.19437248, continues to resolve to the latest version.
+
 ## Acknowledgments
 
-We thank all contributors to the mFLOW-Seq methodology development and the research participants who made this study possible. 
-This work was supported by the Estonian Research Council and the Horizon Europe / European Research Council framework.
+We thank the study contributors and research participants. The original repository acknowledgment of support from the Estonian Research Council and the Horizon Europe / European Research Council framework is retained.

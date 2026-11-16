@@ -1,0 +1,7 @@
+taxon_arm,Location,n_women,n_PRE_libraries,Shannon_median,Shannon_Q1,Shannon_Q3,Shannon_mean,description
+baseline_39,CERVIX,8,8,0.4152166410156232,0.1901262387212336,1.0455890763684146,0.6211227601949135,"Descriptive PRE-only summaries; no test, anatomical ordering or independent confirmation implied."
+baseline_39,ENDOMETRIUM,13,14,0.9062712582975396,0.7694275426551155,1.0509859048486714,0.9856125268104482,"Descriptive PRE-only summaries; no test, anatomical ordering or independent confirmation implied."
+baseline_39,VAGINA,15,15,0.5518316424504891,0.24161596285917414,1.22283383976395,0.7432350965803567,"Descriptive PRE-only summaries; no test, anatomical ordering or independent confirmation implied."
+sensitivity_41,CERVIX,8,8,0.4152166410156232,0.1901262387212336,1.0455890763684146,0.6211227601949135,"Descriptive PRE-only summaries; no test, anatomical ordering or independent confirmation implied."
+sensitivity_41,ENDOMETRIUM,13,14,0.9062712582975396,0.7694275426551155,1.0509859048486714,0.9856125268104482,"Descriptive PRE-only summaries; no test, anatomical ordering or independent confirmation implied."
+sensitivity_41,VAGINA,15,15,0.7705020676960487,0.24161596285917414,1.22283383976395,0.7732650474154487,"Descriptive PRE-only summaries; no test, anatomical ordering or independent confirmation implied."

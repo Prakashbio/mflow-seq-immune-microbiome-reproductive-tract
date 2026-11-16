@@ -1,0 +1,6 @@
+"term","Df","SumOfSqs","R2","F","interpretation"
+"Location",2,1.33524934171992,0.031308247577838,2.40963851102439,"Descriptive sequential partition only; order-dependent; no permutation inference or R2-ranking test."
+"Fraction",3,1.45050694423012,0.0340107492319255,1.74509098993354,"Descriptive sequential partition only; order-dependent; no permutation inference or R2-ranking test."
+"Location:Fraction",6,1.90492783570013,0.04466577921783,1.14590020260755,"Descriptive sequential partition only; order-dependent; no permutation inference or R2-ranking test."
+"Residual",137,37.957801342132,0.890015223972407,NA,"Descriptive sequential partition only; order-dependent; no permutation inference or R2-ranking test."
+"Total",148,42.6484854637822,1,NA,"Descriptive sequential partition only; order-dependent; no permutation inference or R2-ranking test."

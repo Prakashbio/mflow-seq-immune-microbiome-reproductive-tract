@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "checks": 1000,
+  "QC": {
+    "Reads received": {
+      "min": 7112.0,
+      "median": 1216708.0,
+      "max": 4642415.0
+    },
+    "Reads classified (Kraken2)": {
+      "min": 3022.0,
+      "median": 726175.0,
+      "max": 4553060.0
+    },
+    "Classified (%)": {
+      "min": 7.23,
+      "median": 79.4,
+      "max": 99.47
+    },
+    "Redistributed share of estimate (%)": {
+      "min": 3.32,
+      "median": 68.49,
+      "max": 96.58
+    }
+  },
+  "low_depth": [
+    {
+      "sample": "81EA",
+      "classified": 5753
+    },
+    {
+      "sample": "95CG",
+      "classified": 3734
+    },
+    {
+      "sample": "97CM",
+      "classified": 3022
+    }
+  ],
+  "equal_mixture_listed_percent_sum": 96.51,
+  "equal_mixture_complement": 3.489999999999995,
+  "unequal_mixtures": 24,
+  "ranks_preserved": 23,
+  "one_percent_observed_range": {
+    "min": 0.22,
+    "median": 0.96,
+    "max": 2.35
+  },
+  "distinct_count_definition_flags": 14,
+  "limitations": [
+    "These computations audit supplied summaries, not independent assay accuracy.",
+    "Count-definition flags require original clade/direct report definitions; source values are not corrected.",
+    "No sequencing classifier, simulation generator or clinical model is executed."
+  ]
+}

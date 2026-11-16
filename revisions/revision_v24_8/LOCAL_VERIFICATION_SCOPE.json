@@ -1,0 +1,15 @@
+{
+  "verified_on": "2026-11-13",
+  "source_files_unchanged": 1466,
+  "current_figure_caption_assets_exact": 58,
+  "score_bridge_scores": 117,
+  "joint_verifier_checks": 290,
+  "own_PRE_independent_checks": 1499,
+  "own_PRE_resampling_arrays": 144,
+  "not_verified": [
+    "raw_FASTQ_access_or_upstream_execution",
+    "quantitative_DAPI_agreement",
+    "matched_clinical_antibody_specificity"
+  ],
+  "online_actions": []
+}

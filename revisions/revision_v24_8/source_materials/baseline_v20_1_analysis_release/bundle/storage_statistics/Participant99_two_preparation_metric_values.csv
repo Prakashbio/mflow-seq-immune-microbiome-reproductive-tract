@@ -1,0 +1,17 @@
+taxon_arm,Fraction,metric,fresh_value,frozen_value,frozen_minus_fresh,n_women,interpretation
+baseline_39,IgA,Shannon,1.265783148454472,0.5235932914512974,-0.7421898570031745,1,Descriptive values only; fractions are not independent storage replications.
+baseline_39,IgA,Lactobacillus_genus_pct,28.156090479459078,88.44505423909253,60.28896375963345,1,Descriptive values only; fractions are not independent storage replications.
+baseline_39,IgG,Shannon,2.2149788884178454,0.8135196771111247,-1.4014592113067206,1,Descriptive values only; fractions are not independent storage replications.
+baseline_39,IgG,Lactobacillus_genus_pct,23.533910708586898,79.55319829306752,56.01928758448062,1,Descriptive values only; fractions are not independent storage replications.
+baseline_39,IgM,Shannon,1.0454803749439066,0.2651826714487116,-0.780297703495195,1,Descriptive values only; fractions are not independent storage replications.
+baseline_39,IgM,Lactobacillus_genus_pct,70.1579162782237,95.69723362260723,25.539317344383534,1,Descriptive values only; fractions are not independent storage replications.
+baseline_39,PRE,Shannon,1.836538009040115,1.5808689739836654,-0.25566903505644967,1,Descriptive values only; fractions are not independent storage replications.
+baseline_39,PRE,Lactobacillus_genus_pct,3.756260109493592,52.59566651926937,48.839406409775776,1,Descriptive values only; fractions are not independent storage replications.
+sensitivity_41,IgA,Shannon,1.265783148454472,0.5235932914512974,-0.7421898570031745,1,Descriptive values only; fractions are not independent storage replications.
+sensitivity_41,IgA,Lactobacillus_genus_pct,28.156090479459078,88.44505423909253,60.28896375963345,1,Descriptive values only; fractions are not independent storage replications.
+sensitivity_41,IgG,Shannon,1.332596160770735,0.8135196771111247,-0.5190764836596103,1,Descriptive values only; fractions are not independent storage replications.
+sensitivity_41,IgG,Lactobacillus_genus_pct,7.50656172585456,79.55319829306752,72.04663656721297,1,Descriptive values only; fractions are not independent storage replications.
+sensitivity_41,IgM,Shannon,1.0454803749439066,0.2651826714487116,-0.780297703495195,1,Descriptive values only; fractions are not independent storage replications.
+sensitivity_41,IgM,Lactobacillus_genus_pct,70.1579162782237,95.69723362260723,25.539317344383534,1,Descriptive values only; fractions are not independent storage replications.
+sensitivity_41,PRE,Shannon,1.836538009040115,1.5808689739836654,-0.25566903505644967,1,Descriptive values only; fractions are not independent storage replications.
+sensitivity_41,PRE,Lactobacillus_genus_pct,3.756260109493592,52.59566651926937,48.839406409775776,1,Descriptive values only; fractions are not independent storage replications.

@@ -1,0 +1,5 @@
+Independent checks passed; one revised source-filtering figure rendered.
+
+STDERR:
+Warning message:
+package ‘ggplot2’ was built under R version 4.4.3 

@@ -1,0 +1,6 @@
+PASS
+17 layouts checked against frozen plotted values
+No points, intervals, summaries, colours, fill, shapes or line data changed
+Taxon abbreviations and storage-axis abbreviations change display labels only
+No original FCS, microscopy or numerical source files changed
+No model refitting or new statistical tests

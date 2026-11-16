@@ -1,0 +1,16 @@
+{
+  "libraries": 37,
+  "women": 15,
+  "observed_woman_site_cells": 36,
+  "missing_woman_site_cells": 9,
+  "both99_preparations_retained": true,
+  "duplicate_unit_treatment": "Average normalized profiles within woman/site for composition; average per-preparation Shannon separately for diversity.",
+  "normalization": "Within each original PRE library over retained taxon counts, separately for historical39 and41 sets.",
+  "scope": "Reviewer3 Major1 baseline context only; no hypothesis tests, clinical diagnoses or sequencing-depth/QC claims. Genus aggregation of provisional assignments is not classifier validation. Source-to-derived heading adjudication still required before integration.",
+  "input_hashes": {
+    "baseline_39_source_counts.csv": "596bfda4fa890c94f9ad39139bae4b556a3f5a251fe01779f740819a0a127ee7",
+    "original_taxonomy.csv": "08e8555960a3342d13f63a73a8e2d196a769d58e2f6453de711ac947e10d77c3",
+    "sensitivity_41_source_counts.csv": "0c6be6e64589e31ca5a0a900e9200e2064e2ad12b8771ef3e687c1650d3d5060",
+    "source_metadata_original_codes.csv": "e4b8ff7a77a436b6e2e14d7ac333b1aded67a00112b72fca43915e40b9f2393a"
+  }
+}

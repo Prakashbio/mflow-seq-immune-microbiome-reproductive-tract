@@ -1,0 +1,27 @@
+{
+  "public_downstream_reanalysis": {
+    "status": "Inputs and executable scripts included;covered by the existing numerical replay checks.",
+    "examples": [
+      "Participant/preparation-aware downstream analyses from coded retained tables",
+      "Saved Q15/own-PRE statistics,117-score bridge and sequencing-summary arithmetic"
+    ],
+    "limits": "Does not reproduce proprietary upstream classification,simulation generation or experimental validation."
+  },
+  "public_saved_output_reproduction": {
+    "status": "Current figure displays and summaries can be rebuilt from saved derived inputs.",
+    "examples": [
+      "S19A/C density panels from saved aggregated event bins and verified plotting bounds",
+      "Source/native artwork retained unchanged;remaining downstream figures use included inputs"
+    ],
+    "limits": "Display reproduction is not raw human FCS event reanalysis."
+  },
+  "private_source_access_required": {
+    "status": "UNAVAILABLE_IN_PUBLIC_ARCHIVE",
+    "withheld_files": 34,
+    "examples": [
+      "Re-binning raw human-sample saliva/sperm/vaginal pilot acquisitions",
+      "Event-level pilot gating,compensation or dye-comparator reanalysis"
+    ],
+    "limits": "No public access or redistribution permission claimed;originals remain private. No new validation promised."
+  }
+}

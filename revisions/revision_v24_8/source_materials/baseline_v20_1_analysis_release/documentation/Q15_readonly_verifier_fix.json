@@ -1,0 +1,26 @@
+{
+  "status": "PASS_READONLY_VERIFIER_PATCH",
+  "numerical_body_byte_identical": true,
+  "checks_passed": 290,
+  "optional_report_written_outside_input": true,
+  "all_921_sealed_payloads_unchanged": true,
+  "guard_tests": [
+    {
+      "case": "reject input-tree report",
+      "exit_code": 2,
+      "passed": true
+    },
+    {
+      "case": "preserve existing output",
+      "exit_code": 2,
+      "passed": true
+    },
+    {
+      "case": "argument help",
+      "exit_code": 0,
+      "passed": true
+    }
+  ],
+  "sealed_verifier_changed": false,
+  "note": "Use this separate patched checker directly. The sealed v20 archives are unchanged; incorporate the patch when making the later release update."
+}

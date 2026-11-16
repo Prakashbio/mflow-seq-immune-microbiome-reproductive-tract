@@ -1,0 +1,5 @@
+"analysis","n_distances","women","specimens","singular","convergence","min_fitted","max_fitted","use"
+"baseline_39_All_Matched_PRE_diagnostic",104,15,37,FALSE,"",-0.0466692720021775,0.756154538890227,"Exploratory Gaussian diagnostic; bounded shared-PRE response, small n and source-key assumptions require caution."
+"baseline_39_Proliferative_Matched_PRE_diagnostic",61,9,22,FALSE,"",-0.200935326646752,0.927808418974525,"Exploratory Gaussian diagnostic; bounded shared-PRE response, small n and source-key assumptions require caution."
+"sensitivity_41_All_Matched_PRE_diagnostic",104,15,37,FALSE,"",-0.0609631490060862,0.75062896901281,"Exploratory Gaussian diagnostic; bounded shared-PRE response, small n and source-key assumptions require caution."
+"sensitivity_41_Proliferative_Matched_PRE_diagnostic",61,9,22,FALSE,"",-0.215467375182022,0.941479438939932,"Exploratory Gaussian diagnostic; bounded shared-PRE response, small n and source-key assumptions require caution."

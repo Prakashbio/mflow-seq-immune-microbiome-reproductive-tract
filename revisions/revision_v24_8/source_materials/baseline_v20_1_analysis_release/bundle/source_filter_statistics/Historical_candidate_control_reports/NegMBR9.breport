@@ -1,0 +1,55 @@
+100.00	14848	0	R	1	root
+100.00	14848	0	R1	131567	  cellular organisms
+78.79	11699	0	D	2	    Bacteria
+77.34	11484	0	D1	1783272	      Terrabacteria group
+77.34	11484	0	P	1239	        Firmicutes
+77.34	11484	0	C	91061	          Bacilli
+77.34	11484	0	O	186826	            Lactobacillales
+57.89	8596	0	F	33958	              Lactobacillaceae
+57.38	8520	0	G	1578	                Lactobacillus
+57.38	8520	8520	S	147802	                  Lactobacillus iners
+0.51	75	0	G	2742598	                Limosilactobacillus
+0.51	75	75	S	1613	                  Limosilactobacillus fermentum
+17.10	2538	0	F	1300	              Streptococcaceae
+17.10	2538	0	G	1301	                Streptococcus
+17.10	2538	2538	S	1304	                  Streptococcus salivarius
+2.35	349	0	F	186827	              Aerococcaceae
+2.35	349	0	G	46123	                Abiotrophia
+2.35	349	349	S	46125	                  Abiotrophia defectiva
+1.45	214	0	P	1224	      Proteobacteria
+1.45	214	0	C	28216	        Betaproteobacteria
+1.45	214	0	O	80840	          Burkholderiales
+1.45	214	0	F	119060	            Burkholderiaceae
+1.45	214	0	G	32008	              Burkholderia
+1.45	214	0	G1	87882	                Burkholderia cepacia complex
+1.45	214	214	S	87883	                  Burkholderia multivorans
+21.21	3149	0	D	2759	    Eukaryota
+21.21	3149	0	D1	33154	      Opisthokonta
+21.21	3149	0	K	33208	        Metazoa
+21.21	3149	0	K1	6072	          Eumetazoa
+21.21	3149	0	K2	33213	            Bilateria
+21.21	3149	0	K3	33511	              Deuterostomia
+21.21	3149	0	P	7711	                Chordata
+21.21	3149	0	P1	89593	                  Craniata
+21.21	3149	0	P2	7742	                    Vertebrata
+21.21	3149	0	P3	7776	                      Gnathostomata
+21.21	3149	0	P4	117570	                        Teleostomi
+21.21	3149	0	P5	117571	                          Euteleostomi
+21.21	3149	0	P6	8287	                            Sarcopterygii
+21.21	3149	0	P7	1338369	                              Dipnotetrapodomorpha
+21.21	3149	0	P8	32523	                                Tetrapoda
+21.21	3149	0	P9	32524	                                  Amniota
+21.21	3149	0	C	40674	                                    Mammalia
+21.21	3149	0	C1	32525	                                      Theria
+21.21	3149	0	C2	9347	                                        Eutheria
+21.21	3149	0	C3	1437010	                                          Boreoeutheria
+21.21	3149	0	C4	314146	                                            Euarchontoglires
+21.21	3149	0	O	9443	                                              Primates
+21.21	3149	0	O1	376913	                                                Haplorrhini
+21.21	3149	0	O2	314293	                                                  Simiiformes
+21.21	3149	0	O3	9526	                                                    Catarrhini
+21.21	3149	0	O4	314295	                                                      Hominoidea
+21.21	3149	0	F	9604	                                                        Hominidae
+21.21	3149	0	F1	207598	                                                          Homininae
+21.21	3149	0	G	9605	                                                            Homo
+21.21	3149	3149	S	9606	                                                              Homo sapiens

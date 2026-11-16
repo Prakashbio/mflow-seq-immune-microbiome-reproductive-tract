@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "score_rows": 786,
+  "PRE_test_rows": 786,
+  "paired_preparations": 37,
+  "independent_array_assertions": 344,
+  "basis": "Independent source-code count reconstruction; all site scores, detection counts, exact tied-rank enumeration, effects, BH families. Bootstrap verification is separate R script.",
+  "limitations": "Source mapping adjudication and species classification remain unresolved. Reproduction does not validate those biological assumptions."
+}

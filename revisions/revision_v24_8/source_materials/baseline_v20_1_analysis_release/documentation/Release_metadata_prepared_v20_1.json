@@ -1,0 +1,30 @@
+{
+  "status": "LOCAL_CONSOLIDATED_CANDIDATE_NOT_PUBLISHED",
+  "manuscript_package": "v20.1 consolidation 2026-11-06",
+  "title": "mFLOW-Seq Microbiome revision downstream analyses and figure reproduction",
+  "associated_manuscript_title": "Immunoglobulin class-resolved microbial profiling across female reproductive tract compartments using mFLOW-Seq",
+  "creators_as_written_in_manuscript": [
+    "Prakash Lingasamy",
+    "Merli Saare",
+    "Sergio Vela Moreno",
+    "Karita Särekannu",
+    "Dmitri Lubenets",
+    "Alberto Sola-Leyva",
+    "Kasun Godakumara",
+    "Naisarg Patel",
+    "Vijayachitra Modhukur",
+    "Reet Mändar",
+    "Andres Salumets"
+  ],
+  "creator_source": "v20 main manuscript author line; ORCID and affiliation values not inferred",
+  "existing_repository": "https://github.com/Prakashbio/mflow-seq-immune-microbiome-reproductive-tract",
+  "existing_provided_Zenodo_DOI": "10.5281/zenodo.19437248",
+  "code_license": "Existing GNU GPL version 3 text preserved without modification",
+  "data_license": "No new assignment; use the existing authorized deposit terms",
+  "release_version_tag": null,
+  "publication_date": null,
+  "new_version_DOI": null,
+  "new_version_DOI_status": "Assigned or verified only during actual update; no DOI invented",
+  "remote_actions": false,
+  "note": "Planning record, not a complete Zenodo API upload payload. Retain existing deposit version lineage and repository history."
+}

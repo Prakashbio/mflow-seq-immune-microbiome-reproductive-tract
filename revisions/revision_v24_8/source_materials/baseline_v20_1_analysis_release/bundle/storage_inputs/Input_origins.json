@@ -1,0 +1,9 @@
+{
+  "source_manifest": "PROJECT_ROOT/review_response/02_evidence/Source_records_2026-10-20/Source_record_manifest_REVIEW_ONLY.csv",
+  "source_manifest_sha256": "efe14b4c803992557c15313b88318e44fa3a587e0d1bf2e0a4ba061deeda5c60",
+  "native_workbook": "EXPERIMENT_ROOT/Prakash FACS study final version of microbiome sequencing. Improved pipline 07.04.25.xlsx",
+  "native_workbook_sha256": "c9dc7e9fa5d5adf0ae8cca48ebea0ca3307d40f6af12058597f46f99a3aa5b8a",
+  "native_storage_patient_site_checks": 149,
+  "storage_fields": "Values independently rechecked against General table storage section, patient and site cells; not inferred from suffix or derived table headings.",
+  "originals_unchanged": true
+}

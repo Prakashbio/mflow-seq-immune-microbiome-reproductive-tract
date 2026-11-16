@@ -1,0 +1,16 @@
+{
+  "version": "v20",
+  "source_libraries": 124,
+  "profiles": 120,
+  "women": 14,
+  "anatomical_units": 30,
+  "HUT099": "Both preparations contribute through equal averaging within each fraction",
+  "new_tables": [
+    "S2R.8",
+    "S2R.9",
+    "S2R.10"
+  ],
+  "new_figures": false,
+  "verification": "Independent_numerical_verification.json; 290 checks; not empirical proof of exchangeability",
+  "upstream_FASTQ_reproduced": false
+}

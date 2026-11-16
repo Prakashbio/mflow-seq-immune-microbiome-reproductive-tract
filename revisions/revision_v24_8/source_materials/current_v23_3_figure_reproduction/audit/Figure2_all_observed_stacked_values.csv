@@ -1,0 +1,253 @@
+"Participant","Location","Group","relative_abundance"
+"93","CERVIX","Anaerococcus",0
+"94","CERVIX","Anaerococcus",0.0159407959304359
+"95","CERVIX","Anaerococcus",0
+"96","CERVIX","Anaerococcus",0
+"97","CERVIX","Anaerococcus",0
+"98","CERVIX","Anaerococcus",0
+"99","CERVIX","Anaerococcus",0.0024626454571011
+"104","CERVIX","Anaerococcus",0.0137974728098272
+"77","ENDOMETRIUM","Anaerococcus",0
+"78","ENDOMETRIUM","Anaerococcus",0
+"79","ENDOMETRIUM","Anaerococcus",0.464085501368524
+"80","ENDOMETRIUM","Anaerococcus",0
+"81","ENDOMETRIUM","Anaerococcus",0.00747817766040408
+"90","ENDOMETRIUM","Anaerococcus",0
+"91","ENDOMETRIUM","Anaerococcus",2.44402221204821e-05
+"93","ENDOMETRIUM","Anaerococcus",0
+"94","ENDOMETRIUM","Anaerococcus",0
+"96","ENDOMETRIUM","Anaerococcus",0
+"97","ENDOMETRIUM","Anaerococcus",0
+"98","ENDOMETRIUM","Anaerococcus",0.136811481768813
+"99","ENDOMETRIUM","Anaerococcus",0.00216625062212268
+"77","VAGINA","Anaerococcus",0.00290278201956296
+"78","VAGINA","Anaerococcus",0
+"79","VAGINA","Anaerococcus",0.482636668482206
+"80","VAGINA","Anaerococcus",0
+"81","VAGINA","Anaerococcus",0.00058267387442058
+"90","VAGINA","Anaerococcus",0
+"91","VAGINA","Anaerococcus",0
+"93","VAGINA","Anaerococcus",0
+"94","VAGINA","Anaerococcus",0.00793009970611843
+"95","VAGINA","Anaerococcus",0
+"96","VAGINA","Anaerococcus",0
+"97","VAGINA","Anaerococcus",0
+"98","VAGINA","Anaerococcus",0
+"99","VAGINA","Anaerococcus",0.00248278423725252
+"104","VAGINA","Anaerococcus",0.0266789080009721
+"93","CERVIX","Escherichia",0
+"94","CERVIX","Escherichia",0
+"95","CERVIX","Escherichia",0
+"96","CERVIX","Escherichia",0
+"97","CERVIX","Escherichia",0
+"98","CERVIX","Escherichia",0
+"99","CERVIX","Escherichia",0
+"104","CERVIX","Escherichia",0
+"77","ENDOMETRIUM","Escherichia",0
+"78","ENDOMETRIUM","Escherichia",0
+"79","ENDOMETRIUM","Escherichia",0
+"80","ENDOMETRIUM","Escherichia",0
+"81","ENDOMETRIUM","Escherichia",0
+"90","ENDOMETRIUM","Escherichia",0.810711984084732
+"91","ENDOMETRIUM","Escherichia",0
+"93","ENDOMETRIUM","Escherichia",0
+"94","ENDOMETRIUM","Escherichia",0
+"96","ENDOMETRIUM","Escherichia",0
+"97","ENDOMETRIUM","Escherichia",0
+"98","ENDOMETRIUM","Escherichia",0
+"99","ENDOMETRIUM","Escherichia",0
+"77","VAGINA","Escherichia",0.839116949052813
+"78","VAGINA","Escherichia",0
+"79","VAGINA","Escherichia",0
+"80","VAGINA","Escherichia",0
+"81","VAGINA","Escherichia",0
+"90","VAGINA","Escherichia",0
+"91","VAGINA","Escherichia",0.208146874484946
+"93","VAGINA","Escherichia",0
+"94","VAGINA","Escherichia",0
+"95","VAGINA","Escherichia",0
+"96","VAGINA","Escherichia",0
+"97","VAGINA","Escherichia",0
+"98","VAGINA","Escherichia",0
+"99","VAGINA","Escherichia",0
+"104","VAGINA","Escherichia",0
+"93","CERVIX","Lactobacillus",0.956563274101995
+"94","CERVIX","Lactobacillus",0.0847077326906199
+"95","CERVIX","Lactobacillus",1
+"96","CERVIX","Lactobacillus",0.994608246166964
+"97","CERVIX","Lactobacillus",1
+"98","CERVIX","Lactobacillus",0.989658320108978
+"99","CERVIX","Lactobacillus",0.0359174945575535
+"104","CERVIX","Lactobacillus",0.0177144667306928
+"77","ENDOMETRIUM","Lactobacillus",0.752451453330293
+"78","ENDOMETRIUM","Lactobacillus",0.947475926466297
+"79","ENDOMETRIUM","Lactobacillus",0.00132832023774681
+"80","ENDOMETRIUM","Lactobacillus",0.894332567099427
+"81","ENDOMETRIUM","Lactobacillus",0.939688591352439
+"90","ENDOMETRIUM","Lactobacillus",0.0295112576067492
+"91","ENDOMETRIUM","Lactobacillus",0.998722090960215
+"93","ENDOMETRIUM","Lactobacillus",0.897542257528812
+"94","ENDOMETRIUM","Lactobacillus",0.621176744019738
+"96","ENDOMETRIUM","Lactobacillus",0.798825683157707
+"97","ENDOMETRIUM","Lactobacillus",0.939621318373072
+"98","ENDOMETRIUM","Lactobacillus",0.638363072148953
+"99","ENDOMETRIUM","Lactobacillus",0.281759633143815
+"77","VAGINA","Lactobacillus",0.00836931456798702
+"78","VAGINA","Lactobacillus",0.394988946204864
+"79","VAGINA","Lactobacillus",0
+"80","VAGINA","Lactobacillus",0.998784082881297
+"81","VAGINA","Lactobacillus",0.993867608463979
+"90","VAGINA","Lactobacillus",0.990570196319062
+"91","VAGINA","Lactobacillus",0.704339149453653
+"93","VAGINA","Lactobacillus",0.961447928611983
+"94","VAGINA","Lactobacillus",0.246580747289746
+"95","VAGINA","Lactobacillus",0.99908840855189
+"96","VAGINA","Lactobacillus",0.999700036393279
+"97","VAGINA","Lactobacillus",0.986587906967235
+"98","VAGINA","Lactobacillus",0.99477442508276
+"99","VAGINA","Lactobacillus",0.00131861257324947
+"104","VAGINA","Lactobacillus",0.0352928469203143
+"93","CERVIX","Other retained genera",0.0253314340091521
+"94","CERVIX","Other retained genera",0.164350876439597
+"95","CERVIX","Other retained genera",0
+"96","CERVIX","Other retained genera",0.00539175383303643
+"97","CERVIX","Other retained genera",0
+"98","CERVIX","Other retained genera",0.010341679891022
+"99","CERVIX","Other retained genera",0.225797309881876
+"104","CERVIX","Other retained genera",0.0410454703158233
+"77","ENDOMETRIUM","Other retained genera",0.247548546669707
+"78","ENDOMETRIUM","Other retained genera",0.052524073533703
+"79","ENDOMETRIUM","Other retained genera",0.348002212794972
+"80","ENDOMETRIUM","Other retained genera",0.0844165830284586
+"81","ENDOMETRIUM","Other retained genera",0.0528332309871571
+"90","ENDOMETRIUM","Other retained genera",0.159776758308519
+"91","ENDOMETRIUM","Other retained genera",0.00125346881766433
+"93","ENDOMETRIUM","Other retained genera",0.0955614202656425
+"94","ENDOMETRIUM","Other retained genera",0.0787606822326313
+"96","ENDOMETRIUM","Other retained genera",0.183559564207894
+"97","ENDOMETRIUM","Other retained genera",0.0603786816269285
+"98","ENDOMETRIUM","Other retained genera",0.211830876648565
+"99","ENDOMETRIUM","Other retained genera",0.222062978788491
+"77","VAGINA","Other retained genera",0.149610954359637
+"78","VAGINA","Other retained genera",0.161304585542111
+"79","VAGINA","Other retained genera",0.272595297367398
+"80","VAGINA","Other retained genera",0.00121591711870327
+"81","VAGINA","Other retained genera",0.00554971766159997
+"90","VAGINA","Other retained genera",0.00942980368093833
+"91","VAGINA","Other retained genera",0.0875139760614011
+"93","VAGINA","Other retained genera",0.013660056605779
+"94","VAGINA","Other retained genera",0.108399816035078
+"95","VAGINA","Other retained genera",0.000911591448109735
+"96","VAGINA","Other retained genera",0.000299963606720914
+"97","VAGINA","Other retained genera",0.0134120930327652
+"98","VAGINA","Other retained genera",0.0052255749172404
+"99","VAGINA","Other retained genera",0.198419424365497
+"104","VAGINA","Other retained genera",0.0535198336618691
+"93","CERVIX","Parvimonas",0
+"94","CERVIX","Parvimonas",0
+"95","CERVIX","Parvimonas",0
+"96","CERVIX","Parvimonas",0
+"97","CERVIX","Parvimonas",0
+"98","CERVIX","Parvimonas",0
+"99","CERVIX","Parvimonas",0.480934198871123
+"104","CERVIX","Parvimonas",0.235829180850475
+"77","ENDOMETRIUM","Parvimonas",0
+"78","ENDOMETRIUM","Parvimonas",0
+"79","ENDOMETRIUM","Parvimonas",0
+"80","ENDOMETRIUM","Parvimonas",0
+"81","ENDOMETRIUM","Parvimonas",0
+"90","ENDOMETRIUM","Parvimonas",0
+"91","ENDOMETRIUM","Parvimonas",0
+"93","ENDOMETRIUM","Parvimonas",0
+"94","ENDOMETRIUM","Parvimonas",0
+"96","ENDOMETRIUM","Parvimonas",0.017614752634399
+"97","ENDOMETRIUM","Parvimonas",0
+"98","ENDOMETRIUM","Parvimonas",0
+"99","ENDOMETRIUM","Parvimonas",0.25899690623711
+"77","VAGINA","Parvimonas",0
+"78","VAGINA","Parvimonas",0.154073264078732
+"79","VAGINA","Parvimonas",0
+"80","VAGINA","Parvimonas",0
+"81","VAGINA","Parvimonas",0
+"90","VAGINA","Parvimonas",0
+"91","VAGINA","Parvimonas",0
+"93","VAGINA","Parvimonas",0
+"94","VAGINA","Parvimonas",0
+"95","VAGINA","Parvimonas",0
+"96","VAGINA","Parvimonas",0
+"97","VAGINA","Parvimonas",0
+"98","VAGINA","Parvimonas",0
+"99","VAGINA","Parvimonas",0.540128733340176
+"104","VAGINA","Parvimonas",0.247164690951314
+"93","CERVIX","Prevotella",0.0181052918888525
+"94","CERVIX","Prevotella",0.0690281732857024
+"95","CERVIX","Prevotella",0
+"96","CERVIX","Prevotella",0
+"97","CERVIX","Prevotella",0
+"98","CERVIX","Prevotella",0
+"99","CERVIX","Prevotella",0.17104474513135
+"104","CERVIX","Prevotella",0.0298677071757921
+"77","ENDOMETRIUM","Prevotella",0
+"78","ENDOMETRIUM","Prevotella",0
+"79","ENDOMETRIUM","Prevotella",0.186583965598757
+"80","ENDOMETRIUM","Prevotella",0
+"81","ENDOMETRIUM","Prevotella",0
+"90","ENDOMETRIUM","Prevotella",0
+"91","ENDOMETRIUM","Prevotella",0
+"93","ENDOMETRIUM","Prevotella",0.00689632220554515
+"94","ENDOMETRIUM","Prevotella",0.0359924196374298
+"96","ENDOMETRIUM","Prevotella",0
+"97","ENDOMETRIUM","Prevotella",0
+"98","ENDOMETRIUM","Prevotella",0.0129945694336695
+"99","ENDOMETRIUM","Prevotella",0.137456212989874
+"77","VAGINA","Prevotella",0
+"78","VAGINA","Prevotella",0.117441224712958
+"79","VAGINA","Prevotella",0.244768034150396
+"80","VAGINA","Prevotella",0
+"81","VAGINA","Prevotella",0
+"90","VAGINA","Prevotella",0
+"91","VAGINA","Prevotella",0
+"93","VAGINA","Prevotella",0.0248920147822376
+"94","VAGINA","Prevotella",0.0619287462726778
+"95","VAGINA","Prevotella",0
+"96","VAGINA","Prevotella",0
+"97","VAGINA","Prevotella",0
+"98","VAGINA","Prevotella",0
+"99","VAGINA","Prevotella",0.173379470111285
+"104","VAGINA","Prevotella",0.0581913428563713
+"93","CERVIX","Sneathia",0
+"94","CERVIX","Sneathia",0.665972421653645
+"95","CERVIX","Sneathia",0
+"96","CERVIX","Sneathia",0
+"97","CERVIX","Sneathia",0
+"98","CERVIX","Sneathia",0
+"99","CERVIX","Sneathia",0.0838436061009957
+"104","CERVIX","Sneathia",0.661745702117389
+"77","ENDOMETRIUM","Sneathia",0
+"78","ENDOMETRIUM","Sneathia",0
+"79","ENDOMETRIUM","Sneathia",0
+"80","ENDOMETRIUM","Sneathia",0.0212508498721145
+"81","ENDOMETRIUM","Sneathia",0
+"90","ENDOMETRIUM","Sneathia",0
+"91","ENDOMETRIUM","Sneathia",0
+"93","ENDOMETRIUM","Sneathia",0
+"94","ENDOMETRIUM","Sneathia",0.264070154110201
+"96","ENDOMETRIUM","Sneathia",0
+"97","ENDOMETRIUM","Sneathia",0
+"98","ENDOMETRIUM","Sneathia",0
+"99","ENDOMETRIUM","Sneathia",0.0975580182185873
+"77","VAGINA","Sneathia",0
+"78","VAGINA","Sneathia",0.172191979461335
+"79","VAGINA","Sneathia",0
+"80","VAGINA","Sneathia",0
+"81","VAGINA","Sneathia",0
+"90","VAGINA","Sneathia",0
+"91","VAGINA","Sneathia",0
+"93","VAGINA","Sneathia",0
+"94","VAGINA","Sneathia",0.575160590696381
+"95","VAGINA","Sneathia",0
+"96","VAGINA","Sneathia",0
+"97","VAGINA","Sneathia",0
+"98","VAGINA","Sneathia",0
+"99","VAGINA","Sneathia",0.0842709753725398
+"104","VAGINA","Sneathia",0.579152377609159

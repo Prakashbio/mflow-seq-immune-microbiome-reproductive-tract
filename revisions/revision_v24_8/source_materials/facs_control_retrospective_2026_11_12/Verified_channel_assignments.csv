@@ -1,0 +1,5 @@
+reagent,excitation_channel_label,detection_bandpass_nm,source
+DAPI,3-406,450/40,Original HUT093 FCS parameter names and new report axes
+IgA-PE,2-488,585/42,"Original clinical antibody assignment, FCS parameter names and report axes"
+IgM-APC,1-633,660/20,"Original clinical antibody assignment, FCS parameter names and report axes"
+IgG-FITC,2-488,530/30,Original clinical antibody assignment and FCS parameter names; no IgG-gate count is supplied in the new control tables

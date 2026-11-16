@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checks": 92,
+  "source_files": 376,
+  "regenerated_figures": 20,
+  "unchanged_figure_assets": 4,
+  "new_statistical_tests": 0,
+  "new_fitted_models": 0,
+  "undefined_evenness": 6,
+  "undefined_genus_scores": 10,
+  "limitations": [
+    "Figure design candidates only; not integrated into Word/PDF submission masters.",
+    "Historical gate percentages are not a reconstruction from verified FACSDiva workspace coordinates.",
+    "No new experimental DAPI concordance, antibody-specificity or post-sort-purity evidence."
+  ]
+}

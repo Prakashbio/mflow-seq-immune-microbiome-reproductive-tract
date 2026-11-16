@@ -1,0 +1,5 @@
+block,worksheet,title_row,header_row,data_start,data_end,file
+A,S2R.7,674,677,678,826,Analysis_metadata_149.csv
+B,S2R.7,829,832,833,868,Field_definitions.csv
+C,S2R.7,871,874,875,1074,Separate_archived_200_report_ledger.csv
+D,S2R.7,1077,1080,1081,1087,Seven_historical_PCR_annotations.csv

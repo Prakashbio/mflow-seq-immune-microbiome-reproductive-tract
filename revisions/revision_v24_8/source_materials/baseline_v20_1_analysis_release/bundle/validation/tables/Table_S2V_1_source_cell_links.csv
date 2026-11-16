@@ -1,0 +1,33 @@
+sample,original_source_code,taxon,sequencing_percent,qPCR_Ct,reported_category,source_sheet,sequencing_cell,Ct_cell,category_cell
+HUT97,97VP,Lactobacillus crispatus,89.33,21.52,Strong detection,Validation summary,C4,G4,H4
+HUT97,97VP,Lactobacillus iners,8.03,32.39,Detection,Validation summary,D4,I4,J4
+HUT97,97VP,Lactobacillus jensenii,0.34,30.74,Detection,Validation summary,E4,K4,L4
+HUT97,97VP,Lactobacillus gasseri,0.0,ND,ND,Validation summary,F4,M4,N4
+HUT96,96VP,Lactobacillus crispatus,0.06,35.12,Equivocal,Validation summary,C5,G5,H5
+HUT96,96VP,Lactobacillus iners,0.4,37.64,Equivocal,Validation summary,D5,I5,J5
+HUT96,96VP,Lactobacillus jensenii,98.87,22.82,Strong detection,Validation summary,E5,K5,L5
+HUT96,96VP,Lactobacillus gasseri,0.0,ND,ND,Validation summary,F5,M5,N5
+HUT77,77VP,Lactobacillus crispatus,0.0,ND,ND,Validation summary,C6,G6,H6
+HUT77,77VP,Lactobacillus iners,0.36,39.78,Equivocal,Validation summary,D6,I6,J6
+HUT77,77VP,Lactobacillus jensenii,0.0,ND,ND,Validation summary,E6,K6,L6
+HUT77,77VP,Lactobacillus gasseri,0.0,ND,ND,Validation summary,F6,M6,N6
+HUT91,91VP,Lactobacillus crispatus,0.02,36.11,Equivocal,Validation summary,C7,G7,H7
+HUT91,91VP,Lactobacillus iners,58.56,28.49,Strong detection,Validation summary,D7,I7,J7
+HUT91,91VP,Lactobacillus jensenii,0.98,29.31,Strong detection,Validation summary,E7,K7,L7
+HUT91,91VP,Lactobacillus gasseri,0.0,ND,ND,Validation summary,F7,M7,N7
+HUT79,79VP,Lactobacillus crispatus,0.0,ND,ND,Validation summary,C8,G8,H8
+HUT79,79VP,Lactobacillus iners,0.0,ND,ND,Validation summary,D8,I8,J8
+HUT79,79VP,Lactobacillus jensenii,0.0,ND,ND,Validation summary,E8,K8,L8
+HUT79,79VP,Lactobacillus gasseri,0.0,ND,ND,Validation summary,F8,M8,N8
+HUT98,98VP,Lactobacillus crispatus,1.69,33.18,Detection,Validation summary,C9,G9,H9
+HUT98,98VP,Lactobacillus iners,3.42,ND,ND,Validation summary,D9,I9,J9
+HUT98,98VP,Lactobacillus jensenii,0.0,ND,ND,Validation summary,E9,K9,L9
+HUT98,98VP,Lactobacillus gasseri,88.88,25.57,Strong detection,Validation summary,F9,M9,N9
+HUT80,80VP2,Lactobacillus crispatus,11.86,19.01,Strong detection,Validation summary,C10,G10,H10
+HUT80,80VP2,Lactobacillus iners,86.43,20.77,Strong detection,Validation summary,D10,I10,J10
+HUT80,80VP2,Lactobacillus jensenii,0.96,23.38,Strong detection,Validation summary,E10,K10,L10
+HUT80,80VP2,Lactobacillus gasseri,0.0,ND,ND,Validation summary,F10,M10,N10
+HUT81,81VP,Lactobacillus crispatus,44.83,27.37,Strong detection,Validation summary,C11,G11,H11
+HUT81,81VP,Lactobacillus iners,53.15,32.2,Detection,Validation summary,D11,I11,J11
+HUT81,81VP,Lactobacillus jensenii,0.77,34.56,Detection,Validation summary,E11,K11,L11
+HUT81,81VP,Lactobacillus gasseri,0.0,ND,ND,Validation summary,F11,M11,N11

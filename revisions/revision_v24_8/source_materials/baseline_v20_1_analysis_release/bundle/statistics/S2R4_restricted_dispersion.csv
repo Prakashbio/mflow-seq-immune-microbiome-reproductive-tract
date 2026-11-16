@@ -1,0 +1,4 @@
+term,Df,Sum Sq,Mean Sq,F,N.Perm,Pr(>F),analysis,residual_df,context,taxon_arm,scope,p_BH_three_dispersion_tests
+Groups,3,0.314139505241866,0.104713168413955,1.49396525844535,9999,0.0065,baseline_39_All_Fraction_complete,120,Fraction_complete,baseline_39,All,0.0065
+Groups,2,0.365200223794915,0.182600111897458,3.68645577563199,9999,0.0001,baseline_39_All_PRE_site_omit99_unsuffixed,33,PRE_site_omit99_unsuffixed,baseline_39,All,0.00015
+Groups,2,0.51517863327054,0.25758931663527,6.0673193543326,9999,0.0001,baseline_39_All_PRE_site_omit99_suffix2,33,PRE_site_omit99_suffix2,baseline_39,All,0.00015

@@ -1,0 +1,45 @@
+100.00	5121	0	R	1	root
+100.00	5121	0	R1	131567	  cellular organisms
+68.22	3493	0	D	2759	    Eukaryota
+68.22	3493	0	D1	33154	      Opisthokonta
+68.22	3493	0	K	33208	        Metazoa
+68.22	3493	0	K1	6072	          Eumetazoa
+68.22	3493	0	K2	33213	            Bilateria
+68.22	3493	0	K3	33511	              Deuterostomia
+68.22	3493	0	P	7711	                Chordata
+68.22	3493	0	P1	89593	                  Craniata
+68.22	3493	0	P2	7742	                    Vertebrata
+68.22	3493	0	P3	7776	                      Gnathostomata
+68.22	3493	0	P4	117570	                        Teleostomi
+68.22	3493	0	P5	117571	                          Euteleostomi
+68.22	3493	0	P6	8287	                            Sarcopterygii
+68.22	3493	0	P7	1338369	                              Dipnotetrapodomorpha
+68.22	3493	0	P8	32523	                                Tetrapoda
+68.22	3493	0	P9	32524	                                  Amniota
+68.22	3493	0	C	40674	                                    Mammalia
+68.22	3493	0	C1	32525	                                      Theria
+68.22	3493	0	C2	9347	                                        Eutheria
+68.22	3493	0	C3	1437010	                                          Boreoeutheria
+68.22	3493	0	C4	314146	                                            Euarchontoglires
+68.22	3493	0	O	9443	                                              Primates
+68.22	3493	0	O1	376913	                                                Haplorrhini
+68.22	3493	0	O2	314293	                                                  Simiiformes
+68.22	3493	0	O3	9526	                                                    Catarrhini
+68.22	3493	0	O4	314295	                                                      Hominoidea
+68.22	3493	0	F	9604	                                                        Hominidae
+68.22	3493	0	F1	207598	                                                          Homininae
+68.22	3493	0	G	9605	                                                            Homo
+68.22	3493	3493	S	9606	                                                              Homo sapiens
+31.78	1627	0	D	2	    Bacteria
+31.78	1627	0	D1	1783272	      Terrabacteria group
+31.78	1627	0	P	1239	        Firmicutes
+19.27	986	0	C	91061	          Bacilli
+19.27	986	0	O	186826	            Lactobacillales
+19.27	986	0	F	33958	              Lactobacillaceae
+19.27	986	0	G	1578	                Lactobacillus
+19.27	986	986	S	147802	                  Lactobacillus iners
+12.51	640	0	C	1737404	          Tissierellia
+12.51	640	0	O	1737405	            Tissierellales
+12.51	640	0	F	1570339	              Peptoniphilaceae
+12.51	640	0	G	165779	                Anaerococcus
+12.51	640	640	S	33034	                  Anaerococcus prevotii

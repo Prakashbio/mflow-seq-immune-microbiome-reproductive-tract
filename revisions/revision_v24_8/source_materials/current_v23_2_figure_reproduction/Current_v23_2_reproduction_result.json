@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "current_selected_image_assets": 29,
+  "unchanged_existing_assets": 23,
+  "new_FACS_plates": 6,
+  "statistical_models_refitted": 0,
+  "scope": "Reproduces current figure graphics and display binning, not upstream FASTQ processing, biological specificity or quantitative DAPI validation."
+}

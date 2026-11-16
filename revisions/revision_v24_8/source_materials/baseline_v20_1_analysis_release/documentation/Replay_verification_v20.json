@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "date": "2026-11-05",
+  "recorded_models_refit": 17,
+  "figure_scripts_run": 8,
+  "statistical_figures_identical": 19,
+  "nonstatistical_assets_preserved": 4,
+  "joint_arms": 4,
+  "joint_permutations_per_arm": 9999,
+  "joint_cluster_bootstrap_draws_per_arm": 1000,
+  "joint_independent_checks": 290,
+  "joint_results_csv_files_identical": 20,
+  "fresh_machine_install_test": false,
+  "FASTQ_to_table_reproduction": false,
+  "remote_actions": false
+}

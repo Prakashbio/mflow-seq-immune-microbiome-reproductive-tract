@@ -1,0 +1,10 @@
+{
+  "source_archive": "Prakash Lingasamy_FACS_16102026.zip",
+  "source_archive_sha256": "fb836182d57428d5a04ee12b48a800b63529215ae335bacdb8191ecb7a6570d2",
+  "source_operator_presentation": "Dima answers.pptx",
+  "source_operator_presentation_sha256": "059d1146680d22f28e75a7679d10cf22559d71bf28cc824260544a02b8da2191",
+  "source_report_sha256": "cf7d3c06cdc71b287e39d21298e7e1786bd6b0c5e03cd22e979276f585d3b144",
+  "scope": "37 unmodified original FCS files: 34 development-control/comparator acquisitions and three HUT093 buffer controls. Nine original embedded graph EMFs extracted from operator slides, without accompanying email/text commentary. No clinical input table or existing numerical result modified.",
+  "composition": "HUT093 BSA/PBS1/PBS2 buffers contained no antibodies or DAPI, per experimenter clarification on 11 November 2026.",
+  "original_pilot_roles": "DAPI pilot roles follow the operator description; date/number comparator matches do not authenticate biological pairing."
+}

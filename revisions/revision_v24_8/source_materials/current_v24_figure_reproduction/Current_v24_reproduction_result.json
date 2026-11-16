@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "current_image_assets": 29,
+  "presentation_updated_assets": 17,
+  "unchanged_assets": 12,
+  "original_microscopy_and_FACS_graphics_unchanged": true,
+  "numerical_results_unchanged": true,
+  "new_statistical_tests": 0,
+  "scope": "Downstream display reproduction and layer-value preservation; not upstream sequencing provenance or experimental validation"
+}

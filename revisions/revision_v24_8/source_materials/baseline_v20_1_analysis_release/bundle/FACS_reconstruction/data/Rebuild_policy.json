@@ -1,0 +1,8 @@
+{
+  "reference": "Later-printed HUT090 PDF (25 Jan 2024); earlier PDF printed 4 Jan 2024 retained as sensitivity",
+  "duplicate": "HUT099 fresh endometrial report retained with fresh cervix and vagina; frozen repeat excluded from primary, retained separately",
+  "observational_unit": "Woman/site; 16 vagina, 10 cervix, 16 endometrium",
+  "scope": "Rebuilt revision table; original submitted mean/SD calculation has not been recovered",
+  "CI": "10000 woman-bootstrap draws per site; seed 20261030; pointwise percentile 95% intervals, not simultaneous",
+  "validation_limit": "Historical PDF report counts establish reported populations, not antibody specificity, viability, purity or raw-event gate reconstruction"
+}

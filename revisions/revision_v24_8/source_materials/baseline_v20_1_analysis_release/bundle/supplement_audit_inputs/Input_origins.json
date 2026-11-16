@@ -1,0 +1,7 @@
+{
+  "counts_source": "PROJECT_ROOT/review_response/source_filter_integrated_working_v5_2026-10-28/source_filter_inputs",
+  "scripts_source": "PROJECT_ROOT/review_response/02_evidence/Public_repository_access_2026-10-26/GitHub_snapshot/scripts",
+  "originals_unchanged": true,
+  "analysis_owner": "Prakash original workflow; not Kasun revised analysis",
+  "mapping_limit": "Conditional on named-source/workbook correspondence. Historical derived-heading and upstream identities still require author adjudication."
+}

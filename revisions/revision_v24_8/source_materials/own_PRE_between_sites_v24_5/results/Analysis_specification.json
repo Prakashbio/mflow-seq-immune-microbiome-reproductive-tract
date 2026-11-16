@@ -1,0 +1,36 @@
+{
+  "analysis": "Exploratory between-site difference in distance of the same fraction to its own local PRE",
+  "primary": "39-assignment full cohort; nine paired site contrasts",
+  "unit": "Woman; average repeated preparations within woman/site/fraction before matching",
+  "estimand": "Equal-woman mean of site1 own-PRE distance minus site2 own-PRE distance among women with both sites for that fraction",
+  "test": "Two-sided complete sign enumeration including observed assignment; assumes independently sampled women and sign-symmetric/exchangeable paired differences under null. Not randomized-site causal inference.",
+  "uncertainty": "Pointwise percentile woman-bootstrap intervals, 5000 draws per contrast; NumPy linear quantile. Intervals are not simultaneous and do not replace BH.",
+  "multiplicity": "BH nine new between-site contrasts within each taxon-arm/cohort scope; also BH18 over nine historical within-site fraction and nine between-site tests. Unestimable single-woman comparisons enter adjustment as p=1, but no inferential p/q/CI is reported for them. Sensitivities are not independent replication.",
+  "limitations": "Missing pairs not imputed; eligible women differ by fraction/site contrast. Anatomy is observational; storage, processing and missingness may confound site-associated differences. Source taxonomy/metadata limitations persist. No inference of antibody-driven effects, viability or storage equivalence.",
+  "source_hashes": {
+    "baseline_39_archived_Matched_own_PRE.csv": "0fdea2d59478718ae3294f0d60c2b782cf8aa8169fe917ad96960ea1e5479343",
+    "baseline_39_source_counts.csv": "596bfda4fa890c94f9ad39139bae4b556a3f5a251fe01779f740819a0a127ee7",
+    "prior_within_site_contrasts.csv": "a78600148037b6a09f9fc67976ca2ec433c1f2ee9f4333a7c8f6d8e250a17f26",
+    "sensitivity_41_archived_Matched_own_PRE.csv": "bd05a582fc4b3c1a0c5a5b2575623b74a517fc014164ba75af535567b9c64313",
+    "sensitivity_41_source_counts.csv": "0c6be6e64589e31ca5a0a900e9200e2064e2ad12b8771ef3e687c1650d3d5060",
+    "source_metadata_original_codes.csv": "e4b8ff7a77a436b6e2e14d7ac333b1aded67a00112b72fca43915e40b9f2393a"
+  },
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "contrasts": 36,
+  "primary_n_range": [
+    4,
+    12
+  ],
+  "primary_p_range": [
+    0.078125,
+    1.0
+  ],
+  "primary_q_range": [
+    0.5830078125,
+    1.0
+  ]
+}

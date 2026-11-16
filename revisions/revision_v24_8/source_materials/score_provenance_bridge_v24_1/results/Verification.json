@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "libraries": 149,
+  "source_vs_historical_value_matrix_identical": true,
+  "all_149_crosswalk_vectors_checked": true,
+  "site_taxon_rows": 117,
+  "final_scores_match_independent_reconstruction": true,
+  "original_files_unchanged": true,
+  "limitation": "Historical headings and named source codes allocate identical count vectors to different factor labels. This is a provenance hold, not merely a model adjustment or permission to rename participants. Site stratification, pairing and woman weighting are additional, separately quantified changes. Upstream identity and final author adjudication remain unresolved."
+}

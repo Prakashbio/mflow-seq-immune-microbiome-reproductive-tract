@@ -205,3 +205,13 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# mFLOW-Seq revision outputs; preserve all existing exclusions above.
+.DS_Store
+*.pyc
+NEW_*/
+
+# Keep only these two intentional, historical scientific render logs.
+!revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/audit/Supplementary_Figure_S19_A_render.log
+!revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/audit/Supplementary_Figure_S19_C_render.log

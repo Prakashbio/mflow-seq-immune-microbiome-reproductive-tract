@@ -1,0 +1,13 @@
+Location,Fraction,n_fresh_women,n_frozen_women,n_union_women,n_women_in_both_conditions,participants_in_both
+CERVIX,IgA,7,2,9,0,
+CERVIX,IgG,6,2,8,0,
+CERVIX,IgM,7,2,9,0,
+CERVIX,PRE,6,2,8,0,
+ENDOMETRIUM,IgA,6,8,13,1,99
+ENDOMETRIUM,IgG,5,8,12,1,99
+ENDOMETRIUM,IgM,6,9,14,1,99
+ENDOMETRIUM,PRE,7,7,13,1,99
+VAGINA,IgA,7,8,15,0,
+VAGINA,IgG,6,8,14,0,
+VAGINA,IgM,7,8,15,0,
+VAGINA,PRE,7,8,15,0,

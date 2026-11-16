@@ -1,0 +1,34 @@
+[
+  {
+    "sheet": "S2V.6",
+    "header_row": 45,
+    "rows": 9,
+    "columns": 7,
+    "source": "/Users/prakashlingasamy/Desktop/CCHT/Writng articles/mFLOW-seq/review_response/06_checks/Sergio_sequencing_evidence_audit_2026-11-14/source_copies/benchmark_mock_community.csv",
+    "sha256": "35deafe0744788e4871620369ff251e8cd59e98db5159c34d86471588a05ed77"
+  },
+  {
+    "sheet": "S2V.7",
+    "header_row": 29,
+    "rows": 149,
+    "columns": 18,
+    "source": "/Users/prakashlingasamy/Desktop/CCHT/Writng articles/mFLOW-seq/review_response/06_checks/V25_Sergio_integration_2026-11-14/Supplementary_QC_source_values.csv",
+    "sha256": "cbefa300acaae438c34530d29518ebe8aa2b58808f99f6ee284a77647e1f5c5f"
+  },
+  {
+    "sheet": "S2V.8",
+    "header_row": 29,
+    "rows": 9,
+    "columns": 18,
+    "source": "/Users/prakashlingasamy/Desktop/CCHT/Writng articles/mFLOW-seq/review_response/06_checks/Sergio_sequencing_evidence_audit_2026-11-14/source_copies/benchmark_single_species.csv",
+    "sha256": "9691505cec49483c6154ae57fb418acc58879c3d33dee15247e9c9bbe99fae23"
+  },
+  {
+    "sheet": "S2V.9",
+    "header_row": 29,
+    "rows": 56,
+    "columns": 18,
+    "source": "/Users/prakashlingasamy/Desktop/CCHT/Writng articles/mFLOW-seq/review_response/06_checks/Sergio_sequencing_evidence_audit_2026-11-14/source_copies/mixture_results.csv",
+    "sha256": "2552743427e467d598e69fd4c1deb3932a976c7dfd458271a581b074a34ea066"
+  }
+]

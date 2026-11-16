@@ -1,0 +1,23 @@
+script,project_path_references,portability_state,example_references
+analysis_scripts/source_archive/PRE_community_taxon_tests_2026_10_28.R,1,Recorded source; path adaptation and end-to-end replay pending,review_response/03_analysis/Taxon_scores_PRE_review_2026-10-28
+analysis_scripts/source_archive/audit_legacy_supplement_v6_2026_10_29.py,0,No project path match found; end-to-end replay still pending,
+analysis_scripts/source_archive/audit_source_filter_v5_2026_10_28.py,0,No project path match found; end-to-end replay still pending,
+analysis_scripts/source_archive/bootstrap_original_workflow_beta_2026_10_27.R,1,Recorded source; path adaptation and end-to-end replay pending,review_response/03_analysis/Prakash_original_workflow_review_2026-10-27
+analysis_scripts/source_archive/check_original_workflow_shannon_influence_2026_10_27.R,1,Recorded source; path adaptation and end-to-end replay pending,review_response/03_analysis/Prakash_original_workflow_review_2026-10-27
+analysis_scripts/source_archive/plot_diversity_integration_2026_10_28.R,2,Recorded source; path adaptation and end-to-end replay pending,review_response/03_analysis/Prakash_original_workflow_review_2026-10-27/results; review_response/diversity_integrated_working_v2_2026-10-28
+analysis_scripts/source_archive/plot_facs_publication_v12_2026_10_30.R,1,Recorded source; path adaptation and end-to-end replay pending,review_response/facs_integrated_working_v12_2026-10-30
+analysis_scripts/source_archive/plot_taxon_integration_v3_2026_10_28.R,3,Recorded source; path adaptation and end-to-end replay pending,review_response/03_analysis/Taxon_scores_PRE_review_2026-10-28; review_response/diversity_integrated_working_v2_2026-10-28/statistics; review_response/taxon_integrated_working_v3_2026-10-28
+analysis_scripts/source_archive/plot_verify_source_filter_v5_2026_10_28.R,1,Recorded source; path adaptation and end-to-end replay pending,review_response/source_filter_integrated_working_v5_2026-10-28
+analysis_scripts/source_archive/plot_verify_storage_review_v4_2026_10_28.R,1,Recorded source; path adaptation and end-to-end replay pending,review_response/storage_integrated_working_v4_2026-10-28
+analysis_scripts/source_archive/prepare_storage_review_v4_2026_10_28.py,1,External workbook uses MFLOW_NATIVE_WORKBOOK; historical layout still required; not a supported standalone entry point,EXPERIMENT_ROOT/Prakash
+analysis_scripts/source_archive/prepare_taxon_review_2026_10_28.py,1,External workbook uses MFLOW_NATIVE_WORKBOOK; historical layout still required; not a supported standalone entry point,EXPERIMENT_ROOT/Prakash
+analysis_scripts/source_archive/reanalyse_original_workflow_beta_PRE_2026_10_27.R,1,Recorded source; path adaptation and end-to-end replay pending,review_response/03_analysis/Prakash_original_workflow_review_2026-10-27
+analysis_scripts/source_archive/reanalyse_original_workflow_shannon_2026_10_27.R,1,Recorded source; path adaptation and end-to-end replay pending,review_response/03_analysis/Prakash_original_workflow_review_2026-10-27
+analysis_scripts/source_archive/rebuild_facs_phase_v12_2026_10_30.py,0,No project path match found; end-to-end replay still pending,
+analysis_scripts/source_archive/refit_v15_models_for_chatgpt_audit_2026_11_04.R,3,Recorded source; path adaptation and end-to-end replay pending,review_response/03_analysis/Prakash_original_workflow_review_2026-10-27; review_response/ChatGPT_v15_Q01_Q02_assessment_2026-11-04/model_refit; review_response/submission_working_v15_2026-11-03
+analysis_scripts/source_archive/taxon_scores_original_workflow_2026_10_28.R,1,Recorded source; path adaptation and end-to-end replay pending,review_response/03_analysis/Taxon_scores_PRE_review_2026-10-28
+analysis_scripts/source_archive/update_storage_figure_notes_v14_2026_11_03.R,0,No project path match found; end-to-end replay still pending,
+analysis_scripts/source_archive/verify_and_plot_PRE_v7_2026_10_29.R,1,Recorded source; path adaptation and end-to-end replay pending,review_response/03_analysis/PRE_baseline_review_2026-10-28
+analysis_scripts/source_archive/verify_original_beta_designs_2026_10_27.R,1,Recorded source; path adaptation and end-to-end replay pending,review_response/03_analysis/Prakash_original_workflow_review_2026-10-27
+analysis_scripts/source_archive/verify_plot_legacy_supplement_v6_2026_10_29.R,1,Recorded source; path adaptation and end-to-end replay pending,review_response/supplement_audit_working_v6_2026-10-29
+analysis_scripts/source_archive/verify_taxon_bootstrap_2026_10_28.R,1,Recorded source; path adaptation and end-to-end replay pending,review_response/03_analysis/Taxon_scores_PRE_review_2026-10-28

@@ -1,0 +1,40 @@
+100.00	7025	0	R	1	root
+100.00	7025	0	R1	131567	  cellular organisms
+57.47	4037	0	D	2	    Bacteria
+57.47	4037	0	D1	1783272	      Terrabacteria group
+57.47	4037	0	P	1239	        Firmicutes
+57.47	4037	0	C	91061	          Bacilli
+57.47	4037	0	O	186826	            Lactobacillales
+57.47	4037	0	F	33958	              Lactobacillaceae
+57.47	4037	0	G	1578	                Lactobacillus
+57.47	4037	4037	S	147802	                  Lactobacillus iners
+42.53	2987	0	D	2759	    Eukaryota
+42.53	2987	0	D1	33154	      Opisthokonta
+42.53	2987	0	K	33208	        Metazoa
+42.53	2987	0	K1	6072	          Eumetazoa
+42.53	2987	0	K2	33213	            Bilateria
+42.53	2987	0	K3	33511	              Deuterostomia
+42.53	2987	0	P	7711	                Chordata
+42.53	2987	0	P1	89593	                  Craniata
+42.53	2987	0	P2	7742	                    Vertebrata
+42.53	2987	0	P3	7776	                      Gnathostomata
+42.53	2987	0	P4	117570	                        Teleostomi
+42.53	2987	0	P5	117571	                          Euteleostomi
+42.53	2987	0	P6	8287	                            Sarcopterygii
+42.53	2987	0	P7	1338369	                              Dipnotetrapodomorpha
+42.53	2987	0	P8	32523	                                Tetrapoda
+42.53	2987	0	P9	32524	                                  Amniota
+42.53	2987	0	C	40674	                                    Mammalia
+42.53	2987	0	C1	32525	                                      Theria
+42.53	2987	0	C2	9347	                                        Eutheria
+42.53	2987	0	C3	1437010	                                          Boreoeutheria
+42.53	2987	0	C4	314146	                                            Euarchontoglires
+42.53	2987	0	O	9443	                                              Primates
+42.53	2987	0	O1	376913	                                                Haplorrhini
+42.53	2987	0	O2	314293	                                                  Simiiformes
+42.53	2987	0	O3	9526	                                                    Catarrhini
+42.53	2987	0	O4	314295	                                                      Hominoidea
+42.53	2987	0	F	9604	                                                        Hominidae
+42.53	2987	0	F1	207598	                                                          Homininae
+42.53	2987	0	G	9605	                                                            Homo
+42.53	2987	2987	S	9606	                                                              Homo sapiens

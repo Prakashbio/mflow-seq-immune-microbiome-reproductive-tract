@@ -1,0 +1,10 @@
+species,expected_pct,kraken2_direct_reads,kraken2_direct_pct,bracken_est_reads,bracken_est_pct,ratio_observed_to_expected
+Fannyhessea vaginae,11.11,24810,5.51,55921,12.43,1.12
+Gardnerella leopoldii,11.11,2908,0.65,48013,10.67,0.96
+Gardnerella vaginalis,11.11,6837,1.52,50193,11.15,1.0
+Lactobacillus crispatus,11.11,3856,0.86,19366,4.3,0.39
+Lactobacillus gasseri,11.11,1461,0.32,31158,6.92,0.62
+Lactobacillus iners,11.11,26340,5.85,83189,18.49,1.66
+Lactobacillus jensenii,11.11,17703,3.93,37943,8.43,0.76
+Prevotella buccalis,11.11,28724,6.38,50241,11.16,1.0
+Sneathia vaginalis,11.11,37155,8.26,58314,12.96,1.17

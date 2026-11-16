@@ -1,0 +1,4 @@
+"SpecimenKey","Participant","Location","IgA_available","IgM_available","reason"
+"80_E_workbookrow43",80,"ENDOMETRIUM",FALSE,TRUE,"Both IgA and IgM source libraries required; missing fractions not imputed."
+"96_E_workbookrow18",96,"ENDOMETRIUM",TRUE,FALSE,"Both IgA and IgM source libraries required; missing fractions not imputed."
+"97_E_workbookrow21",97,"ENDOMETRIUM",FALSE,TRUE,"Both IgA and IgM source libraries required; missing fractions not imputed."

@@ -1,0 +1,17 @@
+{
+  "source_woman_site_records": 42,
+  "clinical_women": 16,
+  "clinical_phase_women": {
+    "Proliferative": 10,
+    "Secretory": 6
+  },
+  "paired_tests": 6,
+  "between_phase_tests": 3,
+  "bootstrap_draws": 10000,
+  "seed": 20261030,
+  "clinical_phase_assignment_method_independently_verified": false,
+  "preparation_to_visit_correspondence_independently_verified": false,
+  "raw_FCS_gates_reconstructed": false,
+  "metadata_SHA256": "e76d8d2363df74937f368ecd01d9e36f2a5dc43b933c8e4aa5c3f07d6b3e7483",
+  "interpretation": "Exploratory, post-hoc and conditional on recorded phase/storage and original report gates. No hormonal-independence, equivalence or causality claim."
+}

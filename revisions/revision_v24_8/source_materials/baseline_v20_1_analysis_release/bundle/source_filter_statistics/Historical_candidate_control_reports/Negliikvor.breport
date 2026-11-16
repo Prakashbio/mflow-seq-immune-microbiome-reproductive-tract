@@ -1,0 +1,73 @@
+100.00	40747	0	R	1	root
+100.00	40747	0	R1	131567	  cellular organisms
+94.74	38604	0	D	2	    Bacteria
+91.38	37236	0	D1	1783272	      Terrabacteria group
+90.77	36985	0	P	1239	        Firmicutes
+90.40	36835	0	C	91061	          Bacilli
+70.86	28872	0	O	186826	            Lactobacillales
+70.86	28872	0	F	33958	              Lactobacillaceae
+70.86	28872	0	G	1578	                Lactobacillus
+70.86	28872	28872	S	147802	                  Lactobacillus iners
+19.54	7963	0	O	1385	            Bacillales
+19.54	7963	0	F	90964	              Staphylococcaceae
+12.44	5070	0	G	227979	                Jeotgalicoccus
+12.44	5070	0	G1	2630462	                  unclassified Jeotgalicoccus
+12.44	5070	5070	S	946435	                    Jeotgalicoccus sp. ATCC 8456
+7.10	2892	0	G	1279	                Staphylococcus
+7.10	2892	2892	S	1290	                  Staphylococcus hominis
+0.37	150	0	C	1737404	          Tissierellia
+0.37	150	0	O	1737405	            Tissierellales
+0.37	150	0	F	1570339	              Peptoniphilaceae
+0.37	150	0	G	165779	                Anaerococcus
+0.37	150	150	S	33034	                  Anaerococcus prevotii
+0.62	250	0	P	201174	        Actinobacteria
+0.62	250	0	C	1760	          Actinomycetia
+0.62	250	0	O	85006	            Micrococcales
+0.62	250	0	F	1268	              Micrococcaceae
+0.62	250	0	G	57493	                Kocuria
+0.62	250	250	S	71999	                  Kocuria palustris
+1.83	743	0	P	1224	      Proteobacteria
+1.83	743	0	C	1236	        Gammaproteobacteria
+1.83	743	0	O	91347	          Enterobacterales
+1.83	743	0	F	543	            Enterobacteriaceae
+1.83	743	0	F1	36866	              unclassified Enterobacteriaceae
+1.83	743	743	S	2675773	                Enterobacteriaceae endosymbiont of Donacia cincticornis
+1.53	623	0	D1	1783270	      FCB group
+1.53	623	0	D2	68336	        Bacteroidetes/Chlorobi group
+1.53	623	0	P	976	          Bacteroidota
+1.53	623	0	C	117743	            Flavobacteriia
+1.53	623	0	O	200644	              Flavobacteriales
+1.53	623	0	F	2762318	                Weeksellaceae
+1.53	623	0	F1	2782232	                  Chryseobacterium group
+1.53	623	0	G	59732	                    Chryseobacterium
+1.53	623	623	S	2754694	                      Chryseobacterium manosquense
+5.26	2143	0	D	2759	    Eukaryota
+5.26	2143	0	D1	33154	      Opisthokonta
+5.26	2143	0	K	33208	        Metazoa
+5.26	2143	0	K1	6072	          Eumetazoa
+5.26	2143	0	K2	33213	            Bilateria
+5.26	2143	0	K3	33511	              Deuterostomia
+5.26	2143	0	P	7711	                Chordata
+5.26	2143	0	P1	89593	                  Craniata
+5.26	2143	0	P2	7742	                    Vertebrata
+5.26	2143	0	P3	7776	                      Gnathostomata
+5.26	2143	0	P4	117570	                        Teleostomi
+5.26	2143	0	P5	117571	                          Euteleostomi
+5.26	2143	0	P6	8287	                            Sarcopterygii
+5.26	2143	0	P7	1338369	                              Dipnotetrapodomorpha
+5.26	2143	0	P8	32523	                                Tetrapoda
+5.26	2143	0	P9	32524	                                  Amniota
+5.26	2143	0	C	40674	                                    Mammalia
+5.26	2143	0	C1	32525	                                      Theria
+5.26	2143	0	C2	9347	                                        Eutheria
+5.26	2143	0	C3	1437010	                                          Boreoeutheria
+5.26	2143	0	C4	314146	                                            Euarchontoglires
+5.26	2143	0	O	9443	                                              Primates
+5.26	2143	0	O1	376913	                                                Haplorrhini
+5.26	2143	0	O2	314293	                                                  Simiiformes
+5.26	2143	0	O3	9526	                                                    Catarrhini
+5.26	2143	0	O4	314295	                                                      Hominoidea
+5.26	2143	0	F	9604	                                                        Hominidae
+5.26	2143	0	F1	207598	                                                          Homininae
+5.26	2143	0	G	9605	                                                            Homo
+5.26	2143	2143	S	9606	                                                              Homo sapiens

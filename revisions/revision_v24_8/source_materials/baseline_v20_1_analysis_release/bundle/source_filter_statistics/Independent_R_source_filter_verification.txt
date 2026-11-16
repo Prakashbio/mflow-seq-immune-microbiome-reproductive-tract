@@ -1,0 +1,1 @@
+PASS: independent R reconstruction agrees with all 48 site/fraction/rule counts and all 298 per-library discarded-count percentages. No contamination probability, validation, hypothesis test or source-mixture estimate is calculated.

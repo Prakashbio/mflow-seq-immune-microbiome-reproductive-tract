@@ -1,0 +1,5 @@
+"analysis","total_SS","participant_SS","joint_effect_SS","joint_effect_df","residual_SS","residual_df","joint_model_R2_total","negative_eigenvalues","negative_eigenvalue_mass","R2_definition"
+"primary39_mean_both",34.7917612995933,17.2954787749357,3.39331503029338,11,14.1029674943642,95,0.0975321427700486,60,0.0821753849799852,"Each marginal term SS / total profile-level inertia; marginal term R2 values need not sum to model R2"
+"sensitivity41_mean_both",34.9993640738423,17.3459654225398,3.40723208594209,11,14.2461665653604,95,0.0973512569757968,60,0.081931094269674,"Each marginal term SS / total profile-level inertia; marginal term R2 values need not sum to model R2"
+"sensitivity39_keep99_unsuffixed",34.5287296890219,17.083069016512,3.35819703120279,11,14.087463641307,95,0.0972580532631209,61,0.0815453664198401,"Each marginal term SS / total profile-level inertia; marginal term R2 values need not sum to model R2"
+"sensitivity39_keep99_suffix2",35.7075431624575,17.6547190296352,3.53543125277909,11,14.5173928800432,95,0.0990107674642875,60,0.0820983340102877,"Each marginal term SS / total profile-level inertia; marginal term R2 values need not sum to model R2"

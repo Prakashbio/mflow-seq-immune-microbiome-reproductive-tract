@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "variant": "CLEAN",
+      "unchanged_worksheet_XML": 34,
+      "original_S2R7_rows_exact": 628,
+      "metadata_source_records": 392,
+      "new_metadata_blocks": 4,
+      "new_worksheets": 0
+    },
+    {
+      "variant": "YELLOW",
+      "unchanged_worksheet_XML": 34,
+      "original_S2R7_rows_exact": 671,
+      "metadata_source_records": 392,
+      "new_metadata_blocks": 4,
+      "new_worksheets": 0
+    }
+  ]
+}

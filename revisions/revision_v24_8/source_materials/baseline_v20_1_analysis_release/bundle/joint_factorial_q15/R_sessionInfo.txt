@@ -1,0 +1,24 @@
+R version 4.4.1 (2024-06-14)
+Platform: aarch64-apple-darwin20
+Running under: macOS 27.2
+
+Matrix products: default
+BLAS:   /Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/lib/libRblas.0.dylib 
+LAPACK: /Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.0
+
+locale:
+[1] C.UTF-8/C.UTF-8/C.UTF-8/C/C.UTF-8/C.UTF-8
+
+time zone: Europe/Tallinn
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] vegan_2.7-2   permute_0.9-8
+
+loaded via a namespace (and not attached):
+ [1] MASS_7.3-65     compiler_4.4.1  Matrix_1.7-4    parallel_4.4.1 
+ [5] mgcv_1.9-4      splines_4.4.1   nlme_3.1-168    grid_4.4.1     
+ [9] cluster_2.1.8.1 lattice_0.22-7 

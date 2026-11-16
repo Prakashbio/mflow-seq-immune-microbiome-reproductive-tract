@@ -1,0 +1,10 @@
+species,total_reads,kraken2_correct_species_reads,kraken2_correct_species_pct,kraken2_wrong_species_reads,kraken2_wrong_species_pct,kraken2_genus_only_reads,kraken2_genus_only_pct,kraken2_above_genus_reads,kraken2_above_genus_pct,unclassified_reads,unclassified_pct,bracken_correct_reads,bracken_correct_pct,bracken_wrong_reads,bracken_wrong_pct,pct_of_final_call_from_redistribution,kraken2_top_misassignments
+Sneathia vaginalis,100000,74275,74.28,256,0.26,0,0.0,25373,25.37,96,0.1,99090,99.36,636,0.64,25.2,Bacillus subtilis (208); Streptobacillus moniliformis (9); Sebaldella termitidis ATCC 33386 (4)
+Prevotella buccalis,100000,57407,57.41,82,0.08,20924,20.92,21254,21.25,333,0.33,99537,100.0,0,0.0,42.6,Prevotella oris (7); Prevotella melaninogenica (6); Prevotella nigrescens (4)
+Lactobacillus iners,100000,52740,52.74,317,0.32,3615,3.62,43319,43.32,9,0.01,99564,100.0,0,0.0,47.3,Lactobacillus helveticus (12); Bacillus velezensis (12); Lactobacillus acidophilus NCFM (8)
+Fannyhessea vaginae,100000,50052,50.05,1526,1.53,0,0.0,48260,48.26,162,0.16,94111,94.44,5538,5.56,47.0,Olsenella timonensis (774); Lancefieldella parvulum DSM 20469 (630); Raoultibacter timonensis (6)
+Lactobacillus jensenii,100000,34479,34.48,624,0.62,5214,5.21,59670,59.67,13,0.01,98096,98.59,1398,1.41,65.0,Lactobacillus johnsonii (255); Staphylococcus aureus (15); Bacillus velezensis (12)
+Gardnerella vaginalis,100000,13969,13.97,70,0.07,49107,49.11,36847,36.85,7,0.01,99858,100.0,0,0.0,86.0,Mycobacterium tuberculosis (4); Eggerthella lenta (4); Klebsiella pneumoniae (3)
+Lactobacillus crispatus,100000,7483,7.48,396,0.4,22693,22.69,69421,69.42,7,0.01,97717,98.2,1790,1.8,92.4,Lactobacillus helveticus (21); Lactobacillus acidophilus NCFM (10); Staphylococcus aureus (9)
+Gardnerella leopoldii,100000,5943,5.94,89,0.09,48248,48.25,45712,45.71,8,0.01,98501,100.0,0,0.0,94.1,Gardnerella vaginalis (6); Bifidobacterium asteroides (4); Eggerthella lenta (3)
+Lactobacillus gasseri,100000,2895,2.9,329,0.33,47758,47.76,49014,49.01,4,0.0,99533,100.0,0,0.0,97.1,Staphylococcus aureus (10); Lactobacillus iners (9); Bacillus velezensis (8)

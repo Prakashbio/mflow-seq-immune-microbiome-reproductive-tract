@@ -1,0 +1,10 @@
+species,input_reads,expected_percent,reported_output_percent,source,expected_pct,kraken2_direct_reads,kraken2_direct_pct,bracken_est_reads,bracken_est_pct,ratio_observed_to_expected,error_from_exact_one_ninth_pp,ratio_from_exact_one_ninth
+Lactobacillus crispatus,50000,11.11111111111111,4.3,"Merli feedback paragraphs P50–P52; summary only, not independently reproduced read-level output",11.11,3856,0.86,19366,4.3,0.39,-6.811111111111111,0.387
+Lactobacillus iners,50000,11.11111111111111,18.49,"Merli feedback paragraphs P50–P52; summary only, not independently reproduced read-level output",11.11,26340,5.85,83189,18.49,1.66,7.378888888888888,1.6641
+Lactobacillus jensenii,50000,11.11111111111111,8.43,"Merli feedback paragraphs P50–P52; summary only, not independently reproduced read-level output",11.11,17703,3.93,37943,8.43,0.76,-2.681111111111111,0.7587
+Lactobacillus gasseri,50000,11.11111111111111,6.92,"Merli feedback paragraphs P50–P52; summary only, not independently reproduced read-level output",11.11,1461,0.32,31158,6.92,0.62,-4.191111111111111,0.6228
+Gardnerella vaginalis,50000,11.11111111111111,11.15,"Merli feedback paragraphs P50–P52; summary only, not independently reproduced read-level output",11.11,6837,1.52,50193,11.15,1.0,0.03888888888888964,1.0035
+Gardnerella leopoldii,50000,11.11111111111111,10.67,"Merli feedback paragraphs P50–P52; summary only, not independently reproduced read-level output",11.11,2908,0.65,48013,10.67,0.96,-0.4411111111111108,0.9603
+Sneathia vaginalis,50000,11.11111111111111,12.96,"Merli feedback paragraphs P50–P52; summary only, not independently reproduced read-level output",11.11,37155,8.26,58314,12.96,1.17,1.8488888888888901,1.1664
+Fannyhessea vaginae,50000,11.11111111111111,12.43,"Merli feedback paragraphs P50–P52; summary only, not independently reproduced read-level output",11.11,24810,5.51,55921,12.43,1.12,1.318888888888889,1.1187
+Prevotella buccalis,50000,11.11111111111111,11.16,"Merli feedback paragraphs P50–P52; summary only, not independently reproduced read-level output",11.11,28724,6.38,50241,11.16,1.0,0.048888888888889426,1.0044

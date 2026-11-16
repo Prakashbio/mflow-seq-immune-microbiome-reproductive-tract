@@ -1,0 +1,5 @@
+preparation,purpose,scope
+PBS+BSA buffer only,Buffer/background control,No antibody or DAPI staining
+PBS+BSA with IgA/IgM/IgG antibodies and DAPI,Staining-background control,Staining reagents present; not a biological viability control
+Saliva,Positive biological control,Workflow reference preparation; no quantitative specificity or viability guarantee
+Sperm preparations,Positive biological controls used during earlier development,General workflow role confirmed; no assumed assignment to a particular archived tube

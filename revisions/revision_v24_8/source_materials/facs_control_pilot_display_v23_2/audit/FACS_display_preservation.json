@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "source_files_unchanged": 47,
+  "source_FCS_files": 37,
+  "new_supplementary_figures": 2,
+  "image_plates": 6,
+  "original_graph_crops": 8,
+  "retrospective_event_displays": 18,
+  "all_recorded_events_retained_in_each_display": true,
+  "gate_reconstruction": false,
+  "new_inferential_tests": 0,
+  "scope": "Presentation of existing evidence only; no quantitative DAPI validation or clinical binding-specificity result is inferred."
+}

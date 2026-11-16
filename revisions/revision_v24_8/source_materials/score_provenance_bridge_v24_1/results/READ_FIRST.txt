@@ -1,0 +1,19 @@
+TAXON SCORE PROVENANCE BRIDGE —28 October2026
+
+The same39×149 numeric matrix is present under historical derived headings
+and named original source codes. The score bridge holds the counts fixed and
+separates site/fraction-label allocation, IgA/IgM pairing eligibility and equal
+woman weighting. Every final site score matches the checked taxon analysis.
+
+These comparisons must NOT be described as a change caused solely by paired
+statistical analysis. The original-source/derived-heading correspondence still
+needs author adjudication. A vector association does not mean participant104
+and90 are the same woman. No original names or input files are changed.
+
+For example, the historical pooled Sneathia vaginalis score is0.999482.
+The named-source, matched-woman site scores are0.406411(vagina),0.268873(cervix)
+and0.010993(endometrium). The bridge provides intermediate calculations, and
+the library trace identifies every source vector and its original report hash.
+These estimates remain provisional and do not validate taxonomic accuracy or
+establish that a biological conclusion is correct/incorrect before provenance
+is resolved. They are not per-cell coating measurements.

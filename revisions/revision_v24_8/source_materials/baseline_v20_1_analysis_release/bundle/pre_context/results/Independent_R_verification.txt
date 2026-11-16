@@ -1,0 +1,1 @@
+PASS: independent vegan/R verification of all74 PRE library metrics,72 woman/site rows,all species/genus profiles,6 site summaries and6 participant99 sensitivities. No hypothesis tests performed.

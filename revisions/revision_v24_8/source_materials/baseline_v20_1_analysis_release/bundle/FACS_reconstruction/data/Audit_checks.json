@@ -1,0 +1,15 @@
+{
+  "original_pdf_files": 13,
+  "original_pdf_pages": 59,
+  "source_workbooks_inventoried": 31,
+  "report_records": 49,
+  "primary_preparations": 43,
+  "primary_women": 16,
+  "one_woman_site_records": 42,
+  "compared_excel_cells": 544,
+  "outside_rounding_cells": 23,
+  "distinct_outside_rounding_values": 6,
+  "alternate_original_report_cells": 1,
+  "source_hashes_unchanged": true,
+  "scope": "PDF count reconstruction and spreadsheet provenance; no guessed raw FCS gates and no change to submitted Table 2"
+}

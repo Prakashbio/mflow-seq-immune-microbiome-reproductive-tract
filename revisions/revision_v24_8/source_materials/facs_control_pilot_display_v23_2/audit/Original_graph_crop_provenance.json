@@ -1,0 +1,106 @@
+[
+  {
+    "part": "S18A",
+    "panel": "DAPI/SSC",
+    "source": "HUT093_original_report.pdf page 5",
+    "box_pixels": [
+      615,
+      288,
+      975,
+      575
+    ],
+    "cropped_pixel_SHA256": "7dbf3678654f14d33894080d7407c6f5fa47b62eaa9d5d75c23581044e890067",
+    "pixel_values_unchanged": true
+  },
+  {
+    "part": "S18A",
+    "panel": "IgA/IgM",
+    "source": "HUT093_original_report.pdf page 5",
+    "box_pixels": [
+      0,
+      289,
+      310,
+      575
+    ],
+    "cropped_pixel_SHA256": "882eea8f0ba078724731a7a737311106b2871aea26f425df6a6fdf0423ce9fae",
+    "pixel_values_unchanged": true
+  },
+  {
+    "part": "S18B",
+    "panel": "DAPI/SSC",
+    "source": "HUT093_original_report.pdf page 6",
+    "box_pixels": [
+      615,
+      288,
+      975,
+      575
+    ],
+    "cropped_pixel_SHA256": "36d5879b050dba99ab1f56303f1b321f26f9d7a51ac33150e96513d8d8a24907",
+    "pixel_values_unchanged": true
+  },
+  {
+    "part": "S18B",
+    "panel": "IgA/IgM",
+    "source": "HUT093_original_report.pdf page 6",
+    "box_pixels": [
+      0,
+      289,
+      310,
+      575
+    ],
+    "cropped_pixel_SHA256": "f6e6c3c8161c62eee4a27640ee075d2211f29b08addf6eb3faf64f9792b3cb10",
+    "pixel_values_unchanged": true
+  },
+  {
+    "part": "S18C",
+    "panel": "DAPI/SSC",
+    "source": "HUT093_original_report.pdf page 7",
+    "box_pixels": [
+      615,
+      288,
+      975,
+      575
+    ],
+    "cropped_pixel_SHA256": "63cb7c80464a2bdf30cdbb188ede90cb6c3e7eca8dfe1facea99bac9231b22d3",
+    "pixel_values_unchanged": true
+  },
+  {
+    "part": "S18C",
+    "panel": "IgA/IgM",
+    "source": "HUT093_original_report.pdf page 7",
+    "box_pixels": [
+      0,
+      289,
+      310,
+      575
+    ],
+    "cropped_pixel_SHA256": "afcb0b370d023d877891697dbebcfd16a44f7af7bbf8052d2bc5c21b6ed9994b",
+    "pixel_values_unchanged": true
+  },
+  {
+    "part": "S19B",
+    "panel": "Saliva 1 \u00b7 20 June 2023",
+    "source": "operator image4.emf",
+    "box_pixels": [
+      333,
+      0,
+      715,
+      315
+    ],
+    "cropped_pixel_SHA256": "055240dfe858e3841f997f29bce4388ef3c7d5a9f6ef0b25c0c6da4782da9e34",
+    "pixel_values_unchanged": true
+  },
+  {
+    "part": "S19B",
+    "panel": "Vaginal 1 \u00b7 7 July 2023",
+    "source": "operator image9.emf",
+    "box_pixels": [
+      333,
+      0,
+      715,
+      315
+    ],
+    "cropped_pixel_SHA256": "22a693100bca10bc14eafc0d6d781781369f8095e4fc12266bff85cc2fcf459a",
+    "pixel_values_unchanged": true
+  }
+]

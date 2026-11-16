@@ -1,0 +1,7 @@
+taxon_arm,choice,n_women,n_PRE_libraries,Shannon_median,Shannon_Q1,Shannon_Q3,Shannon_mean,interpretation
+baseline_39,both_preparations_equal_woman,13,14,0.9062712582975396,0.7694275426551155,1.0509859048486714,0.9856125268104482,"Alternative handling of one woman's recorded preparations, not independent replication or storage inference."
+baseline_39,retain99EP2,13,13,0.9062712582975396,0.7694275426551155,1.0509859048486714,0.9954459512356963,"Alternative handling of one woman's recorded preparations, not independent replication or storage inference."
+baseline_39,retain99EP,13,13,0.9062712582975396,0.7694275426551155,1.0509859048486714,0.9757791023852002,"Alternative handling of one woman's recorded preparations, not independent replication or storage inference."
+sensitivity_41,both_preparations_equal_woman,13,14,0.9062712582975396,0.7694275426551155,1.0509859048486714,0.9856125268104482,"Alternative handling of one woman's recorded preparations, not independent replication or storage inference."
+sensitivity_41,retain99EP2,13,13,0.9062712582975396,0.7694275426551155,1.0509859048486714,0.9954459512356963,"Alternative handling of one woman's recorded preparations, not independent replication or storage inference."
+sensitivity_41,retain99EP,13,13,0.9062712582975396,0.7694275426551155,1.0509859048486714,0.9757791023852002,"Alternative handling of one woman's recorded preparations, not independent replication or storage inference."

@@ -1,0 +1,10 @@
+species,input_reads,expected_percent,reported_output_percent,source
+Lactobacillus crispatus,50000,11.11111111111111,4.3,"Merli feedback paragraphs P50–P52; summary only, not independently reproduced read-level output"
+Lactobacillus iners,50000,11.11111111111111,18.49,"Merli feedback paragraphs P50–P52; summary only, not independently reproduced read-level output"
+Lactobacillus jensenii,50000,11.11111111111111,8.43,"Merli feedback paragraphs P50–P52; summary only, not independently reproduced read-level output"
+Lactobacillus gasseri,50000,11.11111111111111,6.92,"Merli feedback paragraphs P50–P52; summary only, not independently reproduced read-level output"
+Gardnerella vaginalis,50000,11.11111111111111,11.15,"Merli feedback paragraphs P50–P52; summary only, not independently reproduced read-level output"
+Gardnerella leopoldii,50000,11.11111111111111,10.67,"Merli feedback paragraphs P50–P52; summary only, not independently reproduced read-level output"
+Sneathia vaginalis,50000,11.11111111111111,12.96,"Merli feedback paragraphs P50–P52; summary only, not independently reproduced read-level output"
+Fannyhessea vaginae,50000,11.11111111111111,12.43,"Merli feedback paragraphs P50–P52; summary only, not independently reproduced read-level output"
+Prevotella buccalis,50000,11.11111111111111,11.16,"Merli feedback paragraphs P50–P52; summary only, not independently reproduced read-level output"

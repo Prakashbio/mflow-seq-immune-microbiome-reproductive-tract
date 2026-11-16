@@ -1,0 +1,42 @@
+{
+  "Counts_268_original_codes.csv": {
+    "original_path": "PROJECT_ROOT/mFLOW-seq_Menuscript/Zenodo home/ReadsTable_P.csv",
+    "sha256": "7fe93202814d8e1284095976925582f49c7c58d253ce373188bcf19ef25de5f0"
+  },
+  "Metadata_original_codes.csv": {
+    "original_path": "PROJECT_ROOT/review_response/storage_integrated_working_v4_2026-10-28/storage_inputs/source_metadata_original_codes.csv",
+    "sha256": "e4b8ff7a77a436b6e2e14d7ac333b1aded67a00112b72fca43915e40b9f2393a"
+  },
+  "Counts_41_original_codes.csv": {
+    "original_path": "PROJECT_ROOT/review_response/storage_integrated_working_v4_2026-10-28/storage_inputs/sensitivity_41_source_counts.csv",
+    "sha256": "0c6be6e64589e31ca5a0a900e9200e2064e2ad12b8771ef3e687c1650d3d5060"
+  },
+  "Counts_39_original_codes.csv": {
+    "original_path": "PROJECT_ROOT/review_response/storage_integrated_working_v4_2026-10-28/storage_inputs/baseline_39_source_counts.csv",
+    "sha256": "596bfda4fa890c94f9ad39139bae4b556a3f5a251fe01779f740819a0a127ee7"
+  },
+  "Workbook_link_manifest.csv": {
+    "original_path": "PROJECT_ROOT/review_response/02_evidence/Source_records_2026-10-20/Source_record_manifest_REVIEW_ONLY.csv",
+    "sha256": "efe14b4c803992557c15313b88318e44fa3a587e0d1bf2e0a4ba061deeda5c60"
+  },
+  "Recovered_reference_178.xlsx": {
+    "original_path": "PROJECT_ROOT/mFLOW-seq_Menuscript/Menuscript Final/Addtional data files/ContaminantReference_178taxa_MerliSaare_2026.xlsx",
+    "sha256": "d8404a0bc26d67deaa4af2bf23c8bfc474bc4f52a09f9fb12e432c448030a8e7"
+  },
+  "Original_sfig16_script.py": {
+    "original_path": "PROJECT_ROOT/review_response/02_evidence/Public_repository_access_2026-10-26/GitHub_snapshot/scripts/sfig16_contamination_analysis.py",
+    "sha256": "6207bc2149be24464de23152d87128988238792135ead11fafc1c389c14c56d9"
+  },
+  "Original_seq_clean.csv": {
+    "original_path": "PROJECT_ROOT/review_response/02_evidence/Public_repository_access_2026-10-26/GitHub_snapshot/data/seq_clean.csv",
+    "sha256": "dd15ac72eb99d9b61444eee9aa7d57831b9085ed675fe1f92a833031f62b903c"
+  },
+  "Original_otu_clean.csv": {
+    "original_path": "PROJECT_ROOT/review_response/02_evidence/Public_repository_access_2026-10-26/GitHub_snapshot/data/otu_clean.csv",
+    "sha256": "69001f06ee81cf40fd4d2ee14d11b8330d0596d4dd2a62087d161ddc3568a05e"
+  },
+  "Original_otu_clean_decontaminated.csv": {
+    "original_path": "PROJECT_ROOT/review_response/02_evidence/Public_repository_access_2026-10-26/GitHub_snapshot/data/otu_clean_decontaminated.csv",
+    "sha256": "9a4b354de3ea1f6f538c46d08f7196b911a9a359543505ca60202f0f45b7f990"
+  }
+}

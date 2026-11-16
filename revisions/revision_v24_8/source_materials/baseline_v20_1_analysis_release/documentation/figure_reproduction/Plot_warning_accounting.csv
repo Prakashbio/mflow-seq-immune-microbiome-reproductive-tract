@@ -1,0 +1,17 @@
+figure,source_code,location,taxon,reason
+Figure S16,,CERVIX,Acinetobacter,"Undefined IgA/(IgA+IgM): both matched means are zero; retained as missing in tables, omitted from plotted points."
+Figure S16,,CERVIX,Corynebacterium,"Undefined IgA/(IgA+IgM): both matched means are zero; retained as missing in tables, omitted from plotted points."
+Figure S16,,CERVIX,Escherichia,"Undefined IgA/(IgA+IgM): both matched means are zero; retained as missing in tables, omitted from plotted points."
+Figure S16,,CERVIX,Granulicatella,"Undefined IgA/(IgA+IgM): both matched means are zero; retained as missing in tables, omitted from plotted points."
+Figure S16,,CERVIX,Lactococcus,"Undefined IgA/(IgA+IgM): both matched means are zero; retained as missing in tables, omitted from plotted points."
+Figure S16,,CERVIX,Lancefieldella,"Undefined IgA/(IgA+IgM): both matched means are zero; retained as missing in tables, omitted from plotted points."
+Figure S16,,ENDOMETRIUM,Haemophilus,"Undefined IgA/(IgA+IgM): both matched means are zero; retained as missing in tables, omitted from plotted points."
+Figure S16,,ENDOMETRIUM,Lacticaseibacillus,"Undefined IgA/(IgA+IgM): both matched means are zero; retained as missing in tables, omitted from plotted points."
+Figure S16,,ENDOMETRIUM,Metamycoplasma,"Undefined IgA/(IgA+IgM): both matched means are zero; retained as missing in tables, omitted from plotted points."
+Figure S16,,ENDOMETRIUM,Parvimonas,"Undefined IgA/(IgA+IgM): both matched means are zero; retained as missing in tables, omitted from plotted points."
+Figure S8,95CG,CERVIX,,Pielou evenness undefined for richness=1 because log(1)=0; omitted for that metric only.
+Figure S8,96CM,CERVIX,,Pielou evenness undefined for richness=1 because log(1)=0; omitted for that metric only.
+Figure S8,96EA,ENDOMETRIUM,,Pielou evenness undefined for richness=1 because log(1)=0; omitted for that metric only.
+Figure S8,97CM,CERVIX,,Pielou evenness undefined for richness=1 because log(1)=0; omitted for that metric only.
+Figure S8,97VM,VAGINA,,Pielou evenness undefined for richness=1 because log(1)=0; omitted for that metric only.
+Figure S8,98CA,CERVIX,,Pielou evenness undefined for richness=1 because log(1)=0; omitted for that metric only.

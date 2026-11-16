@@ -1,0 +1,150 @@
+SourceCode,Storage,workbook_row,storage_header_cell,storage_header_value,patient_cell,patient_value,site_cell,site_value,passed
+104CA,FROZEN,60,A29,Frozen samples,General table!D59,HUT104,General table!F60,Cervix,True
+104CG,FROZEN,60,A29,Frozen samples,General table!D59,HUT104,General table!F60,Cervix,True
+104CM,FROZEN,60,A29,Frozen samples,General table!D59,HUT104,General table!F60,Cervix,True
+104CP,FROZEN,60,A29,Frozen samples,General table!D59,HUT104,General table!F60,Cervix,True
+104EA,FROZEN,59,A29,Frozen samples,General table!D59,HUT104,General table!F59,Endometrium,True
+104EG,FROZEN,59,A29,Frozen samples,General table!D59,HUT104,General table!F59,Endometrium,True
+104EM,FROZEN,59,A29,Frozen samples,General table!D59,HUT104,General table!F59,Endometrium,True
+104VA,FROZEN,61,A29,Frozen samples,General table!D59,HUT104,General table!F61,Vaginal Swab,True
+104VG,FROZEN,61,A29,Frozen samples,General table!D59,HUT104,General table!F61,Vaginal Swab,True
+104VM,FROZEN,61,A29,Frozen samples,General table!D59,HUT104,General table!F61,Vaginal Swab,True
+104VP,FROZEN,61,A29,Frozen samples,General table!D59,HUT104,General table!F61,Vaginal Swab,True
+77EA,FROZEN,33,A29,Frozen samples,General table!D33,HUT077,General table!F33,Endometrium,True
+77EG,FROZEN,33,A29,Frozen samples,General table!D33,HUT077,General table!F33,Endometrium,True
+77EM,FROZEN,33,A29,Frozen samples,General table!D33,HUT077,General table!F33,Endometrium,True
+77EP,FROZEN,33,A29,Frozen samples,General table!D33,HUT077,General table!F33,Endometrium,True
+77VA,FROZEN,34,A29,Frozen samples,General table!D33,HUT077,General table!F34,Vaginal Swab,True
+77VG,FROZEN,34,A29,Frozen samples,General table!D33,HUT077,General table!F34,Vaginal Swab,True
+77VM,FROZEN,34,A29,Frozen samples,General table!D33,HUT077,General table!F34,Vaginal Swab,True
+77VP,FROZEN,34,A29,Frozen samples,General table!D33,HUT077,General table!F34,Vaginal Swab,True
+78EA2,FROZEN,40,A29,Frozen samples,General table!D40,HUT078,General table!F40,Endometrium,True
+78EG2,FROZEN,40,A29,Frozen samples,General table!D40,HUT078,General table!F40,Endometrium,True
+78EM2,FROZEN,40,A29,Frozen samples,General table!D40,HUT078,General table!F40,Endometrium,True
+78EP,FROZEN,40,A29,Frozen samples,General table!D40,HUT078,General table!F40,Endometrium,True
+78VA2,FROZEN,41,A29,Frozen samples,General table!D40,HUT078,General table!F41,Vaginal Swab,True
+78VG2,FROZEN,41,A29,Frozen samples,General table!D40,HUT078,General table!F41,Vaginal Swab,True
+78VM2,FROZEN,41,A29,Frozen samples,General table!D40,HUT078,General table!F41,Vaginal Swab,True
+78VP2,FROZEN,41,A29,Frozen samples,General table!D40,HUT078,General table!F41,Vaginal Swab,True
+79EA,FROZEN,36,A29,Frozen samples,General table!D36,HUT079,General table!F36,Endometrium,True
+79EG,FROZEN,36,A29,Frozen samples,General table!D36,HUT079,General table!F36,Endometrium,True
+79EM,FROZEN,36,A29,Frozen samples,General table!D36,HUT079,General table!F36,Endometrium,True
+79EP,FROZEN,36,A29,Frozen samples,General table!D36,HUT079,General table!F36,Endometrium,True
+79VA,FROZEN,38,A29,Frozen samples,General table!D36,HUT079,General table!F38,Vaginal Swab,True
+79VG,FROZEN,38,A29,Frozen samples,General table!D36,HUT079,General table!F38,Vaginal Swab,True
+79VM,FROZEN,38,A29,Frozen samples,General table!D36,HUT079,General table!F38,Vaginal Swab,True
+79VP,FROZEN,38,A29,Frozen samples,General table!D36,HUT079,General table!F38,Vaginal Swab,True
+80EG2,FROZEN,43,A29,Frozen samples,General table!D43,HUT080,General table!F43,Endometrium,True
+80EM2,FROZEN,43,A29,Frozen samples,General table!D43,HUT080,General table!F43,Endometrium,True
+80EP2,FROZEN,43,A29,Frozen samples,General table!D43,HUT080,General table!F43,Endometrium,True
+80VA2,FROZEN,45,A29,Frozen samples,General table!D43,HUT080,General table!F45,Vaginal Swab,True
+80VG2,FROZEN,45,A29,Frozen samples,General table!D43,HUT080,General table!F45,Vaginal Swab,True
+80VM2,FROZEN,45,A29,Frozen samples,General table!D43,HUT080,General table!F45,Vaginal Swab,True
+80VP2,FROZEN,45,A29,Frozen samples,General table!D43,HUT080,General table!F45,Vaginal Swab,True
+81EA,FROZEN,47,A29,Frozen samples,General table!D47,HUT081,General table!F47,Endometrium,True
+81EG,FROZEN,47,A29,Frozen samples,General table!D47,HUT081,General table!F47,Endometrium,True
+81EM,FROZEN,47,A29,Frozen samples,General table!D47,HUT081,General table!F47,Endometrium,True
+81EP,FROZEN,47,A29,Frozen samples,General table!D47,HUT081,General table!F47,Endometrium,True
+81VA,FROZEN,49,A29,Frozen samples,General table!D47,HUT081,General table!F49,Vaginal Swab,True
+81VG,FROZEN,49,A29,Frozen samples,General table!D47,HUT081,General table!F49,Vaginal Swab,True
+81VM,FROZEN,49,A29,Frozen samples,General table!D47,HUT081,General table!F49,Vaginal Swab,True
+81VP,FROZEN,49,A29,Frozen samples,General table!D47,HUT081,General table!F49,Vaginal Swab,True
+90CA.2,FRESH,13,A1,Fresh samples,General table!D12,HUT090,General table!F13,Cervix,True
+90CG.2,FRESH,13,A1,Fresh samples,General table!D12,HUT090,General table!F13,Cervix,True
+90CM.2,FRESH,13,A1,Fresh samples,General table!D12,HUT090,General table!F13,Cervix,True
+90EA.2,FRESH,12,A1,Fresh samples,General table!D12,HUT090,General table!F12,Endometrium,True
+90EG.2,FRESH,12,A1,Fresh samples,General table!D12,HUT090,General table!F12,Endometrium,True
+90EM.2,FRESH,12,A1,Fresh samples,General table!D12,HUT090,General table!F12,Endometrium,True
+90EP.2,FRESH,12,A1,Fresh samples,General table!D12,HUT090,General table!F12,Endometrium,True
+90VA.2,FRESH,14,A1,Fresh samples,General table!D12,HUT090,General table!F14,Vaginal Swab,True
+90VG.2,FRESH,14,A1,Fresh samples,General table!D12,HUT090,General table!F14,Vaginal Swab,True
+90VM.2,FRESH,14,A1,Fresh samples,General table!D12,HUT090,General table!F14,Vaginal Swab,True
+90VP.2,FRESH,14,A1,Fresh samples,General table!D12,HUT090,General table!F14,Vaginal Swab,True
+91EA,FROZEN,51,A29,Frozen samples,General table!D51,HUT091,General table!F51,Endometrium,True
+91EG,FROZEN,51,A29,Frozen samples,General table!D51,HUT091,General table!F51,Endometrium,True
+91EM,FROZEN,51,A29,Frozen samples,General table!D51,HUT091,General table!F51,Endometrium,True
+91EP,FROZEN,51,A29,Frozen samples,General table!D51,HUT091,General table!F51,Endometrium,True
+91VA,FROZEN,53,A29,Frozen samples,General table!D51,HUT091,General table!F53,Vaginal Swab,True
+91VG,FROZEN,53,A29,Frozen samples,General table!D51,HUT091,General table!F53,Vaginal Swab,True
+91VM,FROZEN,53,A29,Frozen samples,General table!D51,HUT091,General table!F53,Vaginal Swab,True
+91VP,FROZEN,53,A29,Frozen samples,General table!D51,HUT091,General table!F53,Vaginal Swab,True
+93CA,FRESH,16,A1,Fresh samples,General table!D15,HUT093,General table!F16,Cervix,True
+93CG,FRESH,16,A1,Fresh samples,General table!D15,HUT093,General table!F16,Cervix,True
+93CM,FRESH,16,A1,Fresh samples,General table!D15,HUT093,General table!F16,Cervix,True
+93CP,FRESH,16,A1,Fresh samples,General table!D15,HUT093,General table!F16,Cervix,True
+93EA,FRESH,15,A1,Fresh samples,General table!D15,HUT093,General table!F15,Endometrium,True
+93EG,FRESH,15,A1,Fresh samples,General table!D15,HUT093,General table!F15,Endometrium,True
+93EM,FRESH,15,A1,Fresh samples,General table!D15,HUT093,General table!F15,Endometrium,True
+93EP,FRESH,15,A1,Fresh samples,General table!D15,HUT093,General table!F15,Endometrium,True
+93VA,FRESH,17,A1,Fresh samples,General table!D15,HUT093,General table!F17,Vaginal Swab,True
+93VG,FRESH,17,A1,Fresh samples,General table!D15,HUT093,General table!F17,Vaginal Swab,True
+93VM,FRESH,17,A1,Fresh samples,General table!D15,HUT093,General table!F17,Vaginal Swab,True
+93VP,FRESH,17,A1,Fresh samples,General table!D15,HUT093,General table!F17,Vaginal Swab,True
+94CA2,FRESH,7,A1,Fresh samples,General table!D6,HUT094,General table!F7,Cervix,True
+94CG2,FRESH,7,A1,Fresh samples,General table!D6,HUT094,General table!F7,Cervix,True
+94CM2,FRESH,7,A1,Fresh samples,General table!D6,HUT094,General table!F7,Cervix,True
+94CP2,FRESH,7,A1,Fresh samples,General table!D6,HUT094,General table!F7,Cervix,True
+94EA2,FRESH,6,A1,Fresh samples,General table!D6,HUT094,General table!F6,Endometrium,True
+94EG2,FRESH,6,A1,Fresh samples,General table!D6,HUT094,General table!F6,Endometrium,True
+94EM2,FRESH,6,A1,Fresh samples,General table!D6,HUT094,General table!F6,Endometrium,True
+94EP2,FRESH,6,A1,Fresh samples,General table!D6,HUT094,General table!F6,Endometrium,True
+94VA2,FRESH,8,A1,Fresh samples,General table!D6,HUT094,General table!F8,Vaginal Swab,True
+94VG2,FRESH,8,A1,Fresh samples,General table!D6,HUT094,General table!F8,Vaginal Swab,True
+94VM2,FRESH,8,A1,Fresh samples,General table!D6,HUT094,General table!F8,Vaginal Swab,True
+94VP2,FRESH,8,A1,Fresh samples,General table!D6,HUT094,General table!F8,Vaginal Swab,True
+95CA,FROZEN,56,A29,Frozen samples,General table!D55,HUT095,General table!F56,Cervix,True
+95CG,FROZEN,56,A29,Frozen samples,General table!D55,HUT095,General table!F56,Cervix,True
+95CM,FROZEN,56,A29,Frozen samples,General table!D55,HUT095,General table!F56,Cervix,True
+95CP,FROZEN,56,A29,Frozen samples,General table!D55,HUT095,General table!F56,Cervix,True
+95EA,FROZEN,55,A29,Frozen samples,General table!D55,HUT095,General table!F55,Endometrium,True
+95EM,FROZEN,55,A29,Frozen samples,General table!D55,HUT095,General table!F55,Endometrium,True
+95VA,FROZEN,57,A29,Frozen samples,General table!D55,HUT095,General table!F57,Vaginal Swab,True
+95VG,FROZEN,57,A29,Frozen samples,General table!D55,HUT095,General table!F57,Vaginal Swab,True
+95VM,FROZEN,57,A29,Frozen samples,General table!D55,HUT095,General table!F57,Vaginal Swab,True
+95VP,FROZEN,57,A29,Frozen samples,General table!D55,HUT095,General table!F57,Vaginal Swab,True
+96CA,FRESH,19,A1,Fresh samples,General table!D18,HUT096,General table!F19,Cervix,True
+96CM,FRESH,19,A1,Fresh samples,General table!D18,HUT096,General table!F19,Cervix,True
+96CP,FRESH,19,A1,Fresh samples,General table!D18,HUT096,General table!F19,Cervix,True
+96EA,FRESH,18,A1,Fresh samples,General table!D18,HUT096,General table!F18,Endometrium,True
+96EP,FRESH,18,A1,Fresh samples,General table!D18,HUT096,General table!F18,Endometrium,True
+96VA,FRESH,20,A1,Fresh samples,General table!D18,HUT096,General table!F20,Vaginal Swab,True
+96VM,FRESH,20,A1,Fresh samples,General table!D18,HUT096,General table!F20,Vaginal Swab,True
+96VP,FRESH,20,A1,Fresh samples,General table!D18,HUT096,General table!F20,Vaginal Swab,True
+97CA,FRESH,22,A1,Fresh samples,General table!D21,HUT097,General table!F22,Cervix,True
+97CG,FRESH,22,A1,Fresh samples,General table!D21,HUT097,General table!F22,Cervix,True
+97CM,FRESH,22,A1,Fresh samples,General table!D21,HUT097,General table!F22,Cervix,True
+97CP,FRESH,22,A1,Fresh samples,General table!D21,HUT097,General table!F22,Cervix,True
+97EG,FRESH,21,A1,Fresh samples,General table!D21,HUT097,General table!F21,Endometrium,True
+97EM,FRESH,21,A1,Fresh samples,General table!D21,HUT097,General table!F21,Endometrium,True
+97EP,FRESH,21,A1,Fresh samples,General table!D21,HUT097,General table!F21,Endometrium,True
+97VA,FRESH,23,A1,Fresh samples,General table!D21,HUT097,General table!F23,Vaginal Swab,True
+97VG,FRESH,23,A1,Fresh samples,General table!D21,HUT097,General table!F23,Vaginal Swab,True
+97VM,FRESH,23,A1,Fresh samples,General table!D21,HUT097,General table!F23,Vaginal Swab,True
+97VP,FRESH,23,A1,Fresh samples,General table!D21,HUT097,General table!F23,Vaginal Swab,True
+98CA,FRESH,25,A1,Fresh samples,General table!D24,HUT098,General table!F25,Cervix,True
+98CG,FRESH,25,A1,Fresh samples,General table!D24,HUT098,General table!F25,Cervix,True
+98CM,FRESH,25,A1,Fresh samples,General table!D24,HUT098,General table!F25,Cervix,True
+98CP,FRESH,25,A1,Fresh samples,General table!D24,HUT098,General table!F25,Cervix,True
+98EA,FRESH,24,A1,Fresh samples,General table!D24,HUT098,General table!F24,Endometrium,True
+98EM,FRESH,24,A1,Fresh samples,General table!D24,HUT098,General table!F24,Endometrium,True
+98EP,FRESH,24,A1,Fresh samples,General table!D24,HUT098,General table!F24,Endometrium,True
+98VA,FRESH,26,A1,Fresh samples,General table!D24,HUT098,General table!F26,Vaginal Swab,True
+98VG,FRESH,26,A1,Fresh samples,General table!D24,HUT098,General table!F26,Vaginal Swab,True
+98VM,FRESH,26,A1,Fresh samples,General table!D24,HUT098,General table!F26,Vaginal Swab,True
+98VP,FRESH,26,A1,Fresh samples,General table!D24,HUT098,General table!F26,Vaginal Swab,True
+99CA2,FRESH,4,A1,Fresh samples,General table!D3,HUT099,General table!F4,Cervix,True
+99CG2,FRESH,4,A1,Fresh samples,General table!D3,HUT099,General table!F4,Cervix,True
+99CM2,FRESH,4,A1,Fresh samples,General table!D3,HUT099,General table!F4,Cervix,True
+99CP2,FRESH,4,A1,Fresh samples,General table!D3,HUT099,General table!F4,Cervix,True
+99EA,FROZEN,31,A29,Frozen samples,General table!D31,HUT099,General table!F31,Endometrium,True
+99EA2,FRESH,3,A1,Fresh samples,General table!D3,HUT099,General table!F3,Endometrium,True
+99EG,FROZEN,31,A29,Frozen samples,General table!D31,HUT099,General table!F31,Endometrium,True
+99EG2,FRESH,3,A1,Fresh samples,General table!D3,HUT099,General table!F3,Endometrium,True
+99EM,FROZEN,31,A29,Frozen samples,General table!D31,HUT099,General table!F31,Endometrium,True
+99EM2,FRESH,3,A1,Fresh samples,General table!D3,HUT099,General table!F3,Endometrium,True
+99EP,FROZEN,31,A29,Frozen samples,General table!D31,HUT099,General table!F31,Endometrium,True
+99EP2,FRESH,3,A1,Fresh samples,General table!D3,HUT099,General table!F3,Endometrium,True
+99VA2,FRESH,5,A1,Fresh samples,General table!D3,HUT099,General table!F5,Vaginal Swab,True
+99VG2,FRESH,5,A1,Fresh samples,General table!D3,HUT099,General table!F5,Vaginal Swab,True
+99VM2,FRESH,5,A1,Fresh samples,General table!D3,HUT099,General table!F5,Vaginal Swab,True
+99VP2,FRESH,5,A1,Fresh samples,General table!D3,HUT099,General table!F5,Vaginal Swab,True

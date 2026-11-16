@@ -1,0 +1,10 @@
+species,correct_Kraken_percent_input,incorrect_Kraken_percent_input,incorrect_Kraken_percent_tabulated_species,correct_Bracken_percent_input,correct_Bracken_percent_listed_estimates
+Sneathia vaginalis,74.275,0.256,0.34348123599576014,99.09,99.36225257204741
+Prevotella buccalis,57.407,0.082,0.14263598253578946,99.537,100.0
+Lactobacillus iners,52.74,0.317,0.5974706447782574,99.564,100.0
+Fannyhessea vaginae,50.052,1.526,2.9586257706774206,94.111,94.44249315095986
+Lactobacillus jensenii,34.479,0.624,1.777625843944962,98.096,98.5948901441293
+Gardnerella vaginalis,13.969,0.07,0.49861101218035475,99.858,100.0
+Lactobacillus crispatus,7.483,0.396,5.026018530270339,97.717,98.2011315786829
+Gardnerella leopoldii,5.943,0.089,1.4754641909814323,98.501,100.0
+Lactobacillus gasseri,2.895,0.329,10.204714640198512,99.533,100.0

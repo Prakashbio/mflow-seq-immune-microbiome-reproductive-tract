@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "reproduced_current_figure_assets": 23,
+  "identical_PNGs": 20,
+  "unchanged_native_EMFs": 3,
+  "CSV_RDS_inputs": 376,
+  "new_statistical_tests": 0,
+  "scope": "Pixel-identical current figure rebuild from stored results. Does not reproduce or authenticate the unresolved upstream FASTQ pipeline or validate FACS gates."
+}

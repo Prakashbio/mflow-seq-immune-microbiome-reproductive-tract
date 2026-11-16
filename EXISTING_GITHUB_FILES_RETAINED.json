@@ -1,0 +1,218 @@
+{
+  "base_commit": "5f8514938c399c954efc7516992fa574f610e255",
+  "files": {
+    "Output/ANCOMBC_IgA_vs_IgM_AllSites.csv": {
+      "git_blob_sha1": "9a319ae75414bd63b7e2b0a947a5043229065448",
+      "bytes": 2568
+    },
+    "Output/ANCOMBC_IgA_vs_IgM_Cervix.csv": {
+      "git_blob_sha1": "30c572eafdffe41dafc42228106f330b4255cde2",
+      "bytes": 2569
+    },
+    "Output/ANCOMBC_IgA_vs_IgM_Endometrium.csv": {
+      "git_blob_sha1": "75075b134ec5b86fa03ec257c14828774d3b1c46",
+      "bytes": 2565
+    },
+    "Output/ANCOMBC_IgA_vs_IgM_Vagina.csv": {
+      "git_blob_sha1": "198f26e404794bb466a6488d456f6d1e7655cee6",
+      "bytes": 2524
+    },
+    "Output/IgGAnalysis_Table.csv": {
+      "git_blob_sha1": "0c366488fcad6d5a43ab8e610b545dc00b904c20",
+      "bytes": 873
+    },
+    "Output/SupplementaryTableS1_IgACoatingScores.csv": {
+      "git_blob_sha1": "b336c054397ed92e9eb4271a62c7fb27f4394d0a",
+      "bytes": 7456
+    },
+    "Output/SupplementaryTableS1_IgACoatingScores.tsv": {
+      "git_blob_sha1": "2572b2ff5b3af1f3943d46f429daf38a8263b47b",
+      "bytes": 7456
+    },
+    "Output/decontam_equivalent_scores.csv": {
+      "git_blob_sha1": "f508747ed75a83a656768b7edd1d9af76a56cbd2",
+      "bytes": 9601
+    },
+    "Output/sourcetracker2_equivalent_results.csv": {
+      "git_blob_sha1": "a8ea9bdb1364467db4f409256cb64e96bd32d5d9",
+      "bytes": 209
+    },
+    "Output/tost_bray_curtis_results.csv": {
+      "git_blob_sha1": "fb427a2273eebd84144ea16bd958295eecd1c225",
+      "bytes": 1399
+    },
+    "Output/tost_shannon_results.csv": {
+      "git_blob_sha1": "82505196b6fc75070cddecd50321d2ac5d64a843",
+      "bytes": 870
+    },
+    "data/anatomical_site_enrichment.csv": {
+      "git_blob_sha1": "8f6b77bce77ae92e087e190100e27ae896fbec6e",
+      "bytes": 10310
+    },
+    "data/facs_binding_events.csv": {
+      "git_blob_sha1": "903bdbcac79e0df45292cd4781fe9e8788665979",
+      "bytes": 5601
+    },
+    "data/filtering_statistics.xlsx": {
+      "git_blob_sha1": "a7abc8f3d06214eb6f6fb40ec1587b71a1a0dcda",
+      "bytes": 9576
+    },
+    "data/lactobacillus_fresh_frozen.csv": {
+      "git_blob_sha1": "78ef7fc1fc607c05c594334bab0cd3223112e140",
+      "bytes": 31535
+    },
+    "data/otu_clean.csv": {
+      "git_blob_sha1": "fb659960487dcf399ce204764e788504bc28619b",
+      "bytes": 19133
+    },
+    "data/otu_clean_decontaminated.csv": {
+      "git_blob_sha1": "4f0be4b4803bb7e904d35ae746ceb337a9c104a5",
+      "bytes": 18455
+    },
+    "data/otu_table.csv": {
+      "git_blob_sha1": "4f0be4b4803bb7e904d35ae746ceb337a9c104a5",
+      "bytes": 18455
+    },
+    "data/sample_metadata.csv": {
+      "git_blob_sha1": "e5d1d077c62771072041530bdebcb9e97f094e04",
+      "bytes": 6187
+    },
+    "data/seq_clean.csv": {
+      "git_blob_sha1": "565dfd10e0a613ac3df651641266650310d60ced",
+      "bytes": 102892
+    },
+    "data/taxa_abundance_fresh_frozen.csv": {
+      "git_blob_sha1": "63948e941ebe01453a7041213b0b2ef50007a59f",
+      "bytes": 6807
+    },
+    "data/taxonomy.csv": {
+      "git_blob_sha1": "9f37c929a1b59695f2bab84c158eade87264d837",
+      "bytes": 5038
+    },
+    "gitignore.txt": {
+      "git_blob_sha1": "b0b318168e124dd438314e8f38c486b55f099eea",
+      "bytes": 321
+    },
+    "requirements.txt": {
+      "git_blob_sha1": "87aa7dd83875d5ff34b96e6abc0637c33e822546",
+      "bytes": 75
+    },
+    "run_all.py": {
+      "git_blob_sha1": "555e74859d2ad17b605f8c9efca04e36a66481a7",
+      "bytes": 8713
+    },
+    "scripts/fig2_alpha_diversity.py": {
+      "git_blob_sha1": "1eda7f3d5efdc347b215d8c9736235555587b421",
+      "bytes": 6865
+    },
+    "scripts/fig3_beta_diversity.py": {
+      "git_blob_sha1": "643dffa25854d97d0284423cfe642cce2c0132ef",
+      "bytes": 5815
+    },
+    "scripts/fig4_facs_binding.py": {
+      "git_blob_sha1": "fb139e2c817cd0f18e8f025b07741d733ce173f0",
+      "bytes": 7767
+    },
+    "scripts/fig5_differential_abundance.py": {
+      "git_blob_sha1": "3c94ea21887bfdfc96f79cd11a5f586e724eb005",
+      "bytes": 7262
+    },
+    "scripts/fig6_healthy_vs_dysbiotic.py": {
+      "git_blob_sha1": "3776d00caf09ca685cfd1fa2842705d06dd706f4",
+      "bytes": 13451
+    },
+    "scripts/fig7_fresh_vs_frozen.py": {
+      "git_blob_sha1": "c001aaa429175253df69fdd0de9ee8fe1d3232c8",
+      "bytes": 8163
+    },
+    "scripts/fig8_anatomical_site.py": {
+      "git_blob_sha1": "5b99f0f988283b73d11f19e7205bc7e48e96febb",
+      "bytes": 7740
+    },
+    "scripts/fig9_multivariate_analysis.py": {
+      "git_blob_sha1": "6b973d097b20bef1a4aae1dbd88ffbe24692f71f",
+      "bytes": 9224
+    },
+    "scripts/sfig10_iga_coating_score.py": {
+      "git_blob_sha1": "615720568fa4ed68d00768f3f76462a35c854c50",
+      "bytes": 11363
+    },
+    "scripts/sfig11_patient_paired_readdepth.py": {
+      "git_blob_sha1": "1e0144d49a14260ea276caaf476266b1b2d49f0a",
+      "bytes": 13246
+    },
+    "scripts/sfig12_lactobacillus_gradient.py": {
+      "git_blob_sha1": "162842e446d0b52948bb1e972b152e7ed9d82b64",
+      "bytes": 9831
+    },
+    "scripts/sfig13_composition.py": {
+      "git_blob_sha1": "c9a69c7ccbc41ecebb1acdb63538c9c79edf61a0",
+      "bytes": 4910
+    },
+    "scripts/sfig14_prevalence_network.py": {
+      "git_blob_sha1": "3e18b8c9b3a0ab717e28019f5276ad87f7df6373",
+      "bytes": 12753
+    },
+    "scripts/sfig15_fresh_frozen.py": {
+      "git_blob_sha1": "0eef2c2ee1c34fc6069d6b9cee7b79b498b84a50",
+      "bytes": 7679
+    },
+    "scripts/sfig16_contamination_analysis.py": {
+      "git_blob_sha1": "5978875e2af5ddc39f42b95503c511a5c297cb44",
+      "bytes": 14118
+    },
+    "scripts/sfig1_phylum_composition.py": {
+      "git_blob_sha1": "828af2ad70ca8910a753922102d02fa20d121009",
+      "bytes": 3963
+    },
+    "scripts/sfig2_alpha_diversity_storage.py": {
+      "git_blob_sha1": "734210ed3153035017f21ecdbd2b15fb99f336b3",
+      "bytes": 6907
+    },
+    "scripts/sfig3_per_location_pcoa.py": {
+      "git_blob_sha1": "9faa63bfd6592458d20c0640ab2625875bbe0736",
+      "bytes": 4016
+    },
+    "scripts/sfig4_vs_presorted.py": {
+      "git_blob_sha1": "99df5cc9d0e0a8206c1654f77549f1e1065c23ad",
+      "bytes": 2790
+    },
+    "scripts/sfig5_condition_volcano.py": {
+      "git_blob_sha1": "1d38a6e164a57dd415131abcfafa4bf302c3ec96",
+      "bytes": 3983
+    },
+    "scripts/sfig6_cooccurrence_matrix.py": {
+      "git_blob_sha1": "119eee5991d0c5d2eeab7a4a5086f728806381be",
+      "bytes": 2858
+    },
+    "scripts/sfig7_fresh_frozen_correlation.py": {
+      "git_blob_sha1": "d41a16aa331dac8cef4db78d71ddafa8d12941e1",
+      "bytes": 3224
+    },
+    "scripts/sfig8_taxon_accumulation.py": {
+      "git_blob_sha1": "becaa08373167f29fd28888f9db79a921af03ffd",
+      "bytes": 2634
+    },
+    "scripts/sfig9_supplementary_igg.py": {
+      "git_blob_sha1": "54314685cd50f8ef24570cdb9995a48374538831",
+      "bytes": 10824
+    },
+    "scripts/sfig_tost_cryopreservation.py": {
+      "git_blob_sha1": "ac6fa3a665a0d669c1e5e485a8b8f8556cee1540",
+      "bytes": 23939
+    },
+    "scripts/shared_utils.py": {
+      "git_blob_sha1": "cd22667160b5386fe0b28a5b7f9f5091ebc2e22f",
+      "bytes": 9479
+    },
+    "scripts/supp_ancombc_differential_abundance.py": {
+      "git_blob_sha1": "0c756878874cd6e25964bc006860ab5b1de12ac3",
+      "bytes": 11011
+    },
+    "scripts/supp_table_s1_iga_coating_score.py": {
+      "git_blob_sha1": "ffb1840fd663e2fa06894fbda79e0fca0fb2304d",
+      "bytes": 16908
+    }
+  },
+  "scope": "Preserve these existing public repository files. Not duplicated in the revision ZIP;verify their Git blob hashes if present in a complete GitHub checkout."
+}

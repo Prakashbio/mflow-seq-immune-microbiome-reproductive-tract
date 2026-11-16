@@ -1,0 +1,206 @@
+[
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_001/Specimen_001_Saliva IgA+PE 1-2.fcs",
+    "sha256": "987ab6bb2059120e9fd10673fb2b344e121ef0e2930f214b1648d2dcc9cfd1f8",
+    "category": "saliva",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  },
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_001/Specimen_001_Saliva IgA+PE 2-2.fcs",
+    "sha256": "068da60764b68847fa3dc1f4d61c46532a3801ea215d198499593575d27f4435",
+    "category": "saliva",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  },
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_001/Specimen_001_Saliva IgA+PE 3-2.fcs",
+    "sha256": "d679e133e1f09dd99fd7b08ee06ec7b17e244fbee6bfbd6b33fac0de3c2260d0",
+    "category": "saliva",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  },
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_001/Specimen_001_Saliva IgA+PE 4-2.fcs",
+    "sha256": "5b414cb8b68a250335ac1388d40be317b774da34019f9a2be2fb28d2bad27da4",
+    "category": "saliva",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  },
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_001/Specimen_001_Saliva IgM+APC 1-3.fcs",
+    "sha256": "61b75a23cad1067e9afe2082af2c0226180acddcbdcb00f0195492661658b890",
+    "category": "saliva",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  },
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_001/Specimen_001_Saliva IgM+APC 2-3.fcs",
+    "sha256": "9ec4c6d625d109013dd16fc24f8395eed2f1f0c178b5e80af3435d05175d8d95",
+    "category": "saliva",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  },
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_001/Specimen_001_Saliva IgM+APC 3-3.fcs",
+    "sha256": "b0added2de4f6c16be4b3ce62b7bc69161dfa1947ac31590a0b2053e66031516",
+    "category": "saliva",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  },
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_001/Specimen_001_Saliva IgM+APC 4-3.fcs",
+    "sha256": "7be61c968633ac73d8252fb7884e0c09641e104f464bdde620af8b1beec8d3b9",
+    "category": "saliva",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  },
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_001/Specimen_001_Saliva Syto9+PI 1-1 dead.fcs",
+    "sha256": "4376e4f13495fcc49628ac82343ff1db3b86ae4fbded46003dd454de34c7b84a",
+    "category": "saliva",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  },
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_001/Specimen_001_Saliva Syto9+PI 1-1.fcs",
+    "sha256": "6bc1c30cc8330cf1ba86948989622fb99e8da38130162923397e09e1c061ab31",
+    "category": "saliva",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  },
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_001/Specimen_001_Saliva Syto9+PI 2-1.fcs",
+    "sha256": "97821248cf3dcacea98544977c2f01889a8b1c843ec125c2c75afab2b9503214",
+    "category": "saliva",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  },
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_001/Specimen_001_Saliva Syto9+PI 3-1.fcs",
+    "sha256": "0c188b98b518a76c878c15816ae5aae3a44da63f21301e583f7948dc44b94d2f",
+    "category": "saliva",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  },
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_001/Specimen_001_Saliva Syto9+PI 4-1.fcs",
+    "sha256": "3d84040742fb6b30bdd9dde865dfd24b468a5bee4f51c8b53080a67881aae153",
+    "category": "saliva",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  },
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_001/Specimen_001_Saliva unstained 1-4.fcs",
+    "sha256": "e1dbfe93784ed37bfa57798ad9194e4e6363c2b90e99c1abf9728e9426705cc7",
+    "category": "saliva",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  },
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_001/Specimen_001_Saliva unstained 2-4.fcs",
+    "sha256": "b1e0c36b92e3b53b2b845f4e4d03c265221527ff393e672afd5c059f84a527b9",
+    "category": "saliva",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  },
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_001/Specimen_001_Saliva unstained 3-4.fcs",
+    "sha256": "de3ac55dd9ecdc6072c838a8280d73c5c6a73b89aec7083937ea848597674345",
+    "category": "saliva",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  },
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_001/Specimen_001_Saliva unstained 4-4.fcs",
+    "sha256": "3a0d0ed873a3d48fa2e46db436a9f019578c37846dc5fd3f78327b1d0503d218",
+    "category": "saliva",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  },
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_001/Specimen_001_Sperm Sito+PI.fcs",
+    "sha256": "5cc8019e56399cfa5e3044c1f8a50298b1ef70f35838a6dd0c4e8f6bce471c4a",
+    "category": "sperm",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  },
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_002/Specimen_001_Saliva IgA+PE 1-2.fcs",
+    "sha256": "73957410e368c520d9381a679eda8334d86994dfebd85b720e8c13fd9335d866",
+    "category": "saliva",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  },
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_002/Specimen_001_Saliva IgA+PE 2-2.fcs",
+    "sha256": "32aebf24df1cfa703c130ea771c1609998566fc82af02c46d1ad4b4ea20c12e9",
+    "category": "saliva",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  },
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_002/Specimen_001_Saliva IgA+PE 3-2.fcs",
+    "sha256": "13d4bd5c665e5a8808dd4f3de153b40cff16074dc842d8aedbbd609af3d35924",
+    "category": "saliva",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  },
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_002/Specimen_001_Saliva IgA+PE 4-2.fcs",
+    "sha256": "5cc0daff40dd9b49913c45af3602fe6e6aa9a4c231bea4f66a35859074cdfb24",
+    "category": "saliva",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  },
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_002/Specimen_001_Saliva Syto9+PI 1-1.fcs",
+    "sha256": "11ebf34fe1265b9a926a9f8ab2e36f45e62d44c0907d9a0f7744b2f5dd89ec01",
+    "category": "saliva",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  },
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_002/Specimen_001_Saliva Syto9+PI 2-1.fcs",
+    "sha256": "b691e50f6eadec145ebce2964813de7b4a529d10b54dd91264bfe36a112eadc3",
+    "category": "saliva",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  },
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_002/Specimen_001_Saliva Syto9+PI 3-1.fcs",
+    "sha256": "c9ffca3409102ed35a818b9ca302026bbe4e854235e3b29cf93225690b4e469a",
+    "category": "saliva",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  },
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_002/Specimen_001_Saliva Syto9+PI 4-1.fcs",
+    "sha256": "8e6a9e5168e39c06a31ac525146110c93f24583b627746b07450e4f57f2d6e72",
+    "category": "saliva",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  },
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_002/Specimen_001_Sperm Sito+PI 5-1.fcs",
+    "sha256": "2e294510f01a88ce03aa1f9949c6c0d59355e50081db83496a09d405bf42e3f7",
+    "category": "sperm",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  },
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_002/Specimen_001_Sperm Sito+PI 6-1.fcs",
+    "sha256": "7a3d03a530690d03ff8d525e201d843ae65b17df9d234f10e3aa5b37426ace48",
+    "category": "sperm",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  },
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_002/Specimen_001_Sperm Sito+PI 7-1.fcs",
+    "sha256": "29459abf0bdf25092f09b590051f57b002595ee2e2688f0bdb0086ed016a7185",
+    "category": "sperm",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  },
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_002/Specimen_001_Sperm Sito+PI 8-1.fcs",
+    "sha256": "d59222c1c4f67fc48d70fc365664a1353897e22d6163b88dd1ffa68083d122c5",
+    "category": "sperm",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  },
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_002/Specimen_002_Vaginal swap IGa+IgM 1.fcs",
+    "sha256": "7477732f31845785e200e391b1ec1a597167a07b9ba107eb850bf6e092d1ff94",
+    "category": "vaginal pilot",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  },
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_002/Specimen_002_Vaginal swap IGa+IgM 2.fcs",
+    "sha256": "068b26c1ebadc0dc882f8d5cfcb71daf69d6aef5e702398d035162bdc6a55bb8",
+    "category": "vaginal pilot",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  },
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_002/Specimen_002_Vaginal swap Syto9+PI 1.fcs",
+    "sha256": "598874f5590b443c6771a4c18ad01aa843d7046f2cee356d2a6d6c810be9b955",
+    "category": "vaginal pilot",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  },
+  {
+    "path": "revisions/revision_v24_8/source_materials/facs_control_pilot_display_v23_2/source_fcs/Prakash Lingasamy_002/Specimen_002_Vaginal swap Syto9+PI 2.fcs",
+    "sha256": "e2c58011392c9fa3c4bcfc3249a186ec43706c9df57285e637458fb651cf84a2",
+    "category": "vaginal pilot",
+    "reason": "Public redistribution not confirmed; original raw human-sample acquisition retained privately by author instruction."
+  }
+]

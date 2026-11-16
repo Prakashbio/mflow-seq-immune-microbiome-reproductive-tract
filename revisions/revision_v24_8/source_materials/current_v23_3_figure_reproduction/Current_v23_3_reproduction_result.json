@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "reproduced_graphic_assets": 29,
+  "unchanged_from_v23_2": 27,
+  "Figure2": "Presentation changed; all observed stack segments and panel B values retained",
+  "Figure5": "A legend entries made horizontal; plotted data and panel B styling retained",
+  "numerical_analysis_changes": 0,
+  "scope": "Downstream figure reproduction, not upstream sequencing or assay validation"
+}

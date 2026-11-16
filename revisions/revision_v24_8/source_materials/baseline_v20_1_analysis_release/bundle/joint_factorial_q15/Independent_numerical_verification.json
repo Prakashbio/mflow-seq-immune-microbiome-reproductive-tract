@@ -1,0 +1,1496 @@
+{
+  "status": "PASS",
+  "checks_passed": 290,
+  "permutations": 9999,
+  "independent_null_statistics_recomputed": 2388,
+  "maximum_null_F_error": 3.730349362740526e-14,
+  "checks": [
+    {
+      "check": "primary39_mean_both normalized profiles independently reconstructed",
+      "passed": true,
+      "detail": 5.551115123125783e-16
+    },
+    {
+      "check": "primary39_mean_both source library count",
+      "passed": true,
+      "detail": 124
+    },
+    {
+      "check": "primary39_mean_both HUT099 both preparations equally represented",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independently calculated Bray Curtis",
+      "passed": true,
+      "detail": 1.3322676295501878e-15
+    },
+    {
+      "check": "primary39_mean_both common full rank and residual df",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "every row is a permutation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no permutation crosses a woman",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all permutations preserve anatomical unit",
+      "passed": true,
+      "detail": 9999
+    },
+    {
+      "check": "all permutations preserve woman fraction",
+      "passed": true,
+      "detail": 9999
+    },
+    {
+      "check": "primary39_mean_both Site SS F and R2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both Site permutation p",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both Site independent null statistics",
+      "passed": true,
+      "detail": {
+        "null_permutations_recomputed": 199,
+        "max_error": 2.531308496145357e-14
+      }
+    },
+    {
+      "check": "primary39_mean_both Fraction SS F and R2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both Fraction permutation p",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both Fraction independent null statistics",
+      "passed": true,
+      "detail": {
+        "null_permutations_recomputed": 199,
+        "max_error": 2.19824158875781e-14
+      }
+    },
+    {
+      "check": "primary39_mean_both Site_by_fraction SS F and R2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both Site_by_fraction permutation p",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both Site_by_fraction independent null statistics",
+      "passed": true,
+      "detail": {
+        "null_permutations_recomputed": 199,
+        "max_error": 1.3433698597964394e-14
+      }
+    },
+    {
+      "check": "primary39_mean_both Holm independently reproduced",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both BH independently reproduced",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both Site bootstrap percentile interval",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both Fraction bootstrap percentile interval",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both Site_by_fraction bootstrap percentile interval",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 14",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 22",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 23",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 24",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 25",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 26",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 27",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 28",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 29",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 30",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 31",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 32",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 33",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 34",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 35",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 36",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 37",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 38",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 39",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 40",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 41",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 42",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 43",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 44",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 45",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 46",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 47",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 48",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 49",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both independent cluster draw 50",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both normalized profiles independently reconstructed",
+      "passed": true,
+      "detail": 5.551115123125783e-16
+    },
+    {
+      "check": "sensitivity41_mean_both source library count",
+      "passed": true,
+      "detail": 124
+    },
+    {
+      "check": "sensitivity41_mean_both HUT099 both preparations equally represented",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independently calculated Bray Curtis",
+      "passed": true,
+      "detail": 1.3322676295501878e-15
+    },
+    {
+      "check": "sensitivity41_mean_both common full rank and residual df",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both Site SS F and R2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both Site permutation p",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both Site independent null statistics",
+      "passed": true,
+      "detail": {
+        "null_permutations_recomputed": 199,
+        "max_error": 2.9753977059954195e-14
+      }
+    },
+    {
+      "check": "sensitivity41_mean_both Fraction SS F and R2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both Fraction permutation p",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both Fraction independent null statistics",
+      "passed": true,
+      "detail": {
+        "null_permutations_recomputed": 199,
+        "max_error": 2.842170943040401e-14
+      }
+    },
+    {
+      "check": "sensitivity41_mean_both Site_by_fraction SS F and R2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both Site_by_fraction permutation p",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both Site_by_fraction independent null statistics",
+      "passed": true,
+      "detail": {
+        "null_permutations_recomputed": 199,
+        "max_error": 1.84297022087776e-14
+      }
+    },
+    {
+      "check": "sensitivity41_mean_both Holm independently reproduced",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both BH independently reproduced",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both Site bootstrap percentile interval",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both Fraction bootstrap percentile interval",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both Site_by_fraction bootstrap percentile interval",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 14",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 22",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 23",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 24",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 25",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 26",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 27",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 28",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 29",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 30",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 31",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 32",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 33",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 34",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 35",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 36",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 37",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 38",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 39",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 40",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 41",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 42",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 43",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 44",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 45",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 46",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 47",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 48",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 49",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both independent cluster draw 50",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed normalized profiles independently reconstructed",
+      "passed": true,
+      "detail": 5.551115123125783e-16
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed source library count",
+      "passed": true,
+      "detail": 120
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independently calculated Bray Curtis",
+      "passed": true,
+      "detail": 1.3322676295501878e-15
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed common full rank and residual df",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed Site SS F and R2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed Site permutation p",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed Site independent null statistics",
+      "passed": true,
+      "detail": {
+        "null_permutations_recomputed": 199,
+        "max_error": 2.4868995751603507e-14
+      }
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed Fraction SS F and R2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed Fraction permutation p",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed Fraction independent null statistics",
+      "passed": true,
+      "detail": {
+        "null_permutations_recomputed": 199,
+        "max_error": 2.886579864025407e-14
+      }
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed Site_by_fraction SS F and R2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed Site_by_fraction permutation p",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed Site_by_fraction independent null statistics",
+      "passed": true,
+      "detail": {
+        "null_permutations_recomputed": 199,
+        "max_error": 1.3766765505351941e-14
+      }
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed Holm independently reproduced",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed BH independently reproduced",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed Site bootstrap percentile interval",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed Fraction bootstrap percentile interval",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed Site_by_fraction bootstrap percentile interval",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 14",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 22",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 23",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 24",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 25",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 26",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 27",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 28",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 29",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 30",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 31",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 32",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 33",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 34",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 35",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 36",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 37",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 38",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 39",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 40",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 41",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 42",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 43",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 44",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 45",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 46",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 47",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 48",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 49",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed independent cluster draw 50",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 normalized profiles independently reconstructed",
+      "passed": true,
+      "detail": 5.551115123125783e-16
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 source library count",
+      "passed": true,
+      "detail": 120
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independently calculated Bray Curtis",
+      "passed": true,
+      "detail": 1.3322676295501878e-15
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 common full rank and residual df",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 Site SS F and R2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 Site permutation p",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 Site independent null statistics",
+      "passed": true,
+      "detail": {
+        "null_permutations_recomputed": 199,
+        "max_error": 2.6867397195928788e-14
+      }
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 Fraction SS F and R2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 Fraction permutation p",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 Fraction independent null statistics",
+      "passed": true,
+      "detail": {
+        "null_permutations_recomputed": 199,
+        "max_error": 3.730349362740526e-14
+      }
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 Site_by_fraction SS F and R2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 Site_by_fraction permutation p",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 Site_by_fraction independent null statistics",
+      "passed": true,
+      "detail": {
+        "null_permutations_recomputed": 199,
+        "max_error": 2.2870594307278225e-14
+      }
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 Holm independently reproduced",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 BH independently reproduced",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 Site bootstrap percentile interval",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 Fraction bootstrap percentile interval",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 Site_by_fraction bootstrap percentile interval",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 14",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 22",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 23",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 24",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 25",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 26",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 27",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 28",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 29",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 30",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 31",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 32",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 33",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 34",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 35",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 36",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 37",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 38",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 39",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 40",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 41",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 42",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 43",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 44",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 45",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 46",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 47",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 48",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 49",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 independent cluster draw 50",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both dispersion Holm adjustment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both Location dispersion F and all permutation p",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "primary39_mean_both Fraction dispersion F and all permutation p",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both dispersion Holm adjustment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both Location dispersion F and all permutation p",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity41_mean_both Fraction dispersion F and all permutation p",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed dispersion Holm adjustment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed Location dispersion F and all permutation p",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_unsuffixed Fraction dispersion F and all permutation p",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 dispersion Holm adjustment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 Location dispersion F and all permutation p",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sensitivity39_keep99_suffix2 Fraction dispersion F and all permutation p",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "scope": "Numerical verification only. Does not establish biological validity, residual exchangeability, or equal multivariate dispersion."
+}

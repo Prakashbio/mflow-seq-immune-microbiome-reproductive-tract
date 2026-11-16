@@ -1,0 +1,24 @@
+taxon,SourceCode,original_code_group,legacy_heading,legacy_group,assignment_count,denominator_268_assignments,relative_abundance_percent,counting_rule,original_report_basename,source_workbook_site_cell,source_workbook_profile_header
+Corynebacterium matruchotii,78EG2,ENDOMETRIUM_G,94_CERVIX_M,CERVIX_M,2514,148892,1.6884721811783037,assignment_count * 200 >= denominator,78EG2.breport,General table!F40,D2
+Corynebacterium matruchotii,80EG2,ENDOMETRIUM_G,77_ENDOMETRIUM_A,ENDOMETRIUM_A,14778,325693,4.53740178634481,assignment_count * 200 >= denominator,80EG2.breport,General table!F43,D2
+Corynebacterium sanguinis,78VA2,VAGINA_A,97_CERVIX_M,CERVIX_M,19973,436303,4.577781954284064,assignment_count * 200 >= denominator,78VA2.breport,General table!F41,M2
+Corynebacterium sanguinis,90EA.2,ENDOMETRIUM_A,81_ENDOMETRIUM_G,ENDOMETRIUM_G,2206,49523,4.454495890798215,assignment_count * 200 >= denominator,90EA-2.breport,General table!F12,M2
+Corynebacterium sanguinis,91EG,ENDOMETRIUM_G,77_ENDOMETRIUM_M,ENDOMETRIUM_M,2982,371062,0.8036392840010564,assignment_count * 200 >= denominator,91EG.breport,General table!F51,D2
+Corynebacterium sanguinis,97EG,ENDOMETRIUM_G,95_VAGINA_M,VAGINA_M,1280,63583,2.013116713586965,assignment_count * 200 >= denominator,97EG.breport,General table!F21,P2
+Cutibacterium granulosum,104VG,VAGINA_G,99_CERVIX_A,CERVIX_A,8315,209748,3.9642809466598012,assignment_count * 200 >= denominator,104VG.breport,General table!F61,Z2
+Cutibacterium granulosum,77VM,VAGINA_M,104_CERVIX_M,CERVIX_M,3889,520560,0.7470800676194868,assignment_count * 200 >= denominator,77VM.breport,General table!F34,Q2
+Cutibacterium granulosum,79EG,ENDOMETRIUM_G,94_CERVIX_PRE,CERVIX_PRE,3512,150058,2.3404283676978235,assignment_count * 200 >= denominator,79EG.breport,General table!F36,E2
+Cutibacterium granulosum,81EG,ENDOMETRIUM_G,95_ENDOMETRIUM_A,ENDOMETRIUM_A,20427,173660,11.762639640677186,assignment_count * 200 >= denominator,81EG.breport,General table!F47,D2
+Cutibacterium granulosum,97EG,ENDOMETRIUM_G,95_VAGINA_M,VAGINA_M,1752,63583,2.7554535017221586,assignment_count * 200 >= denominator,97EG.breport,General table!F21,P2
+Cutibacterium granulosum,99EG,ENDOMETRIUM_G,81_ENDOMETRIUM_PRE,ENDOMETRIUM_PRE,17333,371332,4.667790548619564,assignment_count * 200 >= denominator,99EG.breport,General table!F31,D2
+Peptoniphilus harei,104EG,ENDOMETRIUM_G,96_CERVIX_A,CERVIX_A,11247,306849,3.665320727784676,assignment_count * 200 >= denominator,104EG.breport,General table!F59,P2
+Peptoniphilus harei,93EG,ENDOMETRIUM_G,99_ENDOMETRIUM_M,ENDOMETRIUM_M,1816,109391,1.6601000082273678,assignment_count * 200 >= denominator,93EG.breport,General table!F15,P2
+Rothia mucilaginosa,104VG,VAGINA_G,99_CERVIX_A,CERVIX_A,2158,209748,1.0288536720254782,assignment_count * 200 >= denominator,104VG.breport,General table!F61,Z2
+Rothia mucilaginosa,96VM,VAGINA_M,80_VAGINA_M,VAGINA_M,270,38899,0.6941052469215147,assignment_count * 200 >= denominator,96VM.breport,General table!F20,AE2
+Rothia mucilaginosa,98VM,VAGINA_M,96_VAGINA_PRE,VAGINA_PRE,1211,173132,0.6994663031675253,assignment_count * 200 >= denominator,98VM.breport,General table!F26,AE2
+Streptococcus sanguinis,104EM,ENDOMETRIUM_M,97_CERVIX_A,CERVIX_A,4654,391373,1.1891469263337022,assignment_count * 200 >= denominator,104EM.breport,General table!F59,R2
+Streptococcus sanguinis,91EA,ENDOMETRIUM_A,104_ENDOMETRIUM_M,ENDOMETRIUM_M,15810,1798094,0.8792643766121238,assignment_count * 200 >= denominator,91EA.breport,General table!F51,A2
+Streptococcus sanguinis,94EG2,ENDOMETRIUM_G,95_VAGINA_A,VAGINA_A,665,53162,1.2508934953538242,assignment_count * 200 >= denominator,94EG2.breport,General table!F6,P2
+Streptococcus sanguinis,97EM,ENDOMETRIUM_M,96_VAGINA_M,VAGINA_M,7733,636207,1.2154848972111278,assignment_count * 200 >= denominator,97EM.breport,General table!F21,S2
+Streptococcus sanguinis,99CG2,CERVIX_G,99_VAGINA_PRE,VAGINA_PRE,11530,678612,1.699056309054364,assignment_count * 200 >= denominator,99CG2.breport,General table!F4,D2
+Streptococcus sanguinis,99EG2,ENDOMETRIUM_G,90_ENDOMETRIUM_PRE,ENDOMETRIUM_PRE,72686,1348249,5.391140657252481,assignment_count * 200 >= denominator,99EG2.breport,General table!F3,P2

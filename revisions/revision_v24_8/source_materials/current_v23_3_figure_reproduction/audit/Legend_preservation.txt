@@ -1,0 +1,7 @@
+PASS
+Only A participant/fraction legend layout changed
+All A plotted coordinates, groups, colours, shapes, alpha and line widths unchanged
+Participant legend in one horizontal row; all 15 IDs retained
+Fraction key in one horizontal row; all four original symbols retained
+Panel B plot specification and legend styling unchanged
+No model refitting or new inference

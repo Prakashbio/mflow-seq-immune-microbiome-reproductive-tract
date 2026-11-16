@@ -1,0 +1,4 @@
+item,issue,checked_finding,correction
+Original Figures 6 and 7,Inherited crosswalk says original image bytes preserved after relocation.,Actual submitted DOCX bytes differ from current S17 and S9; both are rebuilt analytical figures.,Use the direct submitted-to-current inventory supplied in this audit.
+Original Figure 9,Inherited crosswalk describes a duplicate interval figure.,"The submitted caption and image identify CLR-PCA, PERMANOVA effect sizes and spatial Ig gradients.",Describe the actual original composite and current destinations; do not imply all original panels remain active.
+Unchanged 23 figures in v15 verification,The comparison baseline can be misunderstood.,"That check is v15 versus v14, not v15 versus submitted manuscript.",Always state the baseline when saying unchanged.

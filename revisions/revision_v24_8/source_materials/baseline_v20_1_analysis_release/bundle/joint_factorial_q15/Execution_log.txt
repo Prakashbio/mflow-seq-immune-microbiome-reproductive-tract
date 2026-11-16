@@ -1,0 +1,62 @@
+Running primary39_mean_both; 9999 residual permutations per marginal contrast
+Finished primary39_mean_both
+Running sensitivity41_mean_both; 9999 residual permutations per marginal contrast
+Finished sensitivity41_mean_both
+Running sensitivity39_keep99_unsuffixed; 9999 residual permutations per marginal contrast
+Finished sensitivity39_keep99_unsuffixed
+Running sensitivity39_keep99_suffix2; 9999 residual permutations per marginal contrast
+Finished sensitivity39_keep99_suffix2
+                          analysis             term pseudo_F term_R2_total
+1              primary39_mean_both             Site 2.212587    0.01888169
+2              primary39_mean_both         Fraction 3.006276    0.03848226
+3              primary39_mean_both Site_by_fraction 1.545806    0.03957463
+4          sensitivity41_mean_both             Site 2.238726    0.01918427
+5          sensitivity41_mean_both         Fraction 2.930409    0.03766724
+6          sensitivity41_mean_both Site_by_fraction 1.554443    0.03996137
+7  sensitivity39_keep99_unsuffixed             Site 2.515056    0.02160261
+8  sensitivity39_keep99_unsuffixed         Fraction 2.893440    0.03727900
+9  sensitivity39_keep99_unsuffixed Site_by_fraction 1.455718    0.03751086
+10    sensitivity39_keep99_suffix2             Site 1.844863    0.01579062
+11    sensitivity39_keep99_suffix2         Fraction 2.960108    0.03800440
+12    sensitivity39_keep99_suffix2 Site_by_fraction 1.746065    0.04483496
+    p_raw p_Holm_three_terms R2_CI95_low R2_CI95_high
+1  0.0284             0.0284  0.01314133   0.05239937
+2  0.0006             0.0018  0.02407490   0.08995228
+3  0.0012             0.0024  0.03337136   0.11353740
+4  0.0241             0.0241  0.01313452   0.05251451
+5  0.0005             0.0015  0.02399333   0.08733779
+6  0.0006             0.0015  0.03445849   0.11310736
+7  0.0349             0.0349  0.01325185   0.06313753
+8  0.0008             0.0024  0.02398113   0.08521902
+9  0.0025             0.0050  0.03136183   0.11230470
+10 0.0439             0.0439  0.01278938   0.04167495
+11 0.0004             0.0008  0.02398537   0.08836647
+12 0.0002             0.0006  0.03680093   0.12000011
+                         analysis grouping df residual_df         F  p_raw
+1             primary39_mean_both Location  2         117 0.4314278 0.4131
+2             primary39_mean_both Fraction  3         116 1.7295923 0.0034
+3         sensitivity41_mean_both Location  2         117 0.4629160 0.3990
+4         sensitivity41_mean_both Fraction  3         116 1.6289291 0.0030
+5 sensitivity39_keep99_unsuffixed Location  2         117 0.8090574 0.3337
+6 sensitivity39_keep99_unsuffixed Fraction  3         116 1.7513189 0.0035
+7    sensitivity39_keep99_suffix2 Location  2         117 0.1126795 0.7224
+8    sensitivity39_keep99_suffix2 Fraction  3         116 1.5155428 0.0060
+                                                                                    method
+1 Median-based betadisper with small-group bias adjustment; same hierarchical restrictions
+2 Median-based betadisper with small-group bias adjustment; same hierarchical restrictions
+3 Median-based betadisper with small-group bias adjustment; same hierarchical restrictions
+4 Median-based betadisper with small-group bias adjustment; same hierarchical restrictions
+5 Median-based betadisper with small-group bias adjustment; same hierarchical restrictions
+6 Median-based betadisper with small-group bias adjustment; same hierarchical restrictions
+7 Median-based betadisper with small-group bias adjustment; same hierarchical restrictions
+8 Median-based betadisper with small-group bias adjustment; same hierarchical restrictions
+  p_Holm_two_dispersion_tests
+1                      0.4131
+2                      0.0068
+3                      0.3990
+4                      0.0060
+5                      0.3337
+6                      0.0070
+7                      0.7224
+8                      0.0120
+COMPLETED: supplementary joint factorial analysis; see explicit assumptions and independent verification before manuscript use.

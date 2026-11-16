@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "scan": "UTF-8 text payload files; absolute /Users, /home and /Volumes roots",
+  "matching_files": [],
+  "scope": "Text provenance cleanup; not a comprehensive anonymization or consent assessment. No participant/phase/storage field was removed."
+}

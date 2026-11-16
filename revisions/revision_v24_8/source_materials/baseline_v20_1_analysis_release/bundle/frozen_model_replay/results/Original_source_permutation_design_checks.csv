@@ -1,0 +1,17 @@
+"analysis","participant_block_verified","specimen_fraction_block_verified","synchronized_within_woman","permutations","unique_permutation_rows","minimum_group_n"
+"baseline_39_All_Fraction_complete",TRUE,TRUE,TRUE,9999,9999,31
+"baseline_39_All_Interaction_complete",TRUE,TRUE,TRUE,9999,9999,31
+"baseline_39_All_PRE_site_omit99_unsuffixed",TRUE,FALSE,FALSE,9999,9999,8
+"baseline_39_All_PRE_site_omit99_suffix2",TRUE,FALSE,FALSE,9999,9999,8
+"baseline_39_Proliferative_Fraction_complete",TRUE,TRUE,TRUE,9999,9999,18
+"baseline_39_Proliferative_Interaction_complete",TRUE,TRUE,TRUE,9999,9999,18
+"baseline_39_Proliferative_PRE_site_omit99_unsuffixed",TRUE,FALSE,FALSE,9999,7145,5
+"baseline_39_Proliferative_PRE_site_omit99_suffix2",TRUE,FALSE,FALSE,9999,7145,5
+"sensitivity_41_All_Fraction_complete",TRUE,TRUE,TRUE,9999,9999,31
+"sensitivity_41_All_Interaction_complete",TRUE,TRUE,TRUE,9999,9999,31
+"sensitivity_41_All_PRE_site_omit99_unsuffixed",TRUE,FALSE,FALSE,9999,9999,8
+"sensitivity_41_All_PRE_site_omit99_suffix2",TRUE,FALSE,FALSE,9999,9999,8
+"sensitivity_41_Proliferative_Fraction_complete",TRUE,TRUE,TRUE,9999,9999,18
+"sensitivity_41_Proliferative_Interaction_complete",TRUE,TRUE,TRUE,9999,9999,18
+"sensitivity_41_Proliferative_PRE_site_omit99_unsuffixed",TRUE,FALSE,FALSE,9999,7145,5
+"sensitivity_41_Proliferative_PRE_site_omit99_suffix2",TRUE,FALSE,FALSE,9999,7145,5

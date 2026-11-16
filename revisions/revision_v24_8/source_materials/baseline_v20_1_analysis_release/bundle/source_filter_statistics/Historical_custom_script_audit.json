@@ -1,0 +1,30 @@
+{
+  "original_script_sha256": "6207bc2149be24464de23152d87128988238792135ead11fafc1c389c14c56d9",
+  "imports": [
+    "import os, sys",
+    "import pandas as pd",
+    "import numpy as np",
+    "import matplotlib",
+    "import matplotlib.pyplot as plt",
+    "import matplotlib.patches as mpatches",
+    "import matplotlib.gridspec as gridspec",
+    "from matplotlib.lines import Line2D",
+    "from scipy.stats import mannwhitneyu",
+    "import warnings",
+    "from shared_utils import DATA_DIR, FIG_DIR"
+  ],
+  "official_decontam_or_sourcetracker_imported": false,
+  "site_ratio_uses_negative_controls": false,
+  "site_ratio_uses_DNA_concentrations": false,
+  "historical_pivot_taxa": 127,
+  "historical_PRE_body_site_columns": {
+    "vaginal": 9,
+    "cervical": 9,
+    "endometrial": 9
+  },
+  "model_uses_pooled_fixed_source_profiles": true,
+  "model_unknown_profile_uniform": true,
+  "model_resamples_500_synthetic_assignments": true,
+  "model_selects_restart_by_highest_likelihood": true,
+  "interpretation": "Custom body-site ratio and source-mixture routine; neither their package equivalence nor their use as independent contamination validation is established. The historical pivot collapses patient/site rows with arithmetic mean, including preparation distinctions when present. No model source proportion is used in the revision. No custom Gibbs reanalysis is claimed."
+}

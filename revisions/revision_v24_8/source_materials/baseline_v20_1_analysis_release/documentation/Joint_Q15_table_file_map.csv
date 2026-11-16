@@ -1,0 +1,4 @@
+table,file,sha256,scope
+S2R.8,bundle/joint_factorial_q15/results/Table_S2R_8_joint_factorial_primary.csv,8c6667a1b7e004f9d053317f9adb9b8161554f9773b06975f72f58d80421a0cd,Joint inferential sensitivity; distinct from all149 descriptive partitions and focused tests
+S2R.9,bundle/joint_factorial_q15/results/Table_S2R_9_joint_factorial_sensitivities.csv,64ab68f7f3ef08bdada2ca192a6f6618e4939b1594827390cb1bf68db6366d7b,Joint inferential sensitivity; distinct from all149 descriptive partitions and focused tests
+S2R.10,bundle/joint_factorial_q15/results/Table_S2R_10_joint_subset_dispersion.csv,88c2fb33f90c8552d128237a36d185960e4a8d3a5469568a3f1e9d3520179303,Joint inferential sensitivity; distinct from all149 descriptive partitions and focused tests

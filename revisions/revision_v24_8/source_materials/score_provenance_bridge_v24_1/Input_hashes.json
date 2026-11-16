@@ -1,0 +1,9 @@
+{
+  "taxon_inputs/baseline_39_source_counts.csv": "596bfda4fa890c94f9ad39139bae4b556a3f5a251fe01779f740819a0a127ee7",
+  "taxon_inputs/source_metadata_with_vaginal_category.csv": "df8200a627dfff0d8e64ebd60cd36083196195f6d8b15dbb596e983ab5eff097",
+  "taxon_inputs/historical_otu_table.csv": "9a4b354de3ea1f6f538c46d08f7196b911a9a359543505ca60202f0f45b7f990",
+  "taxon_inputs/historical_sample_metadata.csv": "48d9058ce247d514acf399d84111d784cc40bc2c989c3ad3904d7417a3bb7742",
+  "taxon_inputs/Independent_149_original_report_vector_crosswalk.csv": "887497c96ceeeea24951e4bfd94e2875865eae37fece901f3b797501c8d592a2",
+  "taxon_statistics/Matched_IgA_IgM_preparation_manifest.csv": "34f395b012efb42ffeae78170e85fab3a3d2c47d42c88fa3f0e0af4fd37ca200",
+  "taxon_statistics/Site_specific_matched_IgA_IgM_representation_scores.csv": "676d5f9b59d302ff85b13598f5dcbdb42e99fc22eedf1cf76dcc9e09c90d0e42"
+}

@@ -1,0 +1,48 @@
+100.00	15150	0	R	1	root
+100.00	15150	0	R1	131567	  cellular organisms
+80.95	12265	0	D	2	    Bacteria
+78.41	11879	0	D1	1783272	      Terrabacteria group
+78.41	11879	0	P	1239	        Firmicutes
+78.41	11879	0	C	91061	          Bacilli
+78.41	11879	0	O	186826	            Lactobacillales
+78.41	11879	0	F	33958	              Lactobacillaceae
+78.41	11879	0	G	1578	                Lactobacillus
+69.93	10595	10595	S	147802	                  Lactobacillus iners
+5.03	762	762	S	109790	                  Lactobacillus jensenii
+3.44	521	521	S	47770	                  Lactobacillus crispatus
+2.54	385	0	P	1224	      Proteobacteria
+2.54	385	0	C	2008785	        Hydrogenophilalia
+2.54	385	0	O	119069	          Hydrogenophilales
+2.54	385	0	F	206349	            Hydrogenophilaceae
+2.54	385	0	G	70774	              Hydrogenophilus
+2.54	385	385	S	297	                Hydrogenophilus thermoluteolus
+19.05	2885	0	D	2759	    Eukaryota
+19.05	2885	0	D1	33154	      Opisthokonta
+19.05	2885	0	K	33208	        Metazoa
+19.05	2885	0	K1	6072	          Eumetazoa
+19.05	2885	0	K2	33213	            Bilateria
+19.05	2885	0	K3	33511	              Deuterostomia
+19.05	2885	0	P	7711	                Chordata
+19.05	2885	0	P1	89593	                  Craniata
+19.05	2885	0	P2	7742	                    Vertebrata
+19.05	2885	0	P3	7776	                      Gnathostomata
+19.05	2885	0	P4	117570	                        Teleostomi
+19.05	2885	0	P5	117571	                          Euteleostomi
+19.05	2885	0	P6	8287	                            Sarcopterygii
+19.05	2885	0	P7	1338369	                              Dipnotetrapodomorpha
+19.05	2885	0	P8	32523	                                Tetrapoda
+19.05	2885	0	P9	32524	                                  Amniota
+19.05	2885	0	C	40674	                                    Mammalia
+19.05	2885	0	C1	32525	                                      Theria
+19.05	2885	0	C2	9347	                                        Eutheria
+19.05	2885	0	C3	1437010	                                          Boreoeutheria
+19.05	2885	0	C4	314146	                                            Euarchontoglires
+19.05	2885	0	O	9443	                                              Primates
+19.05	2885	0	O1	376913	                                                Haplorrhini
+19.05	2885	0	O2	314293	                                                  Simiiformes
+19.05	2885	0	O3	9526	                                                    Catarrhini
+19.05	2885	0	O4	314295	                                                      Hominoidea
+19.05	2885	0	F	9604	                                                        Hominidae
+19.05	2885	0	F1	207598	                                                          Homininae
+19.05	2885	0	G	9605	                                                            Homo
+19.05	2885	2885	S	9606	                                                              Homo sapiens

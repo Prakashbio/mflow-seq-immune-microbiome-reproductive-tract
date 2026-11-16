@@ -1,0 +1,17 @@
+"analysis","max_QR_vs_vegan_R2_error","rank"
+"baseline_39_All_Fraction_complete",7.21644966006352e-16,3
+"baseline_39_All_Interaction_complete",2.35922392732846e-16,6
+"baseline_39_All_PRE_site_omit99_unsuffixed",2.35922392732846e-15,2
+"baseline_39_All_PRE_site_omit99_suffix2",2.1094237467878e-15,2
+"baseline_39_Proliferative_Fraction_complete",1.04083408558608e-16,3
+"baseline_39_Proliferative_Interaction_complete",6.66133814775094e-16,6
+"baseline_39_Proliferative_PRE_site_omit99_unsuffixed",5.55111512312578e-16,2
+"baseline_39_Proliferative_PRE_site_omit99_suffix2",4.9960036108132e-16,2
+"sensitivity_41_All_Fraction_complete",2.4980018054066e-16,3
+"sensitivity_41_All_Interaction_complete",7.21644966006352e-16,6
+"sensitivity_41_All_PRE_site_omit99_unsuffixed",2.35922392732846e-15,2
+"sensitivity_41_All_PRE_site_omit99_suffix2",1.16573417585641e-15,2
+"sensitivity_41_Proliferative_Fraction_complete",1.11022302462516e-16,3
+"sensitivity_41_Proliferative_Interaction_complete",1.83186799063151e-15,6
+"sensitivity_41_Proliferative_PRE_site_omit99_unsuffixed",1.0547118733939e-15,2
+"sensitivity_41_Proliferative_PRE_site_omit99_suffix2",7.7715611723761e-16,2

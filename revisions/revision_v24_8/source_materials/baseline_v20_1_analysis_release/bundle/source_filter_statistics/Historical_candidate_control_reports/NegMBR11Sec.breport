@@ -1,0 +1,50 @@
+100.00	20755	0	R	1	root
+100.00	20755	0	R1	131567	  cellular organisms
+90.94	18874	0	D	2	    Bacteria
+90.75	18835	0	D1	1783272	      Terrabacteria group
+90.75	18835	0	P	1239	        Firmicutes
+90.75	18835	0	C	91061	          Bacilli
+90.75	18835	0	O	186826	            Lactobacillales
+89.82	18642	0	F	33958	              Lactobacillaceae
+89.82	18642	0	G	1578	                Lactobacillus
+89.58	18592	18592	S	147802	                  Lactobacillus iners
+0.24	50	50	S	109790	                  Lactobacillus jensenii
+0.93	192	0	F	81852	              Enterococcaceae
+0.93	192	0	G	1350	                Enterococcus
+0.93	192	192	S	1351	                  Enterococcus faecalis
+0.19	39	0	P	32066	      Fusobacteria
+0.19	39	0	C	203490	        Fusobacteriia
+0.19	39	0	O	203491	          Fusobacteriales
+0.19	39	0	F	1129771	            Leptotrichiaceae
+0.19	39	0	G	168808	              Sneathia
+0.19	39	39	S	187101	                Sneathia vaginalis
+9.06	1880	0	D	2759	    Eukaryota
+9.06	1880	0	D1	33154	      Opisthokonta
+9.06	1880	0	K	33208	        Metazoa
+9.06	1880	0	K1	6072	          Eumetazoa
+9.06	1880	0	K2	33213	            Bilateria
+9.06	1880	0	K3	33511	              Deuterostomia
+9.06	1880	0	P	7711	                Chordata
+9.06	1880	0	P1	89593	                  Craniata
+9.06	1880	0	P2	7742	                    Vertebrata
+9.06	1880	0	P3	7776	                      Gnathostomata
+9.06	1880	0	P4	117570	                        Teleostomi
+9.06	1880	0	P5	117571	                          Euteleostomi
+9.06	1880	0	P6	8287	                            Sarcopterygii
+9.06	1880	0	P7	1338369	                              Dipnotetrapodomorpha
+9.06	1880	0	P8	32523	                                Tetrapoda
+9.06	1880	0	P9	32524	                                  Amniota
+9.06	1880	0	C	40674	                                    Mammalia
+9.06	1880	0	C1	32525	                                      Theria
+9.06	1880	0	C2	9347	                                        Eutheria
+9.06	1880	0	C3	1437010	                                          Boreoeutheria
+9.06	1880	0	C4	314146	                                            Euarchontoglires
+9.06	1880	0	O	9443	                                              Primates
+9.06	1880	0	O1	376913	                                                Haplorrhini
+9.06	1880	0	O2	314293	                                                  Simiiformes
+9.06	1880	0	O3	9526	                                                    Catarrhini
+9.06	1880	0	O4	314295	                                                      Hominoidea
+9.06	1880	0	F	9604	                                                        Hominidae
+9.06	1880	0	F1	207598	                                                          Homininae
+9.06	1880	0	G	9605	                                                            Homo
+9.06	1880	1880	S	9606	                                                              Homo sapiens

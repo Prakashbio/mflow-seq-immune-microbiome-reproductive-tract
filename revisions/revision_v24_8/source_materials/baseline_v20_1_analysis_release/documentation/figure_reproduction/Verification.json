@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "recorded_plot_scripts_run": 8,
+  "figures_replayed": 19,
+  "identical_raster_figures": 19,
+  "preserved_nonstatistical_assets": 4,
+  "source_candidate_files": 470,
+  "source_candidate_unchanged": true,
+  "figures_requiring_review": [],
+  "raw_FASTQ_pipeline_reproduced": false,
+  "experimental_validation_added": false,
+  "manuscript_or_sealed_package_changed": false,
+  "remote_actions": false,
+  "submission_ready": false
+}

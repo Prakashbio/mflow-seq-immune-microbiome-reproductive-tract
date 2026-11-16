@@ -1,0 +1,4 @@
+tube,biological_sample_added,antibody_added,DAPI_added,current_role,confirmation_source,confirmation_date
+BSA,False,False,False,Buffer-only acquisition background,Experimenter clarification,2026-11-11
+PBS1,False,False,False,Buffer-only acquisition background,Experimenter clarification,2026-11-11
+PBS2,False,False,False,Buffer-only acquisition background,Experimenter clarification,2026-11-11

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "checks": 843,
+  "response_sections": 29,
+  "original_reviewer_segments": 61,
+  "located_passages": 454,
+  "SI_display_tables": 40,
+  "workbook_source_CSV_blocks": 76,
+  "source_cells": 85449,
+  "mismatches": 0,
+  "scientific_scope": "Source/table/response incorporation checks; missing validation and upstream provenance are not resolved"
+}

@@ -1,0 +1,31 @@
+{
+  "status": "PASS_NUMERICAL_RECONCILIATION_NOT_HISTORICAL_EXECUTION_PROOF",
+  "date": "2026-11-05",
+  "submitted_workbook_rows": 41,
+  "legacy_heading_group_results_reproduced": 41,
+  "global_numeric_cells_reproduced": 287,
+  "retained_taxa_with_printed_No_filter_flags": 6,
+  "all_six_pass_original_code_primary_rule": true,
+  "primary_membership_reproduced": 41,
+  "baseline_membership_unchanged": 39,
+  "retained_libraries": 149,
+  "independent_threshold_methods": "NumPy floating relative abundance and exact integer cross-multiplication agree on every tested taxon/library cell for both 268- and 41-assignment denominators.",
+  "controls_retained": 3,
+  "clinical_reference_tubes": 1,
+  "PBS2_removed": false,
+  "input_hashes": {
+    "mFLOW-seq_Menuscript/Menuscript Final/Submission file for Microbiome/Microbiome_Additional_File_1_species_level_taxon_tables.xlsx": "c0cc78cad34a4e4e9248a8744d99b329af166a00a540870d2b4d25367c152999",
+    "review_response/02_evidence/Source_records_2026-10-20/Source_record_manifest_REVIEW_ONLY.csv": "efe14b4c803992557c15313b88318e44fa3a587e0d1bf2e0a4ba061deeda5c60",
+    "review_response/Author_review_v19_2026-11-05/04_data_and_code/bundle/source_filter_inputs/Counts_268_original_codes.csv": "7fe93202814d8e1284095976925582f49c7c58d253ce373188bcf19ef25de5f0",
+    "review_response/Author_review_v19_2026-11-05/04_data_and_code/bundle/source_filter_inputs/Counts_41_original_codes.csv": "0c6be6e64589e31ca5a0a900e9200e2064e2ad12b8771ef3e687c1650d3d5060",
+    "review_response/Author_review_v19_2026-11-05/04_data_and_code/bundle/source_filter_inputs/Counts_39_original_codes.csv": "596bfda4fa890c94f9ad39139bae4b556a3f5a251fe01779f740819a0a127ee7",
+    "review_response/Author_review_v19_2026-11-05/04_data_and_code/bundle/source_filter_inputs/Metadata_original_codes.csv": "e4b8ff7a77a436b6e2e14d7ac333b1aded67a00112b72fca43915e40b9f2393a"
+  },
+  "inputs_unchanged": true,
+  "original_workbook_changed": false,
+  "sealed_v19_changed": false,
+  "models_rerun": false,
+  "interpretation": "The printed group annotations are numerically reproduced using legacy processed-heading strata. All six No/retained cases satisfy the original-code grouped rule used in the current reconstruction. This explains the annotation discrepancy without deleting taxa or changing analyses. No original workbook-generation command, upstream blacklist execution or bacterial contamination status is authenticated.",
+  "rechecked_on": "2026-11-06",
+  "verification_scope": "Numerical annotation reconstruction; original command execution not authenticated"
+}

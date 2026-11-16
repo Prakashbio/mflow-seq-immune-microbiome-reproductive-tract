@@ -1,0 +1,14 @@
+Five descriptive PNG/PDF pairs created; independent R metric/profile checks PASS.
+
+STDERR:
+Warning message:
+package ‘ggplot2’ was built under R version 4.4.3 
+Warning messages:
+1: Removed 6 rows containing non-finite outside the scale range
+(`stat_boxplot()`). 
+2: Removed 6 rows containing missing values or values outside the scale range
+(`geom_point()`). 
+3: Removed 6 rows containing non-finite outside the scale range
+(`stat_boxplot()`). 
+4: Removed 6 rows containing missing values or values outside the scale range
+(`geom_point()`). 

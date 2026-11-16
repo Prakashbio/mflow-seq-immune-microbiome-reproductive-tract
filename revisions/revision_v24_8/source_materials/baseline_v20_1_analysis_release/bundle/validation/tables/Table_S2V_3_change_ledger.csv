@@ -1,0 +1,9 @@
+species,source_observations,observations_changed,original_summary,recomputed_summary,original_expected_percent,revised_reference_percent,reference_basis
+Listeria monocytogenes,Sheet1!B3:D3,False,70.66 ± 2.61,70.66 ± 1.74,89.10,95.9,"Manufacturer theoretical 16S-only composition, not original genomic-DNA-like column; not a measured lot-specific certificate."
+Pseudomonas aeruginosa,Sheet1!B4:D4,False,18.40 ± 1.03,18.40 ± 1.03,8.90,2.8,"Manufacturer theoretical 16S-only composition, not original genomic-DNA-like column; not a measured lot-specific certificate."
+Bacillus subtilis,Sheet1!B5:D5,False,6.85 ± 0.15,6.85 ± 0.15,0.90,1.2,"Manufacturer theoretical 16S-only composition, not original genomic-DNA-like column; not a measured lot-specific certificate."
+Salmonella enterica,Sheet1!B6:D6,False,1.70 ± 0.09,1.70 ± 0.10,0.08,0.070,"Manufacturer theoretical 16S-only composition, not original genomic-DNA-like column; not a measured lot-specific certificate."
+Escherichia coli,Sheet1!B7:D7,False,1.51 ± 0.09,1.51 ± 0.09,0.08,0.069,"Manufacturer theoretical 16S-only composition, not original genomic-DNA-like column; not a measured lot-specific certificate."
+Staphylococcus aureus,Sheet1!B8:D8,False,0.16 ± 0.04,0.16 ± 0.04,0.0089,0.00010,"Manufacturer theoretical 16S-only composition, not original genomic-DNA-like column; not a measured lot-specific certificate."
+Enterococcus faecalis,Sheet1!B9:D9,False,0.14 ± 0.01,0.14 ± 0.01,0.0089,0.00067,"Manufacturer theoretical 16S-only composition, not original genomic-DNA-like column; not a measured lot-specific certificate."
+Limosilactobacillus fermentum,Sheet1!B10:D10,False,0.036 ± 0.051,0.036 ± 0.051,0.0089,0.012,"Manufacturer theoretical 16S-only composition, not original genomic-DNA-like column; not a measured lot-specific certificate."

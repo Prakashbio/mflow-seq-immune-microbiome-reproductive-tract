@@ -1,0 +1,7 @@
+taxon,source_sheet,flag_cell,retained_cell,printed_per_group_pass,printed_groups,printed_groups_count,legacy_heading_groups,legacy_reproduces_printed,original_source_code_groups_41,original_source_code_groups_268,passes_original_code_rule_268,retained_in_39
+Corynebacterium matruchotii,S2_Taxon_Tracking,J9,O9,No,,0,,True,ENDOMETRIUM_G,ENDOMETRIUM_G,True,True
+Corynebacterium sanguinis,S2_Taxon_Tracking,J10,O10,No,,0,,True,ENDOMETRIUM_G,ENDOMETRIUM_G,True,True
+Cutibacterium granulosum,S2_Taxon_Tracking,J12,O12,No,,0,,True,ENDOMETRIUM_G,ENDOMETRIUM_G,True,True
+Peptoniphilus harei,S2_Taxon_Tracking,J33,O33,No,,0,,True,ENDOMETRIUM_G,ENDOMETRIUM_G,True,True
+Rothia mucilaginosa,S2_Taxon_Tracking,J37,O37,No,,0,,True,VAGINA_M,VAGINA_M,True,True
+Streptococcus sanguinis,S2_Taxon_Tracking,J42,O42,No,,0,,True,ENDOMETRIUM_G; ENDOMETRIUM_M,ENDOMETRIUM_G; ENDOMETRIUM_M,True,True

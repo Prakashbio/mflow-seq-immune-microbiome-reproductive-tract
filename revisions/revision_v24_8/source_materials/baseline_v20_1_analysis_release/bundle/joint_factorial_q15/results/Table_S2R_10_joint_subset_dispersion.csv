@@ -1,0 +1,9 @@
+"analysis","grouping","df","residual_df","F","p_raw","method","p_Holm_two_dispersion_tests"
+"primary39_mean_both","Location",2,117,0.431427789542323,0.4131,"Median-based betadisper with small-group bias adjustment; same hierarchical restrictions",0.4131
+"primary39_mean_both","Fraction",3,116,1.72959225593351,0.0034,"Median-based betadisper with small-group bias adjustment; same hierarchical restrictions",0.0068
+"sensitivity41_mean_both","Location",2,117,0.462915972407287,0.399,"Median-based betadisper with small-group bias adjustment; same hierarchical restrictions",0.399
+"sensitivity41_mean_both","Fraction",3,116,1.62892909062151,0.003,"Median-based betadisper with small-group bias adjustment; same hierarchical restrictions",0.006
+"sensitivity39_keep99_unsuffixed","Location",2,117,0.809057360590132,0.3337,"Median-based betadisper with small-group bias adjustment; same hierarchical restrictions",0.3337
+"sensitivity39_keep99_unsuffixed","Fraction",3,116,1.75131891512575,0.0035,"Median-based betadisper with small-group bias adjustment; same hierarchical restrictions",0.007
+"sensitivity39_keep99_suffix2","Location",2,117,0.112679532911572,0.7224,"Median-based betadisper with small-group bias adjustment; same hierarchical restrictions",0.7224
+"sensitivity39_keep99_suffix2","Fraction",3,116,1.51554277070858,0.006,"Median-based betadisper with small-group bias adjustment; same hierarchical restrictions",0.012

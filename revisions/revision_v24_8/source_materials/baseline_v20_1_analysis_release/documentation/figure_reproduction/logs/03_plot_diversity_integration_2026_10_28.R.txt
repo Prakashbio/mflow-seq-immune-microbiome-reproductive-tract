@@ -1,0 +1,5 @@
+Five figure pairs generated from audited outputs.
+
+STDERR:
+Warning message:
+package ‘ggplot2’ was built under R version 4.4.3 

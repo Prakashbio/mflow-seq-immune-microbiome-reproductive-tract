@@ -1,0 +1,45 @@
+# Figure replacements for the reviewer-requested diversity revision only.
+# Read audited source-linked outputs; do not refit or relabel original data.
+suppressPackageStartupMessages(library(ggplot2))
+args<-commandArgs(TRUE)
+out<-if(length(args))args[1] else 'review_response/diversity_integrated_working_v2_2026-10-28'
+dir.create(file.path(out,'figures'),recursive=TRUE,showWarnings=FALSE)
+src<-if(length(args)>=2)args[2] else 'review_response/03_analysis/Prakash_original_workflow_review_2026-10-27/results'
+z<-read.csv(file.path(src,'baseline_39_Shannon_per_source_library.csv'))
+site<-c('VAGINA','CERVIX','ENDOMETRIUM');frac<-c('PRE','IgA','IgM','IgG')
+z$Location<-factor(z$Location,levels=site,labels=c('Vagina','Cervix','Endometrium'))
+z$Fraction<-factor(z$Fraction,levels=frac);z$Participant<-factor(z$Participant)
+base<-theme_bw(base_size=12)+theme(legend.position='bottom',panel.grid.minor=element_blank(),plot.caption=element_text(hjust=0,size=10),strip.background=element_rect(fill='grey94'))
+savefig<-function(p,name,w,h){ggsave(file.path(out,'figures',paste0(name,'.png')),p,width=w,height=h,dpi=300,bg='white');ggsave(file.path(out,'figures',paste0(name,'.pdf')),p,width=w,height=h,bg='white')}
+p<-ggplot(z,aes(Fraction,Shannon,group=SpecimenKey))+geom_line(colour='grey55',alpha=.45,linewidth=.4)+geom_point(aes(colour=Phase),size=2)+facet_wrap(~Location,nrow=1)+base+labs(x='Library fraction',y='Shannon diversity',colour='Recorded cycle phase',caption='149 libraries from 15 women and 40 preparations. Lines connect fractions from the same preparation.\nBoth participant-99 endometrial preparations are retained; libraries are not independent participants.')
+savefig(p,'Figure2_Shannon_preparation_pairs',11,4.7)
+# Across-site display requested by reviewer 2. Repeated preparations are
+# averaged within woman/site/fraction for this display only, not before fitting.
+a<-aggregate(Shannon~Participant+Location+Fraction,z,mean)
+stopifnot(nrow(a)==145)
+p<-ggplot(a,aes(Location,Shannon,group=Participant,colour=Participant))+geom_line(alpha=.45,linewidth=.45)+geom_point(size=1.7)+facet_wrap(~Fraction,nrow=1)+base+guides(colour=guide_legend(nrow=2,override.aes=list(alpha=1)))+labs(x='Anatomical site',y='Shannon diversity',colour='Participant',caption='145 woman/site/fraction means from 149 libraries. Both participant-99 endometrial preparations are averaged\nwithin woman/site/fraction for display. Lines join observed sites; missing sites are not imputed.')
+savefig(p,'FigureS3_Shannon_woman_site_pairs',12,5.8)
+write.csv(a,file.path(out,'figures/FigureS3_plotted_values.csv'),row.names=FALSE)
+pc<-read.csv(file.path(src,'baseline_39_PCoA_Lingoes_coordinates.csv'))
+ev<-read.csv(file.path(src,'baseline_39_PCoA_Lingoes_eigenvalues.csv'))
+stopifnot(all(ev$eigenvalue>0));pct<-100*ev$eigenvalue[1:2]/sum(ev$eigenvalue)
+pc$Location<-factor(pc$Location,levels=site,labels=c('Vagina','Cervix','Endometrium'));pc$Participant<-factor(pc$Participant);pc$Fraction<-factor(pc$Fraction,levels=frac)
+pc<-pc[order(pc$SpecimenKey,pc$Fraction),]
+p<-ggplot(pc,aes(PCoA1,PCoA2,colour=Participant,shape=Fraction))+geom_path(aes(group=SpecimenKey),alpha=.4,linewidth=.35)+geom_point(size=2)+facet_wrap(~Location,nrow=1)+base+guides(colour=guide_legend(nrow=2,override.aes=list(shape=16)),shape=guide_legend(nrow=1))+labs(x=sprintf('PCoA 1 (%.1f%%)',pct[1]),y=sprintf('PCoA 2 (%.1f%%)',pct[2]),colour='Participant',shape='Fraction',caption='149 libraries; 15 women. Lines join fractions within preparations and indicate matching, not trajectories.\nLingoes-corrected coordinates are descriptive. Tests and matched distances use original Bray-Curtis distances.')
+savefig(p,'Figure3_PCoA_participant_pairs',11,6)
+matched<-read.csv(file.path(src,'baseline_39_Matched_own_PRE.csv'))
+stopifnot(nrow(matched)==104,length(unique(matched$SpecimenKey))==37,length(unique(matched$Participant))==15)
+matched$Location<-factor(matched$Location,levels=site,labels=c('Vagina','Cervix','Endometrium'));matched$Fraction<-factor(matched$Fraction,levels=frac[-1])
+p<-ggplot(matched,aes(Fraction,Distance,group=SpecimenKey))+geom_line(colour='grey55',alpha=.45,linewidth=.4)+geom_point(aes(colour=Phase),size=2)+facet_wrap(~Location,nrow=1)+base+coord_cartesian(ylim=c(0,1))+labs(x='Sorted fraction',y='Bray-Curtis distance to own PRE',colour='Recorded cycle phase',caption='104 matched distances from 37 preparations and 15 women; eight sorted libraries lack their own PRE.\nLines join available fractions within preparations. No nine-contrast BH-adjusted test is significant.')
+savefig(p,'FigureS4_matched_own_PRE',11,4.7)
+b<-read.csv(file.path(src,'Original_source_focused_beta_tests.csv'),check.names=FALSE)
+ci<-read.csv(file.path(src,'Original_source_beta_R2_cluster_intervals.csv'))
+b<-merge(b[b$taxon_arm=='baseline_39'&b$scope=='All',],ci[,c('analysis','total_CI95_low','total_CI95_high')],by='analysis')
+labs<-c(Fraction_complete='Fraction | preparation\n124 libraries; 14 women',Interaction_complete='Site × fraction | preparation + fraction\n124 libraries; 14 women',PRE_site_omit99_unsuffixed='PRE site | woman, retaining 99EP2\n36 libraries; 15 women',PRE_site_omit99_suffix2='PRE site | woman, retaining 99EP\n36 libraries; 15 women')
+b$label<-factor(labs[b$context],levels=rev(unname(labs)))
+p<-ggplot(b,aes(R2_total,label))+geom_segment(aes(x=total_CI95_low,xend=total_CI95_high,yend=label),linewidth=.8,colour='#355f7c')+geom_point(size=3,colour='#355f7c')+base+theme(legend.position='none')+labs(x='Total R² in the separately defined focused model',y=NULL,caption='Points: model-specific total R². Bars: pointwise 95% percentile intervals from 1,000 woman-cluster bootstrap draws.\nThese models use different nulls/subsets; the estimates and intervals do not test an R² hierarchy.')
+savefig(p,'Figure9_focused_R2_intervals',10.5,5.1)
+write.csv(b,file.path(out,'figures/Figure9_plotted_values.csv'),row.names=FALSE)
+write.csv(data.frame(axis=1:2,percentage=pct),file.path(out,'figures/Figure3_axis_percentages.csv'),row.names=FALSE)
+capture.output(sessionInfo(),file=file.path(out,'figures/Figure_R_sessionInfo.txt'))
+cat('Five figure pairs generated from audited outputs.\n')

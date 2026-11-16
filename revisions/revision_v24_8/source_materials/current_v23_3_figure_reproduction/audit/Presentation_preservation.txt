@@ -1,0 +1,7 @@
+PASS
+36 observed woman/site compositions retained exactly
+15 women and 37 PRE libraries retained
+9 absent cells omitted from display without imputation
+All genus colours and rendered stack segment values unchanged
+All panel B coordinates and participant grouping unchanged
+No statistical models refitted

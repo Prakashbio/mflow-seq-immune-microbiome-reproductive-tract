@@ -1,0 +1,3 @@
+Reviewer-facing metadata snapshots embedded in Additional file2, worksheet S2R.7, blocks A–D.
+
+Original numerical values, identifiers, sample memberships and blanks are unchanged. Internal/personal provenance descriptions were converted to neutral journal wording. Historical originals are retained separately under historical_originals_NOT_FOR_SUBMISSION; these are not supplementary upload candidates. Submission_language_cleanup.json records each text normalization. Workbook_patch_plan.json records exact rows and the supplied values; its build-system paths are historical locators, not analysis inputs. Run python verify_reviewer_metadata_v24_6.py /path/to/this/folder for a dependency-free verification.
