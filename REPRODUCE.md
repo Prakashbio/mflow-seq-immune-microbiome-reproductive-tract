@@ -1,4 +1,4 @@
-# Public Version 7 — reproduction guide
+# Public Version 8 — reproduction guide
 
 Run from the extracted public archive root. Requires Python, R and Poppler for figure rendering. `requirements-replay-tested.txt` records the Python versions used for the public replay; `requirements.txt` preserves the original core requirements. R dependencies are recorded in the retained sessionInfo records. No fresh-machine dependency lock or complete upstream pipeline is claimed.
 
@@ -16,4 +16,4 @@ The archive is a revision overlay,not a full clone of the existing GitHub reposi
 
 In a full GitHub checkout,the root verifier also accepts and validates the 53 unchanged legacy files listed in EXISTING_GITHUB_FILES_RETAINED.json. Their Git blob hashes must match;other unlisted source files remain errors. Those legacy files are intentionally absent from the standalone revision ZIP.
 
-Version 7 also removes two superseded workbooks and all four S2C.4 table-export CSV copies. The verifier checks every included workbook for the withdrawn sheet and rejects renamed exact copies of the withdrawn CSVs. Earlier Git commits and Zenodo versions are not purged.
+Version 8 restores the two historical workbook files omitted in Version 7, deleting only S2C.4 and its index row while preserving the other 35 and 38 sheets. The four S2C.4-only table-export CSV copies remain excluded. The verifier checks every included workbook for the withdrawn sheet and rejects renamed exact copies of the withdrawn CSVs. Earlier Git commits and Zenodo versions are not purged.

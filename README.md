@@ -2,11 +2,11 @@
 
 [![Python](https://img.shields.io/badge/Python-3-blue.svg)](https://www.python.org/)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL_v3-blue.svg)](LICENSE)
-[![Zenodo Version 7](https://img.shields.io/badge/Zenodo-Version_7-blue.svg)](https://doi.org/10.5281/zenodo.19437248)
+[![Zenodo Version 8](https://img.shields.io/badge/Zenodo-Version_8-blue.svg)](https://doi.org/10.5281/zenodo.19437248)
 
 Data, analysis scripts and figure-generation materials for the mFLOW-Seq study of immunoglobulin class–resolved microbiota across female reproductive tract compartments.
 
-**Public archive: Version 7.** The submitted [GitHub repository](https://github.com/Prakashbio/mflow-seq-immune-microbiome-reproductive-tract) and [Zenodo concept DOI](https://doi.org/10.5281/zenodo.19437248) are unchanged. Start with [REPRODUCE.md](REPRODUCE.md) for the current analysis commands or the [Zenodo contents guide](https://zenodo.org/records/24507174/files/00_README_CONTENTS.md?download=1) for downloads. This version keeps the final 38-sheet workbook and removes two superseded workbooks and all four Table S2C.4 source CSV copies from the current repository tree and standalone archive. The historical participant-associated "Neg" reports are not established experimental negative controls and are not presented as such in the current publication workbook.
+**Public archive: Version 8.** The submitted [GitHub repository](https://github.com/Prakashbio/mflow-seq-immune-microbiome-reproductive-tract) and [Zenodo concept DOI](https://doi.org/10.5281/zenodo.19437248) are unchanged. Start with [REPRODUCE.md](REPRODUCE.md) for the current analysis commands or the [Zenodo contents guide](https://zenodo.org/records/24507778/files/00_README_CONTENTS.md?download=1) for downloads. This version restores the two historical workbook files omitted in Version 7, deleting only worksheet S2C.4 and its index entry from each while preserving every other sheet. The final selected 38-sheet submission workbook is unchanged. The four CSV exports containing only S2C.4 data remain excluded. Historical participant-associated "Neg" reports are not established experimental negative controls.
 
 ## Overview
 
@@ -20,7 +20,7 @@ This repository accompanies the manuscript:
 
 The retained sequencing dataset contains 149 libraries from 15 women and 40 recorded preparations. The current release includes the consolidated 38-sheet supplementary workbook, six main figures and nineteen numbered supplementary figures (23 supplementary graphics), their captions, and preserved analysis sources.
 
-The README follows the original repository's section order. The public version is **7**. Internal build labels such as `v25.2.2` remain in original directory and script names to preserve working paths and provenance.
+The README follows the original repository's section order. The public version is **8**. Internal build labels such as `v25.2.2` remain in original directory and script names to preserve working paths and provenance.
 
 ### About mFLOW-Seq
 
@@ -164,7 +164,7 @@ git clone https://github.com/Prakashbio/mflow-seq-immune-microbiome-reproductive
 cd mflow-seq-immune-microbiome-reproductive-tract
 ```
 
-Alternatively, use [Zenodo Version 7](https://doi.org/10.5281/zenodo.24507174). Download either `mFLOW_seq_Version7_complete.zip` or all six numbered topic ZIPs. Extract every topic ZIP into the same empty directory, preserving stored paths. The topic archives partition the same files as the complete ZIP; the exact payload count is given in the contents guide and file index. Keep the standalone download guide and index outside that extracted analysis directory.
+Alternatively, use [Zenodo Version 8](https://doi.org/10.5281/zenodo.24507778). Download either `mFLOW_seq_Version8_complete.zip` or all six numbered topic ZIPs. Extract every topic ZIP into the same empty directory, preserving stored paths. The topic archives partition the same files as the complete ZIP; the exact payload count is given in the contents guide and file index. Keep the standalone download guide and index outside that extracted analysis directory.
 
 ### 2. Create a Virtual Environment
 
@@ -289,7 +289,7 @@ Current publication outputs are preserved under `revisions/revision_v25_2_2/`. N
 
 The public release includes exactly three sample-free HUT093 buffer FCS files. The 34 human-sample pilot FCS files remain private. Public pilot-display reproduction uses the included saved aggregate bins and plotting parameters.
 
-**Data availability:** [Submitted Zenodo concept DOI](https://doi.org/10.5281/zenodo.19437248); [specific public Version 7](https://doi.org/10.5281/zenodo.24507174); [contents guide](https://zenodo.org/records/24507174/files/00_README_CONTENTS.md?download=1). The complete ZIP is supplied alongside six topic ZIPs, a file index and download checksums. Replacing the current publication workbook does not erase prior Git commits or published Zenodo versions; those historical snapshots can still contain withdrawn Table S2C.4.
+**Data availability:** [Submitted Zenodo concept DOI](https://doi.org/10.5281/zenodo.19437248); [specific public Version 8](https://doi.org/10.5281/zenodo.24507778); [contents guide](https://zenodo.org/records/24507778/files/00_README_CONTENTS.md?download=1). The complete ZIP is supplied alongside six topic ZIPs, a file index and download checksums. Replacing the current publication workbook does not erase prior Git commits or published Zenodo versions; those historical snapshots can still contain withdrawn Table S2C.4.
 
 Raw sequencing records are available under NCBI BioProject PRJNA1454428 / study SRP692419. The supplied workflow records identify near-full-length 27F/1492R amplification, Tn5-fragmented libraries, NextSeq 1000 single-end reads delivered at 80 nt, Kraken2 Standard and Bracken `-r 75`; the latter is the Bracken reference-distribution setting.
 
@@ -352,11 +352,11 @@ If you use these materials, cite the manuscript and the public data/code archive
 > **Immunoglobulin class–resolved engagement of membrane-intact microbiota across female reproductive tract compartments using mFLOW-Seq**
 > *Manuscript under review.*
 
-Archive citation: Lingasamy, P., & Godakumara, K. (2026). *Immunoglobulin class–resolved engagement of membrane-intact microbiota across female reproductive tract compartments using mFLOW-Seq* (Version 7) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.24507174
+Archive citation: Lingasamy, P., & Godakumara, K. (2026). *Immunoglobulin class–resolved engagement of membrane-intact microbiota across female reproductive tract compartments using mFLOW-Seq* (Version 8) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.24507778
 
 The submitted concept DOI, https://doi.org/10.5281/zenodo.19437248, continues to resolve to the latest version.
 
-Version 7 removes the two superseded publication workbooks containing S2C.4 and all four source CSV copies of that table, including duplicated figure-reproduction exports. Related historical index and manifest entries are pruned. The final 38-sheet workbook is unchanged from Version 6. Other analytical data, scripts, figures and underlying experimental source reports are outside this targeted table-copy removal. Earlier Git commits and Zenodo versions can still contain the withdrawn files; removing those historical records would require a separate action.
+Version 8 restores `revisions/revision_v24_8/selected_tables/Supplementary_Tables.xlsx` and `revisions/revision_v25_2_1/selected_tables/Supplementary_Tables_CLEAN.xlsx`, deleting only S2C.4 and its index row from each. Their remaining 35 and 38 sheets retain their original values and formatting. The final selected 38-sheet workbook is unchanged from Version 6. The four S2C.4-only CSV exports remain excluded. Other analytical data, scripts, figures and underlying experimental source reports are unchanged by this correction. Earlier Git commits and Zenodo versions remain historical snapshots.
 
 ## Acknowledgments
 

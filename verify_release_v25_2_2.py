@@ -36,6 +36,15 @@ withdrawn_csv_hashes={
  'a41b0b57af0ff146a43f8952fa8f5b26e9c698781c7003e6b4b0900e4bc64612',
  'a6538af14cb75d4217162d9b61d4ddd4bf96e68312e700fee3db1d7dadc85302',
 }
+historical_workbook_sheets={
+ 'revisions/revision_v24_8/selected_tables/Supplementary_Tables.xlsx':35,
+ 'revisions/revision_v25_2_1/selected_tables/Supplementary_Tables_CLEAN.xlsx':38,
+}
+for name,count in historical_workbook_sheets.items():
+ with ZipFile(R/name) as archive:
+  xml=ET.fromstring(archive.read('xl/workbook.xml'))
+  sheets=xml.find('{http://schemas.openxmlformats.org/spreadsheetml/2006/main}sheets')
+  assert len(sheets)==count and all(s.get('name')!='S2C.4' for s in sheets),name
 for name in actual:
  path=R/name
  assert 'Table_S2C_4' not in path.name,('Withdrawn table export',name)

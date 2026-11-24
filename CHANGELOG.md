@@ -1,5 +1,13 @@
 # Public release history
 
+## Version 8 - 24 November 2026
+
+- Restore the two historical workbook files omitted in Version 7, deleting only worksheet S2C.4 and its index row from each.
+- Preserve every other sheet, cell value and formatting part in those workbooks. The older workbooks now have 35 and 38 sheets, respectively.
+- Keep the final selected 38-sheet submission workbook unchanged and retain all unrelated data, code and figures.
+- Keep the four S2C.4-only CSV exports excluded. Refresh file indexes, licence scope and integrity/download hashes.
+- Retain historical Git commits and published Zenodo versions. Version 8 DOI: 10.5281/zenodo.24507778.
+
 ## Version 7 - 24 November 2026
 
 - Remove two superseded publication workbooks that contain Table S2C.4 from the current repository tree and standalone archive.
