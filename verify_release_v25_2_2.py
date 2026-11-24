@@ -1,6 +1,7 @@
 """Read-only public-release integrity, source-index and included-FCS checks."""
 from pathlib import Path
 import csv,hashlib,json
+from openpyxl import load_workbook
 R=Path(__file__).resolve().parent
 def sha(p):
  h=hashlib.sha256()
@@ -19,8 +20,16 @@ for n in extras:
 assert set(m)<=actual
 V=R/'revisions/revision_v25_2_2'
 rows=list(csv.DictReader((V/'Publication_table_source_index.csv').open()))
-assert len(rows)==82
+assert len(rows)==80
+assert not any(row['worksheet']=='S2C.4' for row in rows)
 for row in rows:assert sha(V/row['release_relative_path'])==row['sha256'],row['data_block']
+workbook=load_workbook(V/'selected_tables/Supplementary_Tables_CLEAN.xlsx',read_only=True,data_only=False)
+assert len(workbook.sheetnames)==38 and 'S2C.4' not in workbook.sheetnames
+for sheet in workbook:
+ for cells in sheet:
+  for cell in cells:
+   assert 'S2C.4' not in str(cell.value),(sheet.title,cell.coordinate)
+workbook.close()
 access=json.loads((R/'SOURCE_ACCESS.json').read_text())
 assert access['withheld_human_sample_FCS_count']==34
 fcs=[p for p in R.rglob('*') if p.is_file() and p.suffix.lower()=='.fcs']

@@ -1,4 +1,4 @@
-# Public Version 5 — reproduction guide
+# Public Version 6 — reproduction guide
 
 Run from the extracted public archive root. Requires Python, R and Poppler for figure rendering. `requirements-replay-tested.txt` records the Python versions used for the public replay; `requirements.txt` preserves the original core requirements. R dependencies are recorded in the retained sessionInfo records. No fresh-machine dependency lock or complete upstream pipeline is claimed.
 
@@ -10,7 +10,7 @@ Use a new output directory outside the repository each time. Existing downstream
 
 34 human-sample pilot FCS files are private and absent from this public release. S19A/C displays are re-rendered from the exact saved aggregated bins and verified rendering parameters. This reproduces displays; it does not reanalyse private event arrays,verify donor pairing,validate DAPI or establish clinical antibody specificity. Historical raw-pilot entry points require private inputs and are not the public reproduction route.
 
-Current39-sheet workbook/figures are in `revisions/revision_v25_2_2/`;the 82-block source index links retained underlying tables. Sequencing QC/benchmarks are in `revisions/revision_v25/`. The supplied Nextflow fragments still require external execution configuration,reference databases and proprietary processing not fully supplied. Simulation generation/accession/seed information remains incomplete. Retain the78EP/78Epre2 correspondence caveat;do not relabel input libraries.
+The current 38-sheet workbook and figures are in `revisions/revision_v25_2_2/`; the 80-block source index links retained underlying tables. Withdrawn Table S2C.4 and its two current publication-index entries are not included. Sequencing QC/benchmarks are in `revisions/revision_v25/`. The supplied Nextflow fragments still require external execution configuration, reference databases and proprietary processing not fully supplied. Simulation generation/accession/seed information remains incomplete. Retain the 78EP/78Epre2 correspondence caveat; do not relabel input libraries.
 
 The archive is a revision overlay,not a full clone of the existing GitHub repository. Existing repository files remain online;the public root verifier covers exactly this archive’s listed files and aggregate source-access statement.
 

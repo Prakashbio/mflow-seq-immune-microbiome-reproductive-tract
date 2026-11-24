@@ -2,11 +2,11 @@
 
 [![Python](https://img.shields.io/badge/Python-3-blue.svg)](https://www.python.org/)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL_v3-blue.svg)](LICENSE)
-[![Zenodo Version 5](https://img.shields.io/badge/Zenodo-Version_5-blue.svg)](https://doi.org/10.5281/zenodo.19437248)
+[![Zenodo Version 6](https://img.shields.io/badge/Zenodo-Version_6-blue.svg)](https://doi.org/10.5281/zenodo.19437248)
 
 Data, analysis scripts and figure-generation materials for the mFLOW-Seq study of immunoglobulin class–resolved microbiota across female reproductive tract compartments.
 
-**Public archive: Version 5.** The submitted [GitHub repository](https://github.com/Prakashbio/mflow-seq-immune-microbiome-reproductive-tract) and [Zenodo concept DOI](https://doi.org/10.5281/zenodo.19437248) are unchanged. Start with [REPRODUCE.md](REPRODUCE.md) for the current analysis commands or the [Zenodo contents guide](https://zenodo.org/records/24277008/files/00_README_CONTENTS.md?download=1) for downloads.
+**Public archive: Version 6.** The submitted [GitHub repository](https://github.com/Prakashbio/mflow-seq-immune-microbiome-reproductive-tract) and [Zenodo concept DOI](https://doi.org/10.5281/zenodo.19437248) are unchanged. Start with [REPRODUCE.md](REPRODUCE.md) for the current analysis commands or the [Zenodo contents guide](https://zenodo.org/records/24505636/files/00_README_CONTENTS.md?download=1) for downloads. This version replaces the current publication workbook with the final 38-sheet version, which omits Table S2C.4. The historical participant-associated "Neg" reports are not established experimental negative controls and are not presented as such in the current publication workbook.
 
 ## Overview
 
@@ -18,9 +18,9 @@ This repository accompanies the manuscript:
 >
 > *Manuscript under review.*
 
-The retained sequencing dataset contains 149 libraries from 15 women and 40 recorded preparations. The current release includes the consolidated 39-sheet supplementary workbook, six main figures and nineteen numbered supplementary figures (23 supplementary graphics), their captions, and preserved analysis sources.
+The retained sequencing dataset contains 149 libraries from 15 women and 40 recorded preparations. The current release includes the consolidated 38-sheet supplementary workbook, six main figures and nineteen numbered supplementary figures (23 supplementary graphics), their captions, and preserved analysis sources.
 
-The README follows the original repository's section order. The public version is **5**. Internal build labels such as `v25.2.2` remain in original directory and script names to preserve working paths and provenance.
+The README follows the original repository's section order. The public version is **6**. Internal build labels such as `v25.2.2` remain in original directory and script names to preserve working paths and provenance.
 
 ### About mFLOW-Seq
 
@@ -63,7 +63,7 @@ The root replay scripts and `revisions/revision_v25_2_2/` are the current entry 
 - **Immunoglobulin fractions:** reconstructed FACS percentages and matched IgA/IgM sequencing representation summaries.
 - **Storage and community groups:** descriptive comparisons using the recorded preparation metadata.
 - **Sequencing records:** 149-library accounting, supplied benchmark tables and Nextflow/shell workflow files.
-- **Verification:** file hashes, 82 source blocks, numerical replay and 58 selected graphics/caption checks.
+- **Verification:** file hashes, 80 current publication source blocks, numerical replay and 58 selected graphics/caption checks.
 
 ### Main Figures
 
@@ -118,7 +118,7 @@ S18 and S19 each contain three graphics; this gives 23 supplementary graphics ac
 | `source_materials/baseline_v20_1_analysis_release/` | Preserved numerical inputs, models and resampling records | Baseline source bundle and Q15 checks |
 | `revisions/revision_v25/scripts/recompute_v25_sequencing_summaries.py` | Sequencing-accounting/benchmark summaries | Recomputes arithmetic from supplied source tables |
 
-Paths beginning `source_materials/` are relative to `revisions/revision_v24_8/`. The current [82-block source index](revisions/revision_v25_2_2/Publication_table_source_index.csv) links publication tables to preserved source files and hashes.
+Paths beginning `source_materials/` are relative to `revisions/revision_v24_8/`. The current [80-block source index](revisions/revision_v25_2_2/Publication_table_source_index.csv) links publication tables to preserved source files and hashes. The two source-index entries for withdrawn Table S2C.4 are excluded; other block identifiers are retained without renumbering.
 
 ---
 
@@ -164,7 +164,7 @@ git clone https://github.com/Prakashbio/mflow-seq-immune-microbiome-reproductive
 cd mflow-seq-immune-microbiome-reproductive-tract
 ```
 
-Alternatively, use [Zenodo Version 5](https://doi.org/10.5281/zenodo.24277008). Download either `mFLOW_seq_Version5_complete.zip` or all six numbered topic ZIPs. Extract every topic ZIP into the same empty directory, preserving stored paths. The topic archives partition the same 1,632 files as the complete ZIP. Keep the standalone download guide and index outside that extracted analysis directory.
+Alternatively, use [Zenodo Version 6](https://doi.org/10.5281/zenodo.24505636). Download either `mFLOW_seq_Version6_complete.zip` or all six numbered topic ZIPs. Extract every topic ZIP into the same empty directory, preserving stored paths. The topic archives partition the same files as the complete ZIP; the exact payload count is given in the contents guide and file index. Keep the standalone download guide and index outside that extracted analysis directory.
 
 ### 2. Create a Virtual Environment
 
@@ -266,8 +266,8 @@ Current publication outputs are preserved under `revisions/revision_v25_2_2/`. N
 
 ### Supplementary Data Tables and Statistical Outputs
 
-- `selected_tables/Supplementary_Tables_CLEAN.xlsx`: consolidated 39-sheet workbook.
-- `Publication_table_source_index.csv`: 82 source blocks with source paths and hashes.
+- `selected_tables/Supplementary_Tables_CLEAN.xlsx`: final consolidated 38-sheet workbook; Table S2C.4 is not included.
+- `Publication_table_source_index.csv`: 80 current publication source blocks with source paths and hashes.
 - `Replay_receipt.json`: numerical replay status and per-step logs.
 - `Public_figure_replay_receipt.json`: selected graphics/caption reproduction status.
 - Source CSV/TSV, RDS/NPZ and environment records remain beside their original analysis directories.
@@ -289,7 +289,7 @@ Current publication outputs are preserved under `revisions/revision_v25_2_2/`. N
 
 The public release includes exactly three sample-free HUT093 buffer FCS files. The 34 human-sample pilot FCS files remain private. Public pilot-display reproduction uses the included saved aggregate bins and plotting parameters.
 
-**Data availability:** [Submitted Zenodo concept DOI](https://doi.org/10.5281/zenodo.19437248); [specific public Version 5](https://doi.org/10.5281/zenodo.24277008); [contents guide](https://zenodo.org/records/24277008/files/00_README_CONTENTS.md?download=1). The complete ZIP is retained alongside the six topic ZIPs, the 1,632-file index and download checksums. The original repository files and previous Zenodo versions remain available in their published histories.
+**Data availability:** [Submitted Zenodo concept DOI](https://doi.org/10.5281/zenodo.19437248); [specific public Version 6](https://doi.org/10.5281/zenodo.24505636); [contents guide](https://zenodo.org/records/24505636/files/00_README_CONTENTS.md?download=1). The complete ZIP is supplied alongside six topic ZIPs, a file index and download checksums. Replacing the current publication workbook does not erase prior Git commits or published Zenodo versions; those historical snapshots can still contain withdrawn Table S2C.4.
 
 Raw sequencing records are available under NCBI BioProject PRJNA1454428 / study SRP692419. The supplied workflow records identify near-full-length 27F/1492R amplification, Tn5-fragmented libraries, NextSeq 1000 single-end reads delivered at 80 nt, Kraken2 Standard and Bracken `-r 75`; the latter is the Bracken reference-distribution setting.
 
@@ -352,11 +352,11 @@ If you use these materials, cite the manuscript and the public data/code archive
 > **Immunoglobulin class–resolved engagement of membrane-intact microbiota across female reproductive tract compartments using mFLOW-Seq**
 > *Manuscript under review.*
 
-Archive citation: Lingasamy, P., & Godakumara, K. (2026). *Immunoglobulin class–resolved engagement of membrane-intact microbiota across female reproductive tract compartments using mFLOW-Seq* (Version 5) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.24277008
+Archive citation: Lingasamy, P., & Godakumara, K. (2026). *Immunoglobulin class–resolved engagement of membrane-intact microbiota across female reproductive tract compartments using mFLOW-Seq* (Version 6) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.24505636
 
 The submitted concept DOI, https://doi.org/10.5281/zenodo.19437248, continues to resolve to the latest version.
 
-The Version 5 ZIPs preserve their deposited snapshot. This current GitHub README corrects three older DOI references and the former file count in that snapshot's README; the scientific code, data, figures and microscopy are unchanged.
+Version 6 replaces the selected supplementary workbook with the final submission version and refreshes the current source index, release checks and download manifests. The final workbook includes the later table/report clarifications and corrections, not merely a sheet deletion. Preserved analytical inputs, scripts and figure artwork are not being reclassified or claimed to have been newly experimentally validated. Earlier Zenodo versions remain historical snapshots rather than the current submission workbook.
 
 ## Acknowledgments
 

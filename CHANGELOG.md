@@ -1,5 +1,13 @@
 # Public release history
 
+## Version 6 - 24 November 2026
+
+- Replace the current publication workbook with the final 38-sheet submission workbook, including later table/report clarifications and corrections.
+- Omit withdrawn Table S2C.4 and its two current publication-source-index entries. Participant-associated historical "Neg" reports are not established experimental negative controls.
+- Update current documentation, workbook checks, source-index count and release/download checksums.
+- Retain the concept DOI; Version 6 has DOI 10.5281/zenodo.24505636.
+- Earlier Git commits and published Zenodo records remain historical snapshots; replacing a current workbook does not erase those records.
+
 ## Version 5 — 16 November 2026
 
 - Preserve all scientific inputs, numerical results, figures, captions, microscopy and sequencing workflow files.
