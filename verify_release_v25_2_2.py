@@ -2,6 +2,8 @@
 from pathlib import Path
 import csv,hashlib,json
 from openpyxl import load_workbook
+from zipfile import ZipFile
+import xml.etree.ElementTree as ET
 R=Path(__file__).resolve().parent
 def sha(p):
  h=hashlib.sha256()
@@ -30,6 +32,20 @@ for sheet in workbook:
   for cell in cells:
    assert 'S2C.4' not in str(cell.value),(sheet.title,cell.coordinate)
 workbook.close()
+withdrawn_csv_hashes={
+ 'a41b0b57af0ff146a43f8952fa8f5b26e9c698781c7003e6b4b0900e4bc64612',
+ 'a6538af14cb75d4217162d9b61d4ddd4bf96e68312e700fee3db1d7dadc85302',
+}
+for name in actual:
+ path=R/name
+ assert 'Table_S2C_4' not in path.name,('Withdrawn table export',name)
+ if path.suffix.lower()=='.csv':
+  assert sha(path) not in withdrawn_csv_hashes,('Duplicate withdrawn CSV',name)
+ if path.suffix.lower()=='.xlsx':
+  with ZipFile(path) as archive:
+   xml=ET.fromstring(archive.read('xl/workbook.xml'))
+   sheets=xml.findall('{http://schemas.openxmlformats.org/spreadsheetml/2006/main}sheets/{http://schemas.openxmlformats.org/spreadsheetml/2006/main}sheet')
+   assert all(sheet.get('name')!='S2C.4' for sheet in sheets),('Withdrawn table in older workbook',name)
 access=json.loads((R/'SOURCE_ACCESS.json').read_text())
 assert access['withheld_human_sample_FCS_count']==34
 fcs=[p for p in R.rglob('*') if p.is_file() and p.suffix.lower()=='.fcs']

@@ -1225,16 +1225,6 @@
     "sha256": "04ad7e5ca440d8f29944518ebbc4bad951c30b05e184d7a94fa83d0134ff90c5"
   },
   {
-    "file": "source_data/source_filter_statistics/Table_S2C_4_historical_candidate_control_all_species.csv",
-    "source": "Author_review_v20_1_2026-11-06/04_data_and_code/bundle/source_filter_statistics/Table_S2C_4_historical_candidate_control_all_species.csv",
-    "sha256": "a41b0b57af0ff146a43f8952fa8f5b26e9c698781c7003e6b4b0900e4bc64612"
-  },
-  {
-    "file": "source_data/source_filter_statistics/Table_S2C_4_historical_candidate_control_summary.csv",
-    "source": "Author_review_v20_1_2026-11-06/04_data_and_code/bundle/source_filter_statistics/Table_S2C_4_historical_candidate_control_summary.csv",
-    "sha256": "a6538af14cb75d4217162d9b61d4ddd4bf96e68312e700fee3db1d7dadc85302"
-  },
-  {
     "file": "source_data/source_inputs/baseline_39_source_counts.csv",
     "source": "Author_review_v20_1_2026-11-06/04_data_and_code/bundle/source_inputs/baseline_39_source_counts.csv",
     "sha256": "596bfda4fa890c94f9ad39139bae4b556a3f5a251fe01779f740819a0a127ee7"

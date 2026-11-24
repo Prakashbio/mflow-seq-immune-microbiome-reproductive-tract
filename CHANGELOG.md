@@ -1,5 +1,13 @@
 # Public release history
 
+## Version 7 - 24 November 2026
+
+- Remove two superseded publication workbooks that contain Table S2C.4 from the current repository tree and standalone archive.
+- Remove all four historical Table S2C.4 source CSV copies, including the duplicated figure-reproduction exports.
+- Prune the corresponding historical source-index, column-inventory, licence-scope and provenance-manifest entries; refresh nested and release checksums.
+- Add release checks that reject Table S2C.4 in any included workbook or a renamed exact copy of either withdrawn CSV.
+- Keep the final 38-sheet publication workbook unchanged. Git history and earlier published Zenodo versions are not erased by this release.
+
 ## Version 6 - 24 November 2026
 
 - Replace the current publication workbook with the final 38-sheet submission workbook, including later table/report clarifications and corrections.

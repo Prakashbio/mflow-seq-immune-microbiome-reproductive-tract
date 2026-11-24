@@ -38,7 +38,7 @@ The existing repository code-license text is preserved in `LICENSE`. Final data 
 
 ## v16 additions
 
-Table S2F.7 inventories 16 labelled SYTO9/PI pilot acquisitions. Table S2C.4 and the accompanying CSVs/original reports describe 15 historical filename-selected candidate controls. They are not established as 15 matched extraction blanks. The participant-99 storage interpretation is updated to confirmed same-biopsy fragments; numerical model outputs are unchanged. Redundant numbered copies are omitted where byte identity or the explicit current-figure registry establishes the canonical selection.
+Table S2F.7 inventories 16 labelled SYTO9/PI pilot acquisitions. The superseded Table S2C.4 workbook and table-export CSV copies are excluded from the current public release. Historical filename-selected reports are not established as matched extraction blanks. The participant-99 storage interpretation is updated to confirmed same-biopsy fragments; numerical model outputs are unchanged. Redundant numbered copies are omitted where byte identity or the explicit current-figure registry establishes the canonical selection.
 
 This remains a local candidate. Historical scripts and source provenance retain original workstation paths documented in `documentation/Local_path_review.csv`. The supplied model, figure and joint runners provide the tested execution paths; retaining a historical script does not mean it is a portable entry point. No private correspondence or author-review Word document is selected.
 
